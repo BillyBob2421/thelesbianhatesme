@@ -163,6 +163,13 @@
     "say": "Spotify is currently not working on the proxy.",
     "error": true
   },
+    {
+    "name": "YT Music",
+    "link": "https://music.youtube.com",
+    "image": "/assets/media/icons/spotify.webp",
+    "categories": ["all", "media"],
+    "error": true
+  },
   {
     "name": "Telegram",
     "link": "https://web.telegram.org/",
@@ -181,6 +188,7 @@
     "image": "/assets/media/icons/tumblr.webp",
     "categories": ["all", "social"]
   },
+  
   {
     "name": "Twitch",
     "link": "https://twitch.tv",
@@ -229,6 +237,18 @@
     "image": "/assets/media/icons/chatgpt.webp",
     "categories": ["all", "AI"]
   },
+    {
+    "name": "ChatGPT Clone2",
+    "link": "https://talkai.info/chat/",
+    "image": "/assets/media/icons/chatgpt.webp",
+    "categories": ["all", "AI"]
+  },
+      {
+    "name": "ChatGPT Clone3",
+    "link": "https://chatgpt.bestim.org/chat/",
+    "image": "/assets/media/icons/uk.png",
+    "categories": ["all", "AI"]
+  },
   {
     "name": "Discord - Login",
     "link": "https://canary.discord.com/login",
@@ -242,6 +262,55 @@
     "image": "/assets/media/icons/hd.webp",
     "categories": ["all", "media", "stream"]
   },
+    {
+    "name": "Hianime",
+    "link": "https://hianime.to/",
+    "image": "/assets/media/icons/skull.png",
+    "categories": ["all", "media", "stream"]
+  },
+      {
+    "name": "FFmovies",
+    "link": "https://f-movies.click/",
+    "image": "/assets/media/icons/skull.png",
+    "categories": ["all", "media", "stream"]
+  },
+        {
+    "name": "IRL Movies!?",
+    "link": "https://movies2watch.to/",
+    "image": "/assets/media/icons/skull.png",
+    "categories": ["all", "media", "stream"]
+  },
+          {
+    "name": "C.AI (N)",
+    "link": "https://character.ai/",
+    "image": "/assets/media/icons/chatgpt.webp",
+    "categories": ["all", "media", "stream"]
+  },
+            {
+    "name": "AI2 (N)",
+    "link": "https://flowgpt.com/",
+    "image": "/assets/media/icons/chatgpt.webp",
+    "categories": ["all", "media", "stream"]
+  },
+              {
+    "name": "AI3",
+    "link": "https://perchance.org/ai-text-to-image-generator",
+    "image": "/assets/media/icons/chatgpt.webp",
+    "categories": ["all", "media", "stream"]
+  },
+                {
+    "name": "AI4",
+    "link": "https://diffusionart.co/",
+    "image": "/assets/media/icons/chatgpt.webp",
+    "categories": ["all", "media", "stream"]
+  },
+                  {
+    "name": "AI5 (N/)",
+    "link": "https://www.joyland.ai/",
+    "image": "/assets/media/icons/chatgpt.webp",
+    "categories": ["all", "media", "stream"]
+  },
+  
   {
     "name": "Now.GG",
     "link": "https://now.gg",
