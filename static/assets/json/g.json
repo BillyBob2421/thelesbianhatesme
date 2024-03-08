@@ -1704,6 +1704,54 @@
     "image": "/assets/media/icons/venge.webp",
     "categories": ["all"]
   },
+      {
+    "name": "Hianime",
+    "link": "https://hianime.to/",
+    "image": "/assets/media/icons/skull.png",
+    "categories": ["all", "media", "stream"]
+  },
+      {
+    "name": "FFmovies",
+    "link": "https://f-movies.click/",
+    "image": "/assets/media/icons/skull.png",
+    "categories": ["all", "media", "stream"]
+  },
+        {
+    "name": "IRL Movies!?",
+    "link": "https://movies2watch.to/",
+    "image": "/assets/media/icons/skull.png",
+    "categories": ["all", "media", "stream"]
+  },
+          {
+    "name": "C.AI (N)",
+    "link": "https://character.ai/",
+    "image": "/assets/media/icons/chatgpt.webp",
+    "categories": ["all", "media", "stream"]
+  },
+            {
+    "name": "AI2 (N)",
+    "link": "https://flowgpt.com/",
+    "image": "/assets/media/icons/chatgpt.webp",
+    "categories": ["all", "media", "stream"]
+  },
+              {
+    "name": "AI3",
+    "link": "https://perchance.org/ai-text-to-image-generator",
+    "image": "/assets/media/icons/chatgpt.webp",
+    "categories": ["all", "media", "stream"]
+  },
+                {
+    "name": "AI4",
+    "link": "https://diffusionart.co/",
+    "image": "/assets/media/icons/chatgpt.webp",
+    "categories": ["all", "media", "stream"]
+  },
+                  {
+    "name": "AI5 (N/)",
+    "link": "https://www.joyland.ai/",
+    "image": "/assets/media/icons/chatgpt.webp",
+    "categories": ["all", "media", "stream"]
+  },
   {
     "name": "Minecraft 1.5.2 (Eaglercraft)",
     "link": "/f/ec-15/index.html",
@@ -1717,6 +1765,13 @@
     "image": "/assets/media/icons/mc.webp",
     "categories": ["all", "2P", "emu", "local"],
     "local": "true"
+  },
+      {
+    "name": "YT Music",
+    "link": "https://music.youtube.com",
+    "image": "/assets/media/icons/yt.webp",
+    "categories": ["all", "media"],
+    "error": true
   },
   {
     "name": "Getaway S.",
