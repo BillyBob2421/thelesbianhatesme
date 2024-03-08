@@ -76,11 +76,11 @@ document.onkeydown = function (evt) {
 let splashtext = [
   'Over 7 Million Users in 2023!',
   'Fastest growing proxy server!',
-  'Made by one of the Editors!',
+  'Made by someone you know.!',
   'dont leak this. :)',
   'Thanks for using the site',
   'respect us)',
-  'dont do anything bad',
+  'dont do anything bad, because I know.',
   'stoop',
   'Check out the settings page',
   'im here',
