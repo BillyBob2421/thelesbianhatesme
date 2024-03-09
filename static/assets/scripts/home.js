@@ -9,7 +9,7 @@ try {
 if (!inFrame && !navigator.userAgent.includes('Firefox')) {
   const popup = open('about:blank', '_blank')
   if (!popup || popup.closed) {
-    alert('DONT ALLOW POPUPS LIL BRO OR IM COMING AFTER YOU.')
+    alert('This is a safe site, I don't collect ANY information on you, press ok.')
   } else {
     const doc = popup.document
     const iframe = doc.createElement('iframe')
