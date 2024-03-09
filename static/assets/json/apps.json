@@ -317,6 +317,12 @@
     "categories": ["all", "media", "stream"]
   },
                   {
+    "name": "AI TTS",
+    "link": "https://bigspeak.ai/",
+    "image": "/assets/media/icons/chatgpt.webp",
+    "categories": ["all", "media", "stream"]
+  },
+                  {
     "name": "AI5 (N/)",
     "link": "https://www.joyland.ai/",
     "image": "/assets/media/icons/chatgpt.webp",
