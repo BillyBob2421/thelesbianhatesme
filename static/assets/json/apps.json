@@ -41,6 +41,12 @@
     "image": "/assets/media/icons/movie-web.webp",
     "categories": ["all", "media", "stream"]
   },
+    {
+    "name": "Hulu",
+    "link": "https://hulu.com",
+    "image": "/assets/media/icons/huu.png",
+    "categories": ["all", "media", "stream"]
+  },
   {
     "name": "Scratch",
     "link": "https://scratch.mit.edu",
