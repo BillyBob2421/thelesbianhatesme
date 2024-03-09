@@ -6,3 +6,5 @@
   "keywords": ["school", "math"],
   "image": "heroku/nodejs"
 }
+
+import { SpeedInsights } from "@vercel/speed-insights/next"
