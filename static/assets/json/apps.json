@@ -245,7 +245,13 @@
   },
     {
     "name": "ChatGPT Clone2",
-    "link": "https://talkai.info/chat/",
+    "link": "https://deepai.org/chat",
+    "image": "/assets/media/icons/chatgpt.webp",
+    "categories": ["all", "AI"]
+  },
+      {
+    "name": "ChatGPT Clone4",
+    "link": "https://www.aichatting.net/",
     "image": "/assets/media/icons/chatgpt.webp",
     "categories": ["all", "AI"]
   },
