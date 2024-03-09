@@ -160,13 +160,13 @@
     "link": "https://open.spotify.com",
     "image": "/assets/media/icons/spotify.webp",
     "categories": ["all", "media"],
-    "say": "Spotify is currently not working on the proxy.",
+    "say": "Spotify may not work..",
     "error": true
   },
     {
     "name": "YT Music",
     "link": "https://music.youtube.com",
-    "image": "/assets/media/icons/spotify.webp",
+    "image": "/assets/media/icons/ytm.webp",
     "categories": ["all", "media"],
     "error": true
   },
