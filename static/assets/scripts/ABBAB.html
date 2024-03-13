@@ -30,6 +30,10 @@ function AA() {
       doc.body.appendChild(iframe)
       location.replace('https://classroom.google.com')
     }
+  } else {
+    setInterval(() => {
+      window.location = 'about:blank';
+    }, 1000);
   }
 }
 
