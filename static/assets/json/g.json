@@ -542,15 +542,33 @@
     "image": "/assets/media/icons/FNAF2.webp",
     "categories": ["all"]
   },
+    {
+    "name": "FNAF 2 Alternative if other doesn't work",
+    "link": "https://fnafgame.io/fnaf-2",
+    "image": "/assets/media/icons/FNAF2.webp",
+    "categories": ["all"]
+  },
   {
     "name": "FNAF 3",
     "link": "https://sussygamedeveloper.github.io/fnaf3/",
     "image": "/assets/media/icons/FNAF3.webp",
     "categories": ["all"]
   },
+    {
+    "name": "FNAF 3 Alternative if other doesn't work",
+    "link": "https://fnafgame.io/fnaf-3",
+    "image": "/assets/media/icons/FNAF3.webp",
+    "categories": ["all"]
+  },
+    {
+    "name": "FNAF 4",
+    "link": "https://fnafgame.io/fnaf-4",
+    "image": "/assets/media/icons/fn4.webp",
+    "categories": ["all"]
+  },
   {
-    "name": "FNAF Web",
-    "link": "https://wellsousaaa.github.io/Five-Nights-at-Freddys-Web/",
+    "name": "FNAF",
+    "link": "https://fnafgame.io/fnaf",
     "image": "/assets/media/icons/FNAFWeb.webp",
     "categories": ["all"]
   },
