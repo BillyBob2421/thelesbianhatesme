@@ -1,17 +1,4 @@
 [
-    {
-    "name": "! Request A Game",
-    "link": "https://forms.gle/94fJ9yAXQCgaXTrz6",
-    "image": "/assets/media/icons/request.webp",
-    "categories": ["all"]
-  },
-  {
-    "name": "Amazon Luna",
-    "link": "https://luna.amazon.com/",
-    "image": "/assets/media/icons/amazon-luna.webp",
-    "categories": ["all"],
-    "blank": "true"
-  },
   {
     "name": "Dynast.io",
     "link": "https://dynast.io",
@@ -23,6 +10,12 @@
     "link": "https://twisted-cooking-mama.game-files.crazygames.com/ruffle/twisted-cooking-mama/1/twistedcookingmama.html?v=1.273",
     "image": "/assets/media/icons/twistedcookingmama.jpg",
     "categories": ["all"]
+  },
+      {
+    "name": "Android",
+    "link": "https://now.gg/iframe/snippet?app_pkg=com.uncube.launcher3&partner=interstellar",
+    "image": "/assets/media/icons/android.webp",
+    "categories": ["all", "emu", "android"]
   },
   {
     "name": "Marbles Garden",
