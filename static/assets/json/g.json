@@ -1,4 +1,17 @@
 [
+    {
+    "name": "! Request A Game",
+    "link": "https://forms.gle/94fJ9yAXQCgaXTrz6",
+    "image": "/assets/media/icons/request.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "Amazon Luna",
+    "link": "https://luna.amazon.com/",
+    "image": "/assets/media/icons/amazon-luna.webp",
+    "categories": ["all"],
+    "blank": "true"
+  },
   {
     "name": "Dynast.io",
     "link": "https://dynast.io",
