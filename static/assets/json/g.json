@@ -145,14 +145,14 @@
     "categories": ["all"]
   },
   {
-    "name": "Buckshot Roulette",
-    "link": "https://buckshotroulette.online/game/v11/",
+    "name": "Buckshot Roulette (Fixed)",
+    "link": "https://buckshotroulette.online/game/v13/",
     "image": "/assets/media/icons/buckshotroulette.webp",
     "categories": ["all"]
   },
     {
     "name": "Buckshot Roulette Alternative if other doesn't work",
-    "link": "https://yandex.com/games/app/187987",
+    "link": "https://pizzatower.io/buckshot-roulette/",
     "image": "/assets/media/icons/buckshotroulette.webp",
     "categories": ["all"]
   },
@@ -170,7 +170,7 @@
   },
   {
     "name": "All IO Games",
-    "link": "https://iogames.onl/",
+    "link": "https://www.crazygames.com/c/io",
     "image": "/assets/media/icons/csgoparkour.webp",
     "categories": ["all"]
   },
@@ -567,14 +567,26 @@
     "categories": ["all"]
   },
     {
-    "name": "FNAF 3 Alternative if other doesn't work",
-    "link": "https://fnafgame.io/fnaf-3",
+    "name": "FNAF 3 Alternative if other doesn't work (Fixed)",
+    "link": "https://en.gameslol.net/five-nights-at-freddy-s-3-1176.html",
+    "image": "/assets/media/icons/FNAF3.webp",
+    "categories": ["all"]
+  },
+      {
+    "name": "FNAF 3 Alternative if other Alternative doesn't work,
+    "link": "https://fivenightsatfreddys3.com/five-nights-at-freddys-3",
     "image": "/assets/media/icons/FNAF3.webp",
     "categories": ["all"]
   },
     {
-    "name": "FNAF 4",
-    "link": "https://fnafgame.io/fnaf-4",
+    "name": "FNAF 4 (Fixed)",
+    "link": "https://en.gameslol.net/five-nights-at-freddy-s-4-1177.html",
+    "image": "/assets/media/icons/fn4.webp",
+    "categories": ["all"]
+  },
+      {
+    "name": "FNAF 4 (Alternative if other doesn't work)",
+    "link": "https://yandex.com/games/app/189344",
     "image": "/assets/media/icons/fn4.webp",
     "categories": ["all"]
   },
