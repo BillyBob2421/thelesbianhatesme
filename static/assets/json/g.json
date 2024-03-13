@@ -150,6 +150,12 @@
     "image": "/assets/media/icons/buckshotroulette.webp",
     "categories": ["all"]
   },
+    {
+    "name": "Buckshot Roulette Alternative if other doesn't work",
+    "link": "https://yandex.com/games/app/187987",
+    "image": "/assets/media/icons/buckshotroulette.webp",
+    "categories": ["all"]
+  },
   {
     "name": "Starblast",
     "link": "https://starblast.io",
@@ -165,6 +171,7 @@
   {
     "name": "All IO Games",
     "link": "https://iogames.onl/",
+    "image": "/assets/media/icons/csgoparkour.webp",
     "categories": ["all"]
   },
   {
