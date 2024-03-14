@@ -145,13 +145,13 @@
   },
   {
     "name": "Buckshot Roulette (Fixed)",
-    "link": "https://buckshotroulette.online/game/v13/",
+    "link": "https://fngames.io/buckshot-roulette",
     "image": "/assets/media/icons/buckshotroulette.webp",
     "categories": ["all"]
   },
     {
     "name": "Buckshot Roulette Alternative if other doesn't work",
-    "link": "https://pizzatower.io/buckshot-roulette/",
+    "link": "https://buckshotroulette.online/game/ver15/",
     "image": "/assets/media/icons/buckshotroulette.webp",
     "categories": ["all"]
   },
@@ -517,44 +517,44 @@
     "image": "/assets/media/icons/FNAF2.webp",
     "categories": ["all"]
   },
-    {
-    "name": "FNAF 2 Alternative if other doesn't work",
-    "link": "https://fnafgame.io/fnaf-2",
-    "image": "/assets/media/icons/FNAF2.webp",
-    "categories": ["all"]
-  },
   {
     "name": "FNAF 3",
-    "link": "https://sussygamedeveloper.github.io/fnaf3/",
-    "image": "/assets/media/icons/FNAF3.webp",
-    "categories": ["all"]
-  },
-    {
-    "name": "FNAF 3 Alternative if other doesn't work (Fixed)",
     "link": "https://en.gameslol.net/five-nights-at-freddy-s-3-1176.html",
     "image": "/assets/media/icons/FNAF3.webp",
     "categories": ["all"]
   },
       {
+    "name": "FNAF 3 Alternative if other doesn't work",
+    "link": "https://yandex.com/games/app/187273",
+    "image": "/assets/media/icons/FNAF3.webp",
+    "categories": ["all"]
+  },
+        {
     "name": "FNAF 3 Alternative if other Alternative doesn't work",
-    "link": "https://fivenightsatfreddys3.com/five-nights-at-freddys-3",
+    "link": "https://yandex.com/games/app/187273",
     "image": "/assets/media/icons/FNAF3.webp",
     "categories": ["all"]
   },
     {
     "name": "FNAF 4 (Fixed)",
-    "link": "https://en.gameslol.net/five-nights-at-freddy-s-4-1177.html",
+    "link": "https://ubg98.github.io/FNAF4/",
     "image": "/assets/media/icons/fn4.webp",
     "categories": ["all"]
   },
       {
     "name": "FNAF 4 (Alternative if other doesn't work)",
-    "link": "https://yandex.com/games/app/189344",
+    "link": "https://kbhgames.com/game/five-nights-freddys-4",
     "image": "/assets/media/icons/fn4.webp",
     "categories": ["all"]
   },
   {
     "name": "FNAF",
+    "link": "https://sussygamedeveloper.github.io/FNAF1/",
+    "image": "/assets/media/icons/FNAFWeb.webp",
+    "categories": ["all"]
+  },
+    {
+    "name": "FNAF Alternative",
     "link": "https://fnafgame.io/fnaf",
     "image": "/assets/media/icons/FNAFWeb.webp",
     "categories": ["all"]
