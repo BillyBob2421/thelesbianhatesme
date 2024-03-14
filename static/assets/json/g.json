@@ -537,13 +537,13 @@
   },
     {
     "name": "FNAF 4 (Fixed)",
-    "link": "https://ubg98.github.io/FNAF4/",
+    "link": "https://bighummus69.github.io/f4/",
     "image": "/assets/media/icons/fn4.webp",
     "categories": ["all"]
   },
       {
     "name": "FNAF 4 (Alternative if other doesn't work)",
-    "link": "https://kbhgames.com/game/five-nights-freddys-4",
+    "link": "https://ubg98.github.io/FNAF4/", 
     "image": "/assets/media/icons/fn4.webp",
     "categories": ["all"]
   },
@@ -555,7 +555,7 @@
   },
     {
     "name": "FNAF Alternative",
-    "link": "https://fnafgame.io/fnaf",
+    "link": "https://unblocked-games-786.github.io/FNAF/",
     "image": "/assets/media/icons/FNAFWeb.webp",
     "categories": ["all"]
   },
