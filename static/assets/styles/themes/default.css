@@ -1,10 +1,10 @@
 :root {
-  --page: url('fully.png');
-  --background: rgba(200, 200, 100, 0.02);
+  --page: url('/./assets/media/background/fully.png');
+  --background: rgba(255, 255, 255, 0.02);
   --background-filter: blur(10px) brightness(80%);
   --background-secondary: #4545459e;
-  --background-dark: #121312;
-  --background-other: #482828;
+  --background-dark: #121212;
+  --background-other: #282828;
 
   --title: #fff;
   --block: #2a2a2a;
