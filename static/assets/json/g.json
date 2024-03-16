@@ -1,5 +1,18 @@
 [
   {
+    "name": "! Request A Game",
+    "link": "https://forms.gle/94fJ9yAXQCgaXTrz6",
+    "image": "/assets/media/icons/request.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "Amazon Luna",
+    "link": "https://luna.amazon.com/",
+    "image": "/assets/media/icons/amazon-luna.webp",
+    "categories": ["all"],
+    "blank": "true"
+  },
+  {
     "name": "Dynast.io",
     "link": "https://dynast.io",
     "image": "/assets/media/icons/dynast-io.webp",
@@ -10,12 +23,6 @@
     "link": "https://twisted-cooking-mama.game-files.crazygames.com/ruffle/twisted-cooking-mama/1/twistedcookingmama.html?v=1.273",
     "image": "/assets/media/icons/twistedcookingmama.jpg",
     "categories": ["all"]
-  },
-      {
-    "name": "Android",
-    "link": "https://now.gg/iframe/snippet?app_pkg=com.uncube.launcher3&partner=interstellar",
-    "image": "/assets/media/icons/android.webp",
-    "categories": ["all", "emu", "android"]
   },
   {
     "name": "Marbles Garden",
@@ -131,12 +138,6 @@
     "image": "/assets/media/icons/snowrider3d.webp",
     "categories": ["all"]
   },
-    {
-    "name": "Snow Rider 3D Alternative",
-    "link": "https://watchdocumentaries.com/snow-rider-3d-game/",
-    "image": "/assets/media/icons/snowrider3d.webp",
-    "categories": ["all"]
-  },
   {
     "name": "3 Slices",
     "link": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2F3-slices.xml",
@@ -144,14 +145,8 @@
     "categories": ["all"]
   },
   {
-    "name": "Buckshot Roulette (Fixed)",
-    "link": "https://fngames.io/buckshot-roulette",
-    "image": "/assets/media/icons/buckshotroulette.webp",
-    "categories": ["all"]
-  },
-    {
-    "name": "Buckshot Roulette Alternative if other doesn't work",
-    "link": "https://buckshotroulette.online/game/ver15/",
+    "name": "Buckshot Roulette",
+    "link": "https://buckshotroulette.online/game/v11/",
     "image": "/assets/media/icons/buckshotroulette.webp",
     "categories": ["all"]
   },
@@ -168,21 +163,15 @@
     "categories": ["all"]
   },
   {
-    "name": "All IO Games",
-    "link": "https://www.crazygames.com/c/io",
-    "image": "/assets/media/icons/csgoparkour.webp",
-    "categories": ["all"]
-  },
-    {
-    "name": "All IO Games Alternative",
-    "link": "https://poki.com/en/io",
-    "image": "/assets/media/icons/csgoparkour.webp",
-    "categories": ["all"]
-  },
-  {
     "name": "Parkour Block 3D",
     "link": "https://html5.gamedistribution.com/1461d40bb77f48e6be72489959a1ac04/",
     "image": "/assets/media/icons/parkourblock3d.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "Jelly Mario",
+    "link": "https://jellymar.io",
+    "image": "/assets/media/icons/jellymario.webp",
     "categories": ["all"]
   },
   {
@@ -208,6 +197,12 @@
     "link": "https://bandit.rip/",
     "image": "/assets/media/icons/banditrip.webp",
     "categories": ["all", "2P"]
+  },
+  {
+    "name": "Addicting Games",
+    "link": "https://www.addictinggames.com/",
+    "image": "/assets/media/icons/addictinggames.webp",
+    "categories": ["all"]
   },
   {
     "name": "Deeeep.io",
@@ -279,12 +274,6 @@
   {
     "name": "Google Feud",
     "link": "https://googlefeud.com/",
-    "image": "/assets/media/icons/googlefeud.webp",
-    "categories": ["all"]
-  },
-    {
-    "name": "Google Feud Alternative if other doesn't work",
-    "link": "https://www.miniplay.com/game/google-feud",
     "image": "/assets/media/icons/googlefeud.webp",
     "categories": ["all"]
   },
@@ -362,6 +351,12 @@
     "categories": ["all"]
   },
   {
+    "name": "Happy Wheels",
+    "link": "https://files.crazygames.com/ruffle/happywheels.html",
+    "image": "/assets/media/icons/happywheels.webp",
+    "categories": ["all"]
+  },
+  {
     "name": "Papa's Burgeria",
     "link": "https://www.coolmathgames.com/0-papas-burgeria/play",
     "image": "/assets/media/icons/papasburgeria.webp",
@@ -377,6 +372,18 @@
     "name": "Papa's Pancakeria",
     "link": "https://www.coolmathgames.com/0-papas-pancakeria/play",
     "image": "/assets/media/icons/papaspancakeria.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "Papa's Wingeria",
+    "link": "https://www.coolmathgames.com/0-papas-wingeria/play",
+    "image": "/assets/media/icons/papaswingeria.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "Riddle School 1",
+    "link": "https://uploads.ungrounded.net/ruffle_wrapper/ruffleembed.html?v=1.0.67&browsermode=default&props=%7B%22ruffle%22%3A%22%2Fruffle_wrapper%2Flib%2Fruffle.js%3F1695474658%22%2C%22public_path%22%3A%22%2Fruffle_wrapper%2Flib%2F%22%2C%22swf%22%3A%22https%3A%2F%2Fuploads.ungrounded.net%2F314000%2F314680_Riddle_School.swf%3F1148577264%22%2C%22vars%22%3A%7B%22NewgroundsAPI_PublisherID%22%3A1%2C%22NewgroundsAPI_SandboxID%22%3A%2265103f0745c96%22%2C%22NewgroundsAPI_SessionID%22%3A%22%22%2C%22NewgroundsAPI_UserName%22%3A%22%26lt%3Bdeleted%26gt%3B%22%2C%22NewgroundsAPI_UserID%22%3A0%2C%22ng_username%22%3A%22%26lt%3Bdeleted%26gt%3B%22%7D%2C%22width%22%3A550%2C%22height%22%3A400%2C%22icon%22%3A%22https%3A%2F%2Fpicon.ngfiles.com%2F314000%2Fflash_314680_card.webp%3Ff1607914286%22%2C%22warnOnUnsupportedContent%22%3Afalse%7D",
+    "image": "/assets/media/icons/riddleschool1.webp",
     "categories": ["all"]
   },
   {
@@ -402,6 +409,12 @@
     "link": "https://f.silvergames.com/awayfl/index.html?swf=burrito-bison.swf",
     "image": "/assets/media/icons/burritobison.webp",
     "categories": ["all"]
+  },
+  {
+    "name": "Fireboy And Watergirl 2 In The Light Temple",
+    "link": "https://www.coolmathgames.com/sites/default/files/public_games/40210/",
+    "image": "/assets/media/icons/fireboyandwatergirllighttemple.webp",
+    "categories": ["all", "2P"]
   },
   {
     "name": "Fireboy And Watergirl 4 In The Crystal Temple",
@@ -488,6 +501,12 @@
     "categories": ["all"]
   },
   {
+    "name": "Papa's Freezeria",
+    "link": "https://www.coolmathgames.com/0-papas-freezeria/play",
+    "image": "/assets/media/icons/papasfreezeria.webp",
+    "categories": ["all", "2P"]
+  },
+  {
     "name": "Evades",
     "link": "https://evades.io",
     "image": "/assets/media/icons/evadesio.webp",
@@ -498,6 +517,12 @@
     "link": "https://www.crazygames.com/game/bullet-force-multiplayer",
     "image": "/assets/media/icons/BFM.webp",
     "categories": ["all,", "2P"]
+  },
+  {
+    "name": "Crazy Games",
+    "link": "https://www.crazygames.com/",
+    "image": "/assets/media/icons/crazy.webp",
+    "categories": ["all,", "emu,", "2P,", "sports,", "flash"]
   },
   {
     "name": "Cubes 2048",
@@ -517,45 +542,15 @@
     "image": "/assets/media/icons/FNAF2.webp",
     "categories": ["all"]
   },
-    {
-    "name": "FNAF 2 Alternative if other doesn't work",
-    "link": "https://ruihq.github.io/FNAF2/",
-    "image": "/assets/media/icons/FNAF2.webp",
-    "categories": ["all"]
-  },
   {
     "name": "FNAF 3",
-    "link": "https://www.snokido.com/game/five-nights-at-freddys-3",
+    "link": "https://sussygamedeveloper.github.io/fnaf3/",
     "image": "/assets/media/icons/FNAF3.webp",
-    "categories": ["all"]
-  },
-      {
-    "name": "FNAF 3 Alternative if other doesn't work",
-    "link": "https://yandex.com/games/app/187273",
-    "image": "/assets/media/icons/FNAF3.webp",
-    "categories": ["all"]
-  },
-    {
-    "name": "FNAF 4 (Fixed)",
-    "link": "https://bighummus69.github.io/f4/",
-    "image": "/assets/media/icons/fn4.webp",
-    "categories": ["all"]
-  },
-      {
-    "name": "FNAF 4 (Alternative if other doesn't work)",
-    "link": "https://ubg98.github.io/FNAF4/", 
-    "image": "/assets/media/icons/fn4.webp",
     "categories": ["all"]
   },
   {
-    "name": "FNAF",
-    "link": "https://sussygamedeveloper.github.io/FNAF1/",
-    "image": "/assets/media/icons/FNAFWeb.webp",
-    "categories": ["all"]
-  },
-    {
-    "name": "FNAF Alternative",
-    "link": "https://unblocked-games-786.github.io/FNAF/",
+    "name": "FNAF Web",
+    "link": "https://wellsousaaa.github.io/Five-Nights-at-Freddys-Web/",
     "image": "/assets/media/icons/FNAFWeb.webp",
     "categories": ["all"]
   },
@@ -587,6 +582,12 @@
     "name": "Nintendo 64 Emulator",
     "link": "https://www.neilb.net/n64wasm/",
     "image": "/assets/media/icons/N64.webp",
+    "categories": ["all,", "emu"]
+  },
+  {
+    "name": "Playstation 2 Emulator",
+    "link": "https://playjs.purei.org/",
+    "image": "/assets/media/icons/PS2.webp",
     "categories": ["all,", "emu"]
   },
   {
@@ -704,6 +705,18 @@
     "categories": ["all"]
   },
   {
+    "name": "Among Us (Scratch)",
+    "link": "https://turbowarp.org/523967150/fullscreen",
+    "image": "/assets/media/icons/scratch-among-us.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "Apex Legends",
+    "link": "https://play.geforcenow.com/games?game-id=cb2b1b5f-54ba-45fd-9839-96bbfe1376cd&lang=en_US&asset-id=01_c6efce00-e91e-402a-8b72-f4971f89c528",
+    "image": "/assets/media/icons/apex.webp",
+    "categories": ["all"]
+  },
+  {
     "name": "Basket Random",
     "link": "https://html5.gamedistribution.com/rvvASMiM/bf1268dccb5d43e7970bb3edaa54afc8/index.html",
     "image": "/assets/media/icons/br.webp",
@@ -801,6 +814,12 @@
     "categories": ["all"]
   },
   {
+    "name": "Deepest Sword",
+    "link": "https://v6p9d9t4.ssl.hwcdn.net/html/4017918/index.html",
+    "image": "/assets/media/icons/deepest-sword.webp",
+    "categories": ["all"]
+  },
+  {
     "name": "Diep.io",
     "link": "https://diep.io/",
     "image": "/assets/media/icons/diep.webp",
@@ -838,7 +857,7 @@
   },
   {
     "name": "Drift Hunters",
-    "link": "https://drift-hunters.com/",
+    "link": "https://webglmath.github.io/drift-hunters/",
     "image": "/assets/media/icons/drift-hunters.webp",
     "categories": ["all"],
     "say": "This game may take a while to load, but it is working."
@@ -856,6 +875,12 @@
     "categories": ["all"]
   },
   {
+    "name": "FNAF 2 (Scratch)",
+    "link": "https://scratch.mit.edu/projects/469219637/embed/",
+    "image": "/assets/media/icons/FNAF2.webp",
+    "categories": ["all"]
+  },
+  {
     "name": "Friday Night Funkin'",
     "link": "https://w8.snokido.com/games/html5/friday-night-funkin/0281/index.html",
     "image": "/assets/media/icons/fnf.webp",
@@ -865,6 +890,12 @@
     "name": "FNF - Lofi Mod",
     "link": "https://fnf.kdata1.com/lofi-funkin/2/",
     "image": "/assets/media/icons/lofi.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "FNF VS. Snorlax",
+    "link": "https://fnf.kdata1.com/snorlax/1/",
+    "image": "/assets/media/icons/snorlax.webp",
     "categories": ["all"]
   },
   {
@@ -913,6 +944,12 @@
     "name": "GBA Games 2",
     "link": "https://cattn.github.io/gba/",
     "image": "/assets/media/icons/gba.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "Geforce NOW",
+    "link": "https://play.geforcenow.com",
+    "image": "/assets/media/icons/geforce-now.webp",
     "categories": ["all"]
   },
   {
@@ -1085,6 +1122,18 @@
     "categories": ["all"]
   },
   {
+    "name": "Papa's Bakeria",
+    "link": "https://f.silvergames.com/emu/waffle/?id=5458",
+    "image": "/assets/media/icons/bakeria.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "Papa's Cupcakeria",
+    "link": "https://f.silvergames.com/emu/waffle/?id=3246",
+    "image": "/assets/media/icons/cupcakeria.webp",
+    "categories": ["all"]
+  },
+  {
     "name": "Papa Louie 1",
     "link": "https://f.silvergames.com/ruffle/player.php?id=1373",
     "image": "/assets/media/icons/louie1.webp",
@@ -1127,6 +1176,12 @@
     "categories": ["all"]
   },
   {
+    "name": "Pixel Shooter",
+    "link": "https://94bfktj403i6m18as4vkvtreqd0ohci4-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://274019683-173520394482650759.preview.editmysite.com/uploads/b/139890129-131715539788281629/files/ps.xml",
+    "image": "/assets/media/icons/pixel-shooter.webp",
+    "categories": ["all"]
+  },
+  {
     "name": "Pizza Tower",
     "link": "https://gamaverse.com/c/f/g/pizza-tower-1678640389/index.html",
     "image": "/assets/media/icons/pizza-tower.webp",
@@ -1142,6 +1197,12 @@
     "name": "Pokemon Showdown",
     "link": "https://play.pokemonshowdown.com",
     "image": "/assets/media/icons/showdown.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "Google Baseball",
+    "link": "https://www.google.com/logos/2019/july4th19/r6/july4th19.html",
+    "image": "/assets/media/icons/googlebaseball.jfif",
     "categories": ["all"]
   },
   {
@@ -1214,6 +1275,12 @@
     "name": "Red Ball 2",
     "link": "https://www.algebrashelper.com/redball-2",
     "image": "/assets/media/icons/redball2.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "Red Ball 4",
+    "link": "https://www.algebrashelper.com/redball-4",
+    "image": "/assets/media/icons/redball4.webp",
     "categories": ["all"]
   },
   {
@@ -1425,103 +1492,209 @@
     "name": "Roblox (Now.GG)",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.roblox.client&partner=interstellar",
     "image": "/assets/media/icons/roblox.webp",
-    "categories": ["all", "emu", "android"]
+    "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
   },
   {
     "name": "Madden NFL 24",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.ea.gp.maddennfl21mobile&partner=interstellar",
     "image": "/assets/media/icons/maddennfl24.webp",
-    "categories": ["all", "emu", "android"]
+    "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
+  },
+  {
+    "name": "Android",
+    "link": "https://now.gg/iframe/snippet?app_pkg=com.uncube.launcher3&partner=interstellar",
+    "image": "/assets/media/icons/android.webp",
+    "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
+  },
+  {
+    "name": "Genshin Impact",
+    "link": "https://now.gg/iframe/snippet?app_pkg=com.miHoYo.GenshinImpact&partner=interstellar",
+    "image": "/assets/media/icons/genshinimpact.webp",
+    "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
+  },
+  {
+    "name": "Fortnite (Android)",
+    "link": "https://now.gg/iframe/snippet?app_pkg=com.epicgames.fortnite&partner=interstellar",
+    "image": "/assets/media/icons/fortnite.webp",
+    "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
+  },
+  {
+    "name": "EA SPORTS FC™ MOBILE 24 SOCCER",
+    "link": "https://now.gg/iframe/snippet?app_pkg=com.ea.gp.fifamobile&partner=interstellar",
+    "image": "/assets/media/icons/easports-fcmobile24.webp",
+    "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
+  },
+  {
+    "name": "EA SPORTS™ UFC® Mobile 2",
+    "link": "https://now.gg/iframe/snippet?app_pkg=com.ea.gp.easportsufc2&partner=interstellar",
+    "image": "/assets/media/icons/easports-ufc.webp",
+    "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
   },
   {
     "name": "Melon Playground",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.studio27.MelonPlayground&partner=interstellar",
     "image": "/assets/media/icons/melonplayground.webp",
-    "categories": ["all", "emu", "android"]
+    "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
   },
   {
     "name": "Solar Smash",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.paradyme.solarsmash&partner=interstellar",
     "image": "/assets/media/icons/solarsmash.webp",
-    "categories": ["all", "emu", "android"]
+    "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
   },
   {
     "name": "Bloons TD Battles 2",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.ninjakiwi.bloonstdbattles2&partner=interstellar",
     "image": "/assets/media/icons/bloonstd2.webp",
-    "categories": ["all", "emu", "android"]
+    "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
   },
   {
     "name": "Bloons TD Battles",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.ninjakiwi.bloonstdbattles&partner=interstellar",
     "image": "/assets/media/icons/bloonstd.webp",
-    "categories": ["all", "emu", "android"]
+    "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
   },
   {
     "name": "Cookie Run Kingdom",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.devsisters.ck&partner=interstellar",
     "image": "/assets/media/icons/cookierunkingdom.webp",
-    "categories": ["all", "emu", "android"]
+    "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
   },
   {
     "name": "Character AI",
     "link": "https://now.gg/iframe/snippet?app_pkg=ai.character.app&partner=interstellar",
     "image": "/assets/media/icons/characterai.webp",
-    "categories": ["all", "emu", "android"]
+    "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
   },
   {
     "name": "Aptoide",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.aptoide.partners.nowgg.store&partner=interstellar",
     "image": "/assets/media/icons/aptoide.webp",
-    "categories": ["all", "emu", "android"]
+    "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
   },
   {
-    "name": "Akinator (Fixed)",
-    "link": "https://en.akinator.com/theme-selection",
+    "name": "Akinator",
+    "link": "https://now.gg/iframe/snippet?app_pkg=com.digidust.elokence.akinator.freemium&partner=interstellar",
     "image": "/assets/media/icons/akinator.webp",
-    "categories": ["all", "emu", "android"]
+    "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
   },
   {
     "name": "WorldBox",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.mkarpenko.worldbox&partner=interstellar",
     "image": "/assets/media/icons/worldbox.webp",
-    "categories": ["all", "emu", "android"]
+    "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
   },
   {
     "name": "Toca Life World",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.tocaboca.tocalifeworld&partner=interstellar",
     "image": "/assets/media/icons/tocalifeworld.webp",
-    "categories": ["all", "emu", "android"]
+    "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
   },
   {
     "name": "Toca Hair Salon 4",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.tocaboca.tocahairsalon4&partner=interstellar",
     "image": "/assets/media/icons/tocabocahairsalon4.webp",
-    "categories": ["all", "emu", "android"]
+    "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
+  },
+  {
+    "name": "Toca Kitchen 2",
+    "link": "https://now.gg/iframe/snippet?app_pkg=com.tocaboca.tocakitchen2&partner=interstellar",
+    "image": "/assets/media/icons/tocakitchen2.webp",
+    "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
   },
   {
     "name": "Free Fire",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.dts.freefireth&partner=interstellar",
     "image": "/assets/media/icons/freefire.webp",
-    "categories": ["all", "emu", "android"]
+    "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
+  },
+  {
+    "name": "Stumble Guys (Android)",
+    "link": "https://now.gg/iframe/snippet?app_pkg=com.kitkagames.fallbuddies&partner=interstellar",
+    "image": "/assets/media/icons/stumbleguys.webp",
+    "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
   },
   {
     "name": "Now.GG",
     "link": "https://now.gg",
     "image": "/assets/media/icons/now-gg.webp",
-    "categories": ["all", "emu", "android"]
+    "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
+  },
+  {
+    "name": "Roblox (NowGG.nl)",
+    "link": "https://nowgg.nl/iframe/snippet?app_pkg=com.roblox.client&partner=interstellar",
+    "image": "/assets/media/icons/astroid.webp",
+    "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
   },
   {
     "name": "Roblox (NowGG.me) [Working]",
     "link": "https://nowgg.me/apps/roblox-corporation/5349/roblox.html",
     "image": "/assets/media/icons/shuttle.webp",
-    "categories": ["all", "emu", "android"]
+    "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
+  },
+  {
+    "name": "Now.GG (NowGG.nl)",
+    "link": "https://nowgg.nl",
+    "image": "/assets/media/icons/astroid.webp",
+    "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
   },
   {
     "name": "Now.GG (NowGG.me) [Working]",
     "link": "https://nowgg.me",
     "image": "/assets/media/icons/shuttle.webp",
-    "categories": ["all", "emu", "android"]
+    "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
   },
   {
     "name": "Parappa the Rapper",
@@ -1583,54 +1756,6 @@
     "image": "/assets/media/icons/venge.webp",
     "categories": ["all"]
   },
-      {
-    "name": "Hianime",
-    "link": "https://hianime.to/",
-    "image": "/assets/media/icons/skull.png",
-    "categories": ["all", "media", "stream"]
-  },
-      {
-    "name": "FFmovies",
-    "link": "https://f-movies.click/",
-    "image": "/assets/media/icons/skull.png",
-    "categories": ["all", "media", "stream"]
-  },
-        {
-    "name": "IRL Movies!?",
-    "link": "https://movies2watch.to/",
-    "image": "/assets/media/icons/skull.png",
-    "categories": ["all", "media", "stream"]
-  },
-          {
-    "name": "C.AI (N)",
-    "link": "https://character.ai/",
-    "image": "/assets/media/icons/chatgpt.webp",
-    "categories": ["all", "media", "stream"]
-  },
-            {
-    "name": "AI2 (N)",
-    "link": "https://flowgpt.com/",
-    "image": "/assets/media/icons/chatgpt.webp",
-    "categories": ["all", "media", "stream"]
-  },
-              {
-    "name": "AI3",
-    "link": "https://perchance.org/ai-text-to-image-generator",
-    "image": "/assets/media/icons/chatgpt.webp",
-    "categories": ["all", "media", "stream"]
-  },
-                {
-    "name": "AI4",
-    "link": "https://diffusionart.co/",
-    "image": "/assets/media/icons/chatgpt.webp",
-    "categories": ["all", "media", "stream"]
-  },
-                  {
-    "name": "AI5 (N/)",
-    "link": "https://www.joyland.ai/",
-    "image": "/assets/media/icons/chatgpt.webp",
-    "categories": ["all", "media", "stream"]
-  },
   {
     "name": "Minecraft 1.5.2 (Eaglercraft)",
     "link": "/f/ec-15/index.html",
@@ -1644,13 +1769,6 @@
     "image": "/assets/media/icons/mc.webp",
     "categories": ["all", "2P", "emu", "local"],
     "local": "true"
-  },
-      {
-    "name": "YT Music",
-    "link": "https://music.youtube.com",
-    "image": "/assets/media/icons/ytm.webp",
-    "categories": ["all", "media"],
-    "error": true
   },
   {
     "name": "Getaway S.",
