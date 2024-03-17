@@ -217,6 +217,12 @@
     "image": "/assets/media/icons/yt.webp",
     "categories": ["all", "social", "stream", "media"]
   },
+    {
+    "name": "YouTube Music",
+    "link": "https://music.youtube.com",
+    "image": "/assets/media/icons/ytm.webp",
+    "categories": ["all", "social", "stream", "media"]
+  },
   {
     "name": "Whatsapp",
     "link": "https://web.whatsapp.com/",
