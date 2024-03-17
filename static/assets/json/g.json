@@ -1,7 +1,7 @@
 [
   {
     "name": "! Request A Game",
-    "link": "https://forms.gle/94fJ9yAXQCgaXTrz6",
+    "link": "https://forms.gle/zJecjYZMQ2kTraSN9",
     "image": "/assets/media/icons/request.webp",
     "categories": ["all"]
   },
@@ -145,8 +145,14 @@
     "categories": ["all"]
   },
   {
-    "name": "Buckshot Roulette",
+    "name": "Buckshot Roulette v11",
     "link": "https://buckshotroulette.online/game/v11/",
+    "image": "/assets/media/icons/buckshotroulette.webp",
+    "categories": ["all"]
+  },
+    {
+    "name": "Buckshot Roulette v15",
+    "link": "https://buckshotroulette.online/game/v15/",
     "image": "/assets/media/icons/buckshotroulette.webp",
     "categories": ["all"]
   },
@@ -159,6 +165,12 @@
   {
     "name": "CSGO Parkour",
     "link": "https://yandex.com/games/app/203069?flags={%22adv_sticky_banner_disabled%22:true}",
+    "image": "/assets/media/icons/csgoparkour.webp",
+    "categories": ["all"]
+  },
+    {
+    "name": "CSGO Parkour Alternative",
+    "link": "https://www.crazygames.com/game/surf",
     "image": "/assets/media/icons/csgoparkour.webp",
     "categories": ["all"]
   },
@@ -542,10 +554,40 @@
     "image": "/assets/media/icons/FNAF2.webp",
     "categories": ["all"]
   },
+    {
+    "name": "FNAF 4",
+    "link": "fnaf44.vercel.app",
+    "image": "static/assets/media/icons/fn4.webp",
+    "categories": ["all"]
+  },
+      {
+    "name": "FNAF 4 Alternative",
+    "link": "https://run3.io/popgame/fnaf/fnaf4.html",
+    "image": "static/assets/media/icons/fn4.webp",
+    "categories": ["all"]
+  },
   {
     "name": "FNAF 3",
     "link": "https://sussygamedeveloper.github.io/fnaf3/",
     "image": "/assets/media/icons/FNAF3.webp",
+    "categories": ["all"]
+  },
+    {
+    "name": "FNAF 3 Alternative",
+    "link": "https://xlegends.github.io/fnaf3/",
+    "image": "/assets/media/icons/FNAF3.webp",
+    "categories": ["all"]
+  },
+      {
+    "name": "FNAF 3 Alternative Alternative",
+    "link": "https://awesomedog23.github.io/fnaf3/",
+    "image": "/assets/media/icons/FNAF3.webp",
+    "categories": ["all"]
+  },
+        {
+    "name": "FNAF Sisters Location",
+    "link": "https://jeremyhu134.github.io/Five-Nights-at-Sister-Location/",
+    "image": "/assets/media/icons/FNS.webp",
     "categories": ["all"]
   },
   {
@@ -875,14 +917,14 @@
     "categories": ["all"]
   },
   {
-    "name": "FNAF 2 (Scratch)",
-    "link": "https://scratch.mit.edu/projects/469219637/embed/",
-    "image": "/assets/media/icons/FNAF2.webp",
-    "categories": ["all"]
-  },
-  {
     "name": "Friday Night Funkin'",
     "link": "https://w8.snokido.com/games/html5/friday-night-funkin/0281/index.html",
+    "image": "/assets/media/icons/fnf.webp",
+    "categories": ["all"]
+  },
+    {
+    "name": "Friday Night Funkin Alternative'",
+    "link": "https://28klotlucas2.github.io/Funkin-Html5/",
     "image": "/assets/media/icons/fnf.webp",
     "categories": ["all"]
   },
@@ -944,12 +986,6 @@
     "name": "GBA Games 2",
     "link": "https://cattn.github.io/gba/",
     "image": "/assets/media/icons/gba.webp",
-    "categories": ["all"]
-  },
-  {
-    "name": "Geforce NOW",
-    "link": "https://play.geforcenow.com",
-    "image": "/assets/media/icons/geforce-now.webp",
     "categories": ["all"]
   },
   {
