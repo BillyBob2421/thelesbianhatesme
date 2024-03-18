@@ -50,8 +50,8 @@
     "categories": ["all", "media", "stream"]
   },
     {
-    "name": "LookMovie2 (WORKING FREE MOVIES!)",
-    "link": "https://www.lookmovie2.to/movies",
+    "name": "RidoMovies (NOW WORKING! FREE MOVIES!)",
+    "link": "https://ridomovies.tv/movies",
     "image": "/assets/media/icons/skull.png",
     "categories": ["all", "media", "stream"]
   },
@@ -77,12 +77,6 @@
     "categories": ["all", "emu", "android"],
     "say": "Now.gg is currently not working.",
     "error": true
-  },
-  {
-    "name": "Movie Web",
-    "link": "https://movie-web.app",
-    "image": "/assets/media/icons/movie-web.webp",
-    "categories": ["all", "media", "stream"]
   },
   {
     "name": "Scratch",
