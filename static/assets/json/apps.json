@@ -11,6 +11,12 @@
     "image": "/assets/media/icons/buzzfeed.webp",
     "categories": ["all", "media"]
   },
+    {
+    "name": "IDR Labs (Personal Quizzes! IQ tests and personality tests.)",
+    "link": "https://idrlabs.com/",
+    "image": "/assets/media/icons/IDR.png",
+    "categories": ["all", "media"]
+  },
   {
     "name": "Android",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.uncube.launcher3&partner=interstellar",
