@@ -43,6 +43,25 @@
     "image": "/assets/media/icons/temu.webp",
     "categories": ["all"]
   },
+    {
+    "name": "9Anime (WORKING FREE ANIME)",
+    "link": "https://9animetv.to",
+    "image": "/assets/media/icons/skull.png",
+    "categories": ["all", "media", "stream"]
+  },
+    {
+    "name": "LookMovie2 (WORKING FREE MOVIES!)",
+    "link": "https://www.lookmovie2.to/movies",
+    "image": "/assets/media/icons/skull.png",
+    "categories": ["all", "media", "stream"]
+  },
+      {
+    "name": "Hulu (Working)",
+    "link": "https://hulu.com/",
+    "image": "/assets/media/icons/hulu.webp",
+    "categories": ["all", "media", "stream"]
+  },
+  
   {
     "name": "Character AI",
     "link": "https://now.gg/iframe/snippet?app_pkg=ai.character.app&partner=interstellar",
