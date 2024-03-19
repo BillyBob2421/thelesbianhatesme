@@ -279,6 +279,11 @@ function AB() {
   }
 }
 
+<audio controls>
+  <source src="static/Gasoline.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+
 function toggleAB() {
   ab = localStorage.getItem('ab')
   if (ab == null) {
