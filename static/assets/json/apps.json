@@ -49,9 +49,21 @@
     "image": "/assets/media/icons/skull.png",
     "categories": ["all", "media", "stream"]
   },
+      {
+    "name": "HDBest (NOW WORKING! FREE MOVIES!)",
+    "link": "hdbest.net",
+    "image": "/assets/media/icons/skull.png",
+    "categories": ["all", "media", "stream"]
+  },
     {
-    "name": "RidoMovies (NOW WORKING! FREE MOVIES!)",
-    "link": "https://ridomovies.tv/movies",
+    "name": "XXiku (FREE MOVIES ALTERNATIVE)",
+    "link": "https://movie.xxiku.com/",
+    "image": "/assets/media/icons/skull.png",
+    "categories": ["all", "media", "stream"]
+  },
+      {
+    "name": "Free Anime (FREE ANIME ALTERNATIVE)",
+    "link": "https://w7.animeland.tv/",
     "image": "/assets/media/icons/skull.png",
     "categories": ["all", "media", "stream"]
   },
@@ -61,7 +73,6 @@
     "image": "/assets/media/icons/hulu.webp",
     "categories": ["all", "media", "stream"]
   },
-  
   {
     "name": "Character AI",
     "link": "https://now.gg/iframe/snippet?app_pkg=ai.character.app&partner=interstellar",
