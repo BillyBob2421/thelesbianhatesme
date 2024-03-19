@@ -279,27 +279,26 @@ function AB() {
   }
 }
 
-<audio id="audioPlayer" controls>
-  <source src="static/Gasoline.mp3" type="audio/mp3">
-  Your browser does not support the audio element.
-</audio>
-var audioPlayer = document.getElementById('audioPlayer');
+document.addEventListener('DOMContentLoaded', function () {
+    var audioPlayer = document.getElementById('audioPlayer');
 
-function playAudio() {
-  audioPlayer.play();
-}
+    function playAudio() {
+        audioPlayer.play();
+    }
 
-function pauseAudio() {
-  audioPlayer.pause();
-}
+    function pauseAudio() {
+        audioPlayer.pause();
+    }
 
-function stopAudio() {
-  audioPlayer.pause();
-  audioPlayer.currentTime = 0;
-}
-<button onclick="playAudio()">Play</button>
-<button onclick="pauseAudio()">Pause</button>
-<button onclick="stopAudio()">Stop</button>
+    function stopAudio() {
+        audioPlayer.pause();
+        audioPlayer.currentTime = 0;
+    }
+
+    document.getElementById('playButton').addEventListener('click', playAudio);
+    document.getElementById('pauseButton').addEventListener('click', pauseAudio);
+    document.getElementById('stopButton').addEventListener('click', stopAudio);
+});
 
 
 function toggleAB() {
