@@ -62,6 +62,24 @@
     "categories": ["all", "media", "stream"]
   },
       {
+    "name": "Soap2Day (FREE MOVIES ALTERNATIVE)",
+    "link": "soap2dayhd.co",
+    "image": "/assets/media/icons/skull.png",
+    "categories": ["all", "media", "stream"]
+  },
+        {
+    "name": "Youtube Alternative (N/)",
+    "link": "tokyvideo.com",
+    "image": "/assets/media/icons/yt.png",
+    "categories": ["all", "media", "stream"]
+  },
+          {
+    "name": "Fmovies (FREE MOVIES ALTERNATIVE) (Best one?)",
+    "link": "fmovies.fo",
+    "image": "/assets/media/icons/skull.png",
+    "categories": ["all", "media", "stream"]
+  },
+      {
     "name": "Free Anime (FREE ANIME ALTERNATIVE)",
     "link": "https://w7.animeland.tv/",
     "image": "/assets/media/icons/skull.png",
