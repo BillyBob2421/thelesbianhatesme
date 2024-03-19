@@ -319,30 +319,3 @@ function SaveEngine() {
   }
 }
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Audio Player</title>
-</head>
-<body>
-    <audio controls id="audioPlayer">
-        <source src="static/Gasoline.mp3" type="audio/mp3">
-    </audio>
-
-    <button onclick="playAudio()">Play</button>
-    <button onclick="pauseAudio()">Pause</button>
-    
-    <script>
-        var audio = document.getElementById('audioPlayer');
-
-        function playAudio() {
-            audio.play();
-        }
-
-        function pauseAudio() {
-            audio.pause();
-        }
-    </script>
-</body>
-</html>
-
