@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 
-  
   var adTypeElement = document.getElementById('adType')
 
   if (adTypeElement) {
@@ -279,28 +278,6 @@ function AB() {
   }
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-    var audioPlayer = document.getElementById('audioPlayer');
-
-    function playAudio() {
-        audioPlayer.play();
-    }
-
-    function pauseAudio() {
-        audioPlayer.pause();
-    }
-
-    function stopAudio() {
-        audioPlayer.pause();
-        audioPlayer.currentTime = 0;
-    }
-
-    document.getElementById('playButton').addEventListener('click', playAudio);
-    document.getElementById('pauseButton').addEventListener('click', pauseAudio);
-    document.getElementById('stopButton').addEventListener('click', stopAudio);
-});
-
-
 function toggleAB() {
   ab = localStorage.getItem('ab')
   if (ab == null) {
@@ -340,4 +317,3 @@ function SaveEngine() {
     alert('Please enter a custom search engine value.')
   }
 }
-
