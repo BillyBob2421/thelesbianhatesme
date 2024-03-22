@@ -74,8 +74,20 @@
     "categories": ["all", "media", "stream"]
   },
           {
-    "name": "Fmovies (FREE MOVIES ALTERNATIVE) (Best one?)",
+    "name": "Fmovies (FREE MOVIES ALTERNATIVE) (Second Best one?)",
     "link": "fmovies.fo",
+    "image": "/assets/media/icons/skull.png",
+    "categories": ["all", "media", "stream"]
+  },
+            {
+    "name": "Fmovies v2 (FREE MOVIES ALTERNATIVE) (BEST ONE!?)",
+    "link": "https://fmovieszfree.org",
+    "image": "/assets/media/icons/skull.png",
+    "categories": ["all", "media", "stream"]
+  },
+              {
+    "name": "Fmovies v2 (FREE MOVIES ALTERNATIVE)",
+    "link": "https://fmovieszfree.org",
     "image": "/assets/media/icons/skull.png",
     "categories": ["all", "media", "stream"]
   },
