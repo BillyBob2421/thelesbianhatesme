@@ -228,20 +228,6 @@
     "categories": ["all", "media"]
   },
   {
-    "name": "Spotify",
-    "link": "https://open.spotify.com",
-    "image": "/assets/media/icons/spotify.webp",
-    "categories": ["all", "media"],
-    "say": "Spotify is currently not working on the proxy.",
-    "error": true
-  },
-  {
-    "name": "Telegram",
-    "link": "https://web.telegram.org/",
-    "image": "/assets/media/icons/telegram.webp",
-    "categories": ["all", "social"]
-  },
-  {
     "name": "Tiktok",
     "link": "https://tiktok.com",
     "image": "/assets/media/icons/tiktok.webp",
