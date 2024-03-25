@@ -22,13 +22,16 @@ function iframeLoad() {
       const website = iframe.contentWindow?.location.href.replace(window.location.origin, '').replace('/a/', '')
       document.getElementById('is').value = decodeXor(website)
       localStorage.setItem('decoded', decodeXor(website));
+      window.parent.postMessage({ decodedSet: true }, window.location.origin);
     } else if (website.includes('/a/q/')) {
       const website = iframe.contentWindow?.location.href.replace(window.location.origin, '').replace('/a/q/', '')
       document.getElementById('is').value = decodeXor(website)
       localStorage.setItem('decoded', decodeXor(website));
+      window.parent.postMessage({ decodedSet: true }, window.location.origin);
     }
   }
 }
+
 
 // Reload
 function reload() {
@@ -141,43 +144,65 @@ document.addEventListener('fullscreenchange', function () {
 // Now
 const key = ['nowgg', 'now.gg'];
 const decoded = localStorage.getItem('decoded');
+let decodedSet = false;
 
-if (decoded) {
+window.addEventListener('message', function(event) {
+  if (event.origin !== window.location.origin) {
+    console.warn('Received message from unexpected origin:', event.origin);
+    return;
+  }
+
+  if (event.data && event.data.decodedSet === true) {
+    decodedSet = true;
+    console.log('Starting process.');
+    now(); 
+  }
+});
+
+function now() {
+  if (decoded) {
     let found = false;
     for (const keyword of key) {
-        if (decoded.includes(keyword)) {
-            console.log(`${keyword} found`);
-            found = true;
-            break;
-        }
+      if (decoded.includes(keyword)) {
+        console.log(`${keyword} found`);
+        found = true;
+        break;
+      }
     }
     if (found) {
-        let count = 0;
-        let notfound = 0;
-        const limit = 10;
-        const max = 35;
-        const reloadInterval = setInterval(() => {
-            if (count < limit && iframe) {
-                const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
-                const element = iframeDocument.querySelector('.sc-hGPBjI.gGkQpt');
-                if (element) {
-                    console.log("Unsafe proxy or VPN detected. Reloading...");
-                    iframe.contentWindow.location.reload();
-                    count++;
-                    notfound = 0; 
-                } else {
-                    console.log("Class not found inside the iframe.");
-                    notfound++;
-                    if (notfound >= max) {
-                        console.log(`Class not found for ${max} consecutive checks. Stopping.`);
-                        clearInterval(reloadInterval);
-                    }
-                }
-            } else {
-                clearInterval(reloadInterval);
+      let count = 0;
+      let notfound = 0;
+      const limit = 10;
+      const max = 35;
+      const reloadInterval = setInterval(() => {
+        if (count < limit && iframe) {
+          const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+          const element = iframeDocument.querySelector('.sc-hGPBjI.gGkQpt');
+          if (element) {
+            document.querySelector('.overlay').style.display = 'block';
+            document.getElementById('ifra').style.display = 'none';
+            iframeDocument.location.reload();
+            count += 1;
+            notfound = 0; 
+          } else {
+            console.log("Class not found inside the iframe.");
+            notfound += 1;
+            if (notfound >= max) {
+              clearInterval(reloadInterval);
+              document.getElementById('ifra').style.display = 'block';
+              document.querySelector('.overlay').style.display = 'none';
             }
-        }, 500);
+          }
+        } else {
+          clearInterval(reloadInterval);
+        }
+      }, 500);
     }
-} else {
+  } else {
     console.log('Decoded not found in localStorage.');
+  }
+}
+
+if (decodedSet) {
+  now();
 }
