@@ -1,215 +1,175 @@
-const iframe = document.getElementById('ifra')
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-window.addEventListener('resize', navigator.keyboard.lock(['Escape']))
-// Decode URL
-function decodeXor(input) {
-  if (!input) return input
-  let [str, ...search] = input.split('?')
-
-  return (
-    decodeURIComponent(str)
-      .split('')
-      .map((char, ind) => (ind % 2 ? String.fromCharCode(char.charCodeAt(NaN) ^ 2) : char))
-      .join('') + (search.length ? '?' + search.join('?') : '')
-  )
-}
-function iframeLoad() {
-  if (document.readyState === 'complete') {
-    const website = iframe.contentWindow?.location.href.replace(window.location.origin, '')
-
-    if (website.includes('/y/') || website.includes('/f/')) {
-      document.getElementById('is').value = '.'
-    } else if (website.includes('/a/')) {
-      const website = iframe.contentWindow?.location.href.replace(window.location.origin, '').replace('/a/', '')
-      document.getElementById('is').value = decodeXor(website)
-    } else if (website.includes('/a/q/')) {
-      const website = iframe.contentWindow?.location.href.replace(window.location.origin, '').replace('/a/q/', '')
-      document.getElementById('is').value = decodeXor(website)
-    }
-  }
+body {
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background: var(--main)
 }
 
-// Reload
-function reload() {
-  if (iframe) {
-    iframe.src = iframe.src
-  }
-}
-// Popout
-function popout() {
-  const newWindow = window.open('about:blank', '_blank')
-
-  if (newWindow) {
-    const name = localStorage.getItem('name') || 'My Drive - Google Drive'
-    const icon = localStorage.getItem('icon') || 'https://ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png'
-
-    newWindow.document.title = name
-
-    const link = newWindow.document.createElement('link')
-    link.rel = 'icon'
-    link.href = encodeURI(icon)
-    newWindow.document.head.appendChild(link)
-
-    const newIframe = newWindow.document.createElement('iframe')
-    const style = newIframe.style
-    style.position = 'fixed'
-    style.top = style.bottom = style.left = style.right = 0
-    style.border = style.outline = 'none'
-    style.width = style.height = '100%'
-
-    newIframe.src = iframe.src
-
-    newWindow.document.body.appendChild(newIframe)
-  }
-}
-// Eruda
-function erudaToggle() {
-  if (!iframe) return
-
-  const erudaWindow = iframe.contentWindow
-  const erudaDocument = iframe.contentDocument
-
-  if (!erudaWindow || !erudaDocument) return
-
-  if (erudaWindow.eruda?._isInit) {
-    erudaWindow.eruda.destroy()
-  } else {
-    let script = erudaDocument.createElement('script')
-    script.src = 'https://cdn.jsdelivr.net/npm/eruda'
-    script.onload = function () {
-      if (!erudaWindow) return
-      erudaWindow.eruda.init()
-      erudaWindow.eruda.show()
-    }
-    erudaDocument.head.appendChild(script)
-  }
-}
-// Fullscreen
-const fullscreenButton = document.getElementById('fullscreen-button')
-fullscreenButton.addEventListener('click', function () {
-  if (!document.fullscreenElement) {
-    document.documentElement.requestFullscreen()
-  } else {
-    document.exitFullscreen()
-  }
-})
-// Home
-const homeButton = document.getElementById('home-page')
-homeButton.addEventListener('click', function () {
-  window.location.href = './'
-})
-// Back
-function goBack() {
-  if (iframe) {
-    iframe.contentWindow.history.back()
-  } else {
-    console.error('No iframe found')
-  }
-}
-// Forward
-function goForward() {
-  if (iframe) {
-    iframe.contentWindow.history.forward()
-  } else {
-    console.error('No iframe found')
-  }
-}
-// Iframe
-window.onload = function () {
-  let GoUrl = sessionStorage.getItem('GoUrl')
-  let dyValue = localStorage.getItem('dy')
-
-  if (!GoUrl.startsWith('/y/') && !GoUrl.startsWith('/f/')) {
-    if (dyValue === 'true' || dyValue === 'auto') {
-      GoUrl = '/a/q/' + GoUrl
-    } else {
-      GoUrl = '/a/' + GoUrl
-    }
-  }
-  console.log(GoUrl)
-  if (iframe) {
-    iframe.src = GoUrl
-  }
+iframe {
+  display: block;
+  border: none;
+  height: calc(100% - 3em);
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 3em;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
-// Remove Nav
-document.addEventListener('fullscreenchange', function () {
-  const isFullscreen = Boolean(document.fullscreenElement)
-  document.body.classList.toggle('fullscreen', isFullscreen)
-})
-// Now
-var adjustmentCompleted = false
-var attempts = 0
-
-function adjustElements() {
-  if (adjustmentCompleted) {
-    return true
-  }
-
-  var iframe = top.document.getElementById('ifra')
-
-  if (iframe) {
-    var innerDoc = iframe.contentWindow.document
-
-    var roblox = innerDoc.getElementById('js-game-video')
-    var controlBar = innerDoc.getElementById('ng-control-bar')
-
-    if (roblox && controlBar) {
-      roblox.style.top = '415px'
-      controlBar.style.top = '91%'
-
-      return true
-    } else {
-      return false
-    }
-  } else {
-    return false
-  }
+.nav-bar {
+  top: 0%;
+  left: 0;
+  right: 0;
+  height: 3em;
+  padding: 0 25px;
+  background: var(--main);
+  box-sizing: border-box;
+  transition: 0.35s ease;
+  width: fill;
+  z-index: 100;
+  position: fixed;
 }
 
-function CheckAndAdjust() {
-  var intervalId = setInterval(function () {
-    attempts++
-    if (adjustElements()) {
-      clearInterval(intervalId)
-    } else if (attempts >= 30) {
-      clearInterval(intervalId)
-    }
-  }, 5000)
+.nav-button {
+  border-radius: 10px;
+  color: var(--text-primary);
+  background: none;
+  height: 2em;
+  border: none;
+  right: 10px;
+  top: auto;
+  box-sizing: border-box;
+  margin-right: 10px;
+  transition: 0.2s ease;
+  margin-top: 0 auto;
+  margin-bottom: 0 auto;
 }
 
-function adjust() {
-  setInterval(function () {
-    var iframe = top.document.getElementById('ifra')
-
-    if (iframe) {
-      var innerDoc = iframe.contentWindow.document
-
-      var roblox = innerDoc.getElementById('js-game-video')
-      var controlBar = innerDoc.getElementById('ng-control-bar')
-      var customClassElement = innerDoc.querySelector('.sc-rUGft.hLgqJJ')
-
-      if (roblox) {
-        checkAndAdjustStyles(roblox, 'top', ['415px'])
-      }
-
-      if (controlBar) {
-        checkAndAdjustStyles(controlBar, 'top', ['91%'])
-      }
-
-      if (customClassElement) {
-        customClassElement.remove()
-      }
-    }
-  }, 3000)
+.nav-button:hover {
+  transform: scale(1.3);
+  cursor: pointer;
 }
 
-function checkAndAdjustStyles(element, property, targetValues) {
-  if (element) {
-    var currentStyle = window.getComputedStyle(element)[property]
+.nav-btn-left {
+  float: left;
+}
 
-    if (!targetValues.includes(currentStyle)) {
-      element.style[property] = targetValues[0]
-    }
-  }
+.nav-btn-right {
+  float: right;
+}
+
+.nav-container {
+  min-width: 5vw;
+  min-height: 10vh;
+  display: inline;
+}
+
+.nav-left {
+  position: absolute;
+  top: 75%;
+  transform: translateY(-50%);
+  left: 1%;
+  width: 80%;
+}
+
+.nav-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 1%;
+  width: 20%;
+}
+
+.nav-right .nav-btn:hover {
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 800;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 3vw;
+  transform: translateX(-20%);
+}
+
+.nav-right .nav-btn:hover {
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 800;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 3vh;
+  transform: translateX(-20%);
+}
+
+.fullscreen .nav-bar {
+  display: none;
+}
+
+.fullscreen #ifra {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.navsearch {
+  height: 2em;
+  border: none;
+  background: none;
+  color: #fff;
+  width: 60vw;
+  height: 30px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.navsearch:focus {
+  background: var(--background-secondary);
+  box-shadow: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.navpost {
+  padding: none;
+  float: right;
+  margin-top: 0em;
+  color: #fff;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+h1 {
+text-align: center;
+color: white;
+font-size: 50px;
+white-space: nowrap;
+}
+
+p {
+text-align: center;
+color: white;
+font-size: 25px;
+}
+
+a {
+color: #6495ED
 }
