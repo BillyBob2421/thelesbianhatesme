@@ -11,29 +11,19 @@
     "image": "/assets/media/icons/buzzfeed.webp",
     "categories": ["all", "media"]
   },
-    {
-    "name": "IDR Labs (Personality tests.)",
-    "link": "https://idrlabs.com/",
-    "image": "/assets/media/icons/IDR.png",
-    "categories": ["all", "media"]
-  },
-      {
-    "name": "Reaction speed tester. 285 MS is avg.",
-    "link": "https://humanbenchmark.com/tests/reactiontime",
-    "image": "/assets/media/icons/light.avif",
-    "categories": ["all", "media"]
-  },
-        {
-    "name": "Quizzes And Reaction speed tester",
-    "link": "https://www.arealme.com/reaction-test/en/",
-    "image": "/assets/media/icons/light.avif",
-    "categories": ["all", "media"]
+  {
+    "name": "Guilded",
+    "link": "https://guilded.gg",
+    "image": "/assets/media/icons/guilded.png",
+    "categories": ["all", "social"]
   },
   {
     "name": "Android",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.uncube.launcher3&partner=interstellar",
     "image": "/assets/media/icons/android.webp",
     "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
   },
   {
     "name": "Temu",
@@ -41,77 +31,23 @@
     "image": "/assets/media/icons/temu.webp",
     "categories": ["all"]
   },
-    {
-    "name": "9Anime (WORKING FREE ANIME)",
-    "link": "https://9animetv.to",
-    "image": "/assets/media/icons/skull.png",
-    "categories": ["all", "media", "stream"]
-  },
-      {
-    "name": "HDBest (NOW WORKING! FREE MOVIES!)",
-    "link": "hdbest.net",
-    "image": "/assets/media/icons/skull.png",
-    "categories": ["all", "media", "stream"]
-  },
-    {
-    "name": "XXiku (FREE MOVIES ALTERNATIVE)",
-    "link": "https://movie.xxiku.com/",
-    "image": "/assets/media/icons/skull.png",
-    "categories": ["all", "media", "stream"]
-  },
-      {
-    "name": "Soap2Day (FREE MOVIES ALTERNATIVE)",
-    "link": "soap2dayhd.co",
-    "image": "/assets/media/icons/skull.png",
-    "categories": ["all", "media", "stream"]
-  },
-        {
-    "name": "Youtube Alternative (N/)",
-    "link": "tokyvideo.com",
-    "image": "/assets/media/icons/yt.png",
-    "categories": ["all", "media", "stream"]
-  },
-          {
-    "name": "Fmovies (FREE MOVIES ALTERNATIVE) (Second Best one?)",
-    "link": "fmovies.fo",
-    "image": "/assets/media/icons/skull.png",
-    "categories": ["all", "media", "stream"]
-  },
-            {
-    "name": "Fmovies v2 (FREE MOVIES ALTERNATIVE) (BEST ONE!?)",
-    "link": "https://fmovieszfree.org",
-    "image": "/assets/media/icons/skull.png",
-    "categories": ["all", "media", "stream"]
-  },
-              {
-    "name": "Fmovies v2 (FREE MOVIES ALTERNATIVE)",
-    "link": "https://fmovieszfree.org",
-    "image": "/assets/media/icons/skull.png",
-    "categories": ["all", "media", "stream"]
-  },
-      {
-    "name": "Free Anime (FREE ANIME ALTERNATIVE)",
-    "link": "https://w7.animeland.tv/",
-    "image": "/assets/media/icons/skull.png",
-    "categories": ["all", "media", "stream"]
-  },
-      {
-    "name": "Hulu (Working)",
-    "link": "https://hulu.com/",
-    "image": "/assets/media/icons/hulu.webp",
-    "categories": ["all", "media", "stream"]
-  },
   {
     "name": "Character AI",
     "link": "https://now.gg/iframe/snippet?app_pkg=ai.character.app&partner=interstellar",
     "image": "/assets/media/icons/characterai.webp",
-    "categories": ["all", "emu", "android"],
+    "categories": ["all", "emu", "android"]
   },
   {
     "name": "Aptoide",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.aptoide.partners.nowgg.store&partner=interstellar",
     "image": "/assets/media/icons/aptoide.webp",
-    "categories": ["all", "emu", "android"],
+    "categories": ["all", "emu", "android"]
+  },
+  {
+    "name": "Movie Web",
+    "link": "https://movie-web.app",
+    "image": "/assets/media/icons/movie-web.webp",
+    "categories": ["all", "media", "stream"]
   },
   {
     "name": "Scratch",
@@ -228,6 +164,20 @@
     "categories": ["all", "media"]
   },
   {
+    "name": "Spotify",
+    "link": "https://open.spotify.com",
+    "image": "/assets/media/icons/spotify.webp",
+    "categories": ["all", "media"],
+    "say": "Spotify is currently not working on the proxy.",
+    "error": true
+  },
+  {
+    "name": "Telegram",
+    "link": "https://web.telegram.org/",
+    "image": "/assets/media/icons/telegram.webp",
+    "categories": ["all", "social"]
+  },
+  {
     "name": "Tiktok",
     "link": "https://tiktok.com",
     "image": "/assets/media/icons/tiktok.webp",
@@ -269,12 +219,6 @@
     "image": "/assets/media/icons/yt.webp",
     "categories": ["all", "social", "stream", "media"]
   },
-    {
-    "name": "YouTube Music",
-    "link": "https://music.youtube.com",
-    "image": "/assets/media/icons/ytm.webp",
-    "categories": ["all", "social", "stream", "media"]
-  },
   {
     "name": "Whatsapp",
     "link": "https://web.whatsapp.com/",
@@ -310,19 +254,13 @@
     "name": "Now.GG",
     "link": "https://now.gg",
     "image": "/assets/media/icons/now-gg.webp",
-    "categories": ["all", "emu", "android"],
-  },
-  {
-    "name": "Now.GG (NowGG.nl)",
-    "link": "https://nowgg.nl",
-    "image": "/assets/media/icons/astroid.webp",
-    "categories": ["all", "emu", "android"],
+    "categories": ["all", "emu", "android"]
   },
   {
     "name": "Now.GG (NowGG.me) [Working]",
     "link": "https://nowgg.me",
     "image": "/assets/media/icons/shuttle.webp",
-    "categories": ["all", "emu", "android"],
+    "categories": ["all", "emu", "android"]
   },
   {
     "name": "Amazon Luna",
