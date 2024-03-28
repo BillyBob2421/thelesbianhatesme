@@ -700,9 +700,9 @@
   },
   {
     "name": "1",
-    "link": "https://hgentry.github.io/1/",
+    "link": "/e/1/index.html",
     "image": "/assets/media/icons/1.webp",
-    "categories": ["all"]
+    "categories": ["all, local"]
   },
   {
     "name": "1v1.LOL",
@@ -886,8 +886,8 @@
     "categories": ["all"]
   },
   {
-    "name": "Doge Miner 1",
-    "link": "https://dogeminer.se/",
+    "name": "Doge Miner",
+    "link": "/e/DogeMiner/index.html",
     "image": "/assets/media/icons/doge-miner-1.webp",
     "categories": ["all"]
   },
@@ -1499,18 +1499,48 @@
     "image": "/assets/media/icons/na.webp",
     "categories": ["all"]
   },
+   },
   {
-    "name": "Vex 5",
-    "link": "https://raw.githack.com/3kh0/3kh0-assets/main/vex5/index.html",
-    "image": "/assets/media/icons/vex5.webp",
-    "categories": ["all"]
+  "name": "2048",
+  "link": "/e/2048/index.html",
+  "image": "/assets/media/icons/2048.png",
+  "categories": ["all", "local"]    
+  },
+  {
+    "name": "2048 Multitasking",
+    "link": "/e/2048-multitask/index.html",
+    "image": "/assets/media/icons/2048.png",
+    "categories": ["all", "local"]    
   },
   {
     "name": "Vex 7",
-    "link": "https://interstellarnetwork.github.io/interstellar-assets/play/vex7/index.html",
+    "link": "/e/vex7/index.html",
     "image": "/assets/media/icons/vex7.webp",
-    "categories": ["all"]
+    "categories": ["all", "local"]    
   },
+  {
+    "name": "Vex 6",
+    "link": "/e/vex6/index.html",
+    "image": "/assets/media/icons/vex6.jpeg",
+    "categories": ["all", "local"]    
+  },
+  {
+    "name": "Vex 5",
+    "link": "/e/vex5/index.html",
+    "image": "/assets/media/icons/vex5.webp",
+    "categories": ["all", "local"]    
+  },
+  {
+    "name": "Vex 3",
+    "link": "/e/vex3/index.html",
+    "image": "/assets/media/icons/vex3.png",
+    "categories": ["all", "local"]    
+  },
+  {
+    "name": "Vex 4",
+    "link": "/e/vex4/index.html",
+    "image": "/assets/media/icons/vex4.png",
+    "categories": ["all", "local"]
   {
     "name": "Voxiom.io",
     "link": "https://voxiom.io/",
