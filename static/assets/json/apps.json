@@ -102,12 +102,6 @@
     "categories": ["all", "emu", "android"]
   },
   {
-    "name": "Aptoide",
-    "link": "https://now.gg/iframe/snippet?app_pkg=com.aptoide.partners.nowgg.store&partner=interstellar",
-    "image": "/assets/media/icons/aptoide.webp",
-    "categories": ["all", "emu", "android"]
-  },
-  {
     "name": "Chess.com",
     "link": "https://chess.com",
     "image": "/assets/media/icons/chess.webp",
@@ -144,18 +138,6 @@
     "categories": ["all", "media"]
   },
   {
-    "name": "Firefox Web Browser",
-    "link": "https://replit.com/@cooleddie001/Firefox-Legacy?v=1",
-    "image": "/assets/media/icons/firefox.webp",
-    "categories": ["all", "media"]
-  },
-  {
-    "name": "Flix HQ",
-    "link": "https://flixhq.to",
-    "image": "/assets/media/icons/flixhq.webp",
-    "categories": ["all", "media"]
-  },
-  {
     "name": "Geforce NOW",
     "link": "https://play.geforcenow.com",
     "image": "/assets/media/icons/geforce-now.webp",
@@ -180,12 +162,6 @@
     "categories": ["all", "stream"]
   },
   {
-    "name": "Messenger",
-    "link": "https://messenger.com/",
-    "image": "/assets/media/icons/messenger.webp",
-    "categories": ["all", "social", "message"]
-  },
-  {
     "name": "Paramount Plus",
     "link": "https://paramountplus.com",
     "image": "/assets/media/icons/paramount.webp",
@@ -195,12 +171,6 @@
     "name": "Pinterest",
     "link": "https://pinterest.com",
     "image": "/assets/media/icons/pinterest.webp",
-    "categories": ["all", "media"]
-  },
-  {
-    "name": "Pixlr",
-    "link": "https://pixlr.com/",
-    "image": "/assets/media/icons/pix.webp",
     "categories": ["all", "media"]
   },
   {
