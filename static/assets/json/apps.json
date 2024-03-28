@@ -11,19 +11,19 @@
     "image": "/assets/media/icons/buzzfeed.webp",
     "categories": ["all", "media"]
   },
-    {
+  {
     "name": "IDR Labs (Personality tests.)",
     "link": "https://idrlabs.com/",
     "image": "/assets/media/icons/IDR.png",
     "categories": ["all", "media"]
   },
-      {
+  {
     "name": "Reaction speed tester. 285 MS is avg.",
     "link": "https://humanbenchmark.com/tests/reactiontime",
     "image": "/assets/media/icons/light.avif",
     "categories": ["all", "media"]
   },
-        {
+  {
     "name": "Quizzes And Reaction speed tester",
     "link": "https://www.arealme.com/reaction-test/en/",
     "image": "/assets/media/icons/light.avif",
@@ -33,7 +33,7 @@
     "name": "Android",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.uncube.launcher3&partner=interstellar",
     "image": "/assets/media/icons/android.webp",
-    "categories": ["all", "emu", "android"],
+    "categories": ["all", "emu", "android"]
   },
   {
     "name": "Temu",
@@ -41,55 +41,55 @@
     "image": "/assets/media/icons/temu.webp",
     "categories": ["all"]
   },
-    {
+  {
     "name": "9Anime (WORKING FREE ANIME)",
     "link": "https://9animetv.to",
     "image": "/assets/media/icons/skull.png",
     "categories": ["all", "media", "stream"]
   },
-      {
+  {
     "name": "HDBest (NOW WORKING! FREE MOVIES!)",
-    "link": "hdbest.net",
+    "link": "https://hdbest.net",
     "image": "/assets/media/icons/skull.png",
     "categories": ["all", "media", "stream"]
   },
-    {
+  {
     "name": "XXiku (FREE MOVIES ALTERNATIVE)",
     "link": "https://movie.xxiku.com/",
     "image": "/assets/media/icons/skull.png",
     "categories": ["all", "media", "stream"]
   },
-      {
+  {
     "name": "Soap2Day (FREE MOVIES ALTERNATIVE)",
-    "link": "soap2dayhd.co",
+    "link": "https://soap2dayhd.co",
     "image": "/assets/media/icons/skull.png",
     "categories": ["all", "media", "stream"]
   },
-        {
+  {
     "name": "Youtube Alternative (N/)",
-    "link": "tokyvideo.com",
+    "link": "https://tokyvideo.com",
     "image": "/assets/media/icons/yt.png",
     "categories": ["all", "media", "stream"]
   },
-          {
+  {
     "name": "Fmovies (FREE MOVIES ALTERNATIVE) (Second Best one?)",
-    "link": "fmovies.fo",
+    "link": "https://fmovies.fo",
     "image": "/assets/media/icons/skull.png",
     "categories": ["all", "media", "stream"]
   },
-            {
+  {
     "name": "Fmovies v2 (FREE MOVIES ALTERNATIVE) (BEST ONE!?)",
     "link": "https://fmovieszfree.org",
     "image": "/assets/media/icons/skull.png",
     "categories": ["all", "media", "stream"]
   },
-              {
+  {
     "name": "Fmovies v2 (FREE MOVIES ALTERNATIVE)",
     "link": "https://fmovieszfree.org",
     "image": "/assets/media/icons/skull.png",
     "categories": ["all", "media", "stream"]
   },
-      {
+  {
     "name": "Hulu (Working)",
     "link": "https://hulu.com/",
     "image": "/assets/media/icons/hulu.webp",
@@ -99,13 +99,13 @@
     "name": "Character AI",
     "link": "https://now.gg/iframe/snippet?app_pkg=ai.character.app&partner=interstellar",
     "image": "/assets/media/icons/characterai.webp",
-    "categories": ["all", "emu", "android"],
+    "categories": ["all", "emu", "android"]
   },
   {
     "name": "Aptoide",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.aptoide.partners.nowgg.store&partner=interstellar",
     "image": "/assets/media/icons/aptoide.webp",
-    "categories": ["all", "emu", "android"],
+    "categories": ["all", "emu", "android"]
   },
   {
     "name": "Chess.com",
@@ -257,7 +257,7 @@
     "image": "/assets/media/icons/yt.webp",
     "categories": ["all", "social", "stream", "media"]
   },
-    {
+  {
     "name": "YouTube Music",
     "link": "https://music.youtube.com",
     "image": "/assets/media/icons/ytm.webp",
@@ -286,7 +286,7 @@
     "link": "https://canary.discord.com/login",
     "image": "/assets/media/icons/discord.webp",
     "categories": ["all", "social"],
-    "blank": "true"
+    "blank": true
   },
   {
     "name": "HD Today",
@@ -298,26 +298,26 @@
     "name": "Now.GG",
     "link": "https://now.gg",
     "image": "/assets/media/icons/now-gg.webp",
-    "categories": ["all", "emu", "android"],
+    "categories": ["all", "emu", "android"]
   },
   {
     "name": "Now.GG (NowGG.nl)",
     "link": "https://nowgg.nl",
     "image": "/assets/media/icons/astroid.webp",
-    "categories": ["all", "emu", "android"],
+    "categories": ["all", "emu", "android"]
   },
   {
     "name": "Now.GG (NowGG.me) [Working]",
     "link": "https://nowgg.me",
     "image": "/assets/media/icons/shuttle.webp",
-    "categories": ["all", "emu", "android"],
+    "categories": ["all", "emu", "android"]
   },
   {
     "name": "Amazon Luna",
     "link": "https://luna.amazon.com/",
     "image": "/assets/media/icons/amazon-luna.webp",
     "categories": ["all", "game", "cloud"],
-    "blank": "true"
+    "blank": true
   },
   {
     "name": "Google Gemini ",
