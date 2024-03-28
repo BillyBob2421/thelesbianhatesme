@@ -114,12 +114,6 @@
     "categories": ["all", "emu", "android"],
   },
   {
-    "name": "Scratch",
-    "link": "https://scratch.mit.edu",
-    "image": "/assets/media/icons/scratch.webp",
-    "categories": ["all", "social", "game", "media"]
-  },
-  {
     "name": "Chess.com",
     "link": "https://chess.com",
     "image": "/assets/media/icons/chess.webp",
