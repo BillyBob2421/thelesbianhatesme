@@ -1,17 +1,23 @@
 [
+    {
+    "name": "! Create Custom App",
+    "image": "/assets/media/icons/custom.webp",
+    "categories": ["all"],
+    "custom": "true"
+  },
   {
     "name": "! Request A Game/App (Fixed)",
     "link": "https://forms.gle/zJecjYZMQ2kTraSN9",
     "image": "/assets/media/icons/request.webp",
     "categories": ["all"]
+ {
+    "name": "Amazon Luna",
+    "link": "https://luna.amazon.com/",
+    "image": "/assets/media/icons/amazon-luna.webp",
+    "categories": ["all"],
+    "blank": "true"
   },
-    {
-    "name": "Tube Jumpers",
-    "link": "https://unblocked76.github.io/tube-jumpers/",
-    "image": "/assets/media/icons/tubejumpers.webp",
-    "categories": ["all", "2P"]
-  },
-    {
+  {
     "name": "Newgrounds",
     "link": "https://newgrounds.com/",
     "image": "/assets/media/icons/newgrounds.png",
@@ -156,6 +162,12 @@
     "categories": ["all"]
   },
   {
+    "name": "Buckshot Roulette",
+    "link": "https://buckshotroulette.online/game/v11/",
+    "image": "/assets/media/icons/buckshotroulette.webp",
+    "categories": ["all"]
+  },
+  {
     "name": "Starblast",
     "link": "https://starblast.io",
     "image": "/assets/media/icons/starblastio.webp",
@@ -164,12 +176,6 @@
   {
     "name": "CSGO Parkour",
     "link": "https://yandex.com/games/app/203069?flags={%22adv_sticky_banner_disabled%22:true}",
-    "image": "/assets/media/icons/csgoparkour.webp",
-    "categories": ["all"]
-  },
-    {
-    "name": "CSGO Parkour Alternative",
-    "link": "https://www.crazygames.com/game/surf",
     "image": "/assets/media/icons/csgoparkour.webp",
     "categories": ["all"]
   },
@@ -253,10 +259,15 @@
   },
   {
     "name": "Stickman Hook",
-    "link": "/y/stickman-hook/index.html",
+    "link": "/e/stickman-hook/index.html",
     "image": "/assets/media/icons/stickmanhook.webp",
-    "categories": ["all", "local"],
-    "local": "true"
+    "categories": ["all", "local"]
+  },
+  {
+    "name": "Tube Jumpers",
+    "link": "https://unblocked76.github.io/tube-jumpers/",
+    "image": "/assets/media/icons/tubejumpers.webp",
+    "categories": ["all", "2P"]
   },
   {
     "name": "Tunnel Rush",
@@ -338,10 +349,9 @@
   },
   {
     "name": "Jetpack Joyride",
-    "link": "/y/jetpack-joyride/index.html",
+    "link": "/e/jetpack-joyride/index.html",
     "image": "/assets/media/icons/jetpackjoyride.webp",
-    "categories": ["all", "local"],
-    "local": "true"
+    "categories": ["all", "local"]
   },
   {
     "name": "FeedVid",
@@ -553,46 +563,28 @@
     "image": "/assets/media/icons/FNAF2.webp",
     "categories": ["all"]
   },
-    {
-    "name": "FNAF 4",
-    "link": "fnaf44.vercel.app",
-    "image": "static/assets/media/icons/fn4.webp",
-    "categories": ["all"]
-  },
-      {
-    "name": "FNAF 4 Alternative",
-    "link": "https://run3.io/popgame/fnaf/fnaf4.html",
-    "image": "static/assets/media/icons/fn4.webp",
-    "categories": ["all"]
-  },
   {
     "name": "FNAF 3",
     "link": "https://sussygamedeveloper.github.io/fnaf3/",
     "image": "/assets/media/icons/FNAF3.webp",
     "categories": ["all"]
   },
-    {
-    "name": "FNAF 3 Alternative",
-    "link": "https://xlegends.github.io/fnaf3/",
-    "image": "/assets/media/icons/FNAF3.webp",
-    "categories": ["all"]
-  },
-      {
-    "name": "FNAF 3 Alternative Alternative",
-    "link": "https://awesomedog23.github.io/fnaf3/",
-    "image": "/assets/media/icons/FNAF3.webp",
-    "categories": ["all"]
-  },
-        {
-    "name": "FNAF Sisters Location",
-    "link": "https://jeremyhu134.github.io/Five-Nights-at-Sister-Location/",
-    "image": "/assets/media/icons/FNS.webp",
-    "categories": ["all"]
-  },
   {
     "name": "FNAF Web",
     "link": "https://wellsousaaa.github.io/Five-Nights-at-Freddys-Web/",
     "image": "/assets/media/icons/FNAFWeb.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "Riddle School 4",
+    "link": "https://riddle-school-4.game-files.crazygames.com/ruffle/riddleschool4.html",
+    "image": "/assets/media/icons/rs4.jpg",
+    "categories": ["all"]
+  },
+  {
+    "name": "Riddle School 5",
+    "link": "https://riddle-school-5.game-files.crazygames.com/ruffle/riddleschool5.html",
+    "image": "/assets/media/icons/rs5.avif",
     "categories": ["all"]
   },
   {
@@ -657,9 +649,9 @@
   },
   {
     "name": "Web Retro",
-    "link": "https://binbashbanana.github.io/webretro/",
+    "link": "/e/index.html",
     "image": "/assets/media/icons/webretro.webp",
-    "categories": ["all,", "emu"]
+    "categories": ["all,", "emu", "local"]
   },
   {
     "name": "Slope",
@@ -683,7 +675,7 @@
     "name": "1",
     "link": "/e/1/index.html",
     "image": "/assets/media/icons/1.webp",
-    "categories": ["all, local"]
+    "categories": ["all", "local"]
   },
   {
     "name": "1v1.LOL",
@@ -837,10 +829,9 @@
   },
   {
     "name": "Cluster Rush",
-    "link": "/y/Cluster-Rush/index.html",
+    "link": "/e/Cluster-Rush/index.html",
     "image": "/assets/media/icons/cluster-rush.webp",
-    "categories": ["all", "local"],
-    "local": "true"
+    "categories": ["all", "local"]
   },
   {
     "name": "Cookie Clicker",
@@ -870,7 +861,7 @@
     "name": "Doge Miner",
     "link": "/e/DogeMiner/index.html",
     "image": "/assets/media/icons/doge-miner-1.webp",
-    "categories": ["all"]
+    "categories": ["all", "local"]
   },
   {
     "name": "Doom 1",
@@ -900,8 +891,7 @@
     "name": "Drift Hunters",
     "link": "https://webglmath.github.io/drift-hunters/",
     "image": "/assets/media/icons/drift-hunters.webp",
-    "categories": ["all"],
-    "say": "This game may take a while to load, but it is working."
+    "categories": ["all"]
   },
   {
     "name": "Drive Mad",
@@ -916,14 +906,14 @@
     "categories": ["all"]
   },
   {
-    "name": "Friday Night Funkin'",
-    "link": "https://w8.snokido.com/games/html5/friday-night-funkin/0281/index.html",
-    "image": "/assets/media/icons/fnf.webp",
+    "name": "FNAF 2 (Scratch)",
+    "link": "https://scratch.mit.edu/projects/469219637/embed/",
+    "image": "/assets/media/icons/FNAF2.webp",
     "categories": ["all"]
   },
-    {
-    "name": "Friday Night Funkin Alternative'",
-    "link": "https://28klotlucas2.github.io/Funkin-Html5/",
+  {
+    "name": "Friday Night Funkin'",
+    "link": "https://w8.snokido.com/games/html5/friday-night-funkin/0281/index.html",
     "image": "/assets/media/icons/fnf.webp",
     "categories": ["all"]
   },
@@ -985,6 +975,12 @@
     "name": "GBA Games 2",
     "link": "https://cattn.github.io/gba/",
     "image": "/assets/media/icons/gba.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "Geforce NOW",
+    "link": "https://play.geforcenow.com",
+    "image": "/assets/media/icons/geforce-now.webp",
     "categories": ["all"]
   },
   {
@@ -1073,10 +1069,9 @@
   },
   {
     "name": "Monkey Mart",
-    "link": "/y/monkey-mart/index.html",
+    "link": "/e/monkey-mart/index.html",
     "image": "/assets/media/icons/mm.webp",
-    "categories": ["all", "local"],
-    "local": "true"
+    "categories": ["all", "local"]
   },
   {
     "name": "MooMoo.io",
@@ -1218,7 +1213,7 @@
   },
   {
     "name": "Pizza Tower",
-    "link": "https://gamaverse.com/c/f/g/pizza-tower-1678640389/index.html",
+    "link": "https://gamaverse.com/c/e/g/pizza-tower-1678640389/index.html",
     "image": "/assets/media/icons/pizza-tower.webp",
     "categories": ["all"]
   },
@@ -1343,6 +1338,12 @@
     "categories": ["all"]
   },
   {
+    "name": "Riddle School 3",
+    "link": "https://riddle-school-3.game-files.crazygames.com/ruffle/riddleschool3.html",
+    "image": "/assets/media/icons/rs3.webp",
+    "categories": ["all"]
+  },
+  {
     "name": "Rocket Pult",
     "link": "https://v6p9d9t4.ssl.hwcdn.net/html/565140/index.html",
     "image": "/assets/media/icons/rocketpult.webp",
@@ -1454,7 +1455,15 @@
     "name": "Taming.io",
     "link": "https://taming.io/",
     "image": "/assets/media/icons/tamingio.webp",
-    "categories": ["all"]
+    "categories": ["all"],
+    "error": "true",
+    "say": "Taming.io is currently broken on the proxy and will crash Interstellar when attempted to load."
+  },
+  {
+    "name": "Temple of Boom",
+    "link": "https://temple-of-boom.github.io/file/",
+    "image": "/assets/media/icons/templeofboom.jpg",
+    "categories": ["all", "2P"]
   },
   {
     "name": "Tanuki Sunset",
@@ -1480,48 +1489,6 @@
     "image": "/assets/media/icons/na.webp",
     "categories": ["all"]
   },
-   },
-  {
-  "name": "2048",
-  "link": "/e/2048/index.html",
-  "image": "/assets/media/icons/2048.png",
-  "categories": ["all", "local"]    
-  },
-  {
-    "name": "2048 Multitasking",
-    "link": "/e/2048-multitask/index.html",
-    "image": "/assets/media/icons/2048.png",
-    "categories": ["all", "local"]    
-  },
-  {
-    "name": "Vex 7",
-    "link": "/e/vex7/index.html",
-    "image": "/assets/media/icons/vex7.webp",
-    "categories": ["all", "local"]    
-  },
-  {
-    "name": "Vex 6",
-    "link": "/e/vex6/index.html",
-    "image": "/assets/media/icons/vex6.jpeg",
-    "categories": ["all", "local"]    
-  },
-  {
-    "name": "Vex 5",
-    "link": "/e/vex5/index.html",
-    "image": "/assets/media/icons/vex5.webp",
-    "categories": ["all", "local"]    
-  },
-  {
-    "name": "Vex 3",
-    "link": "/e/vex3/index.html",
-    "image": "/assets/media/icons/vex3.png",
-    "categories": ["all", "local"]    
-  },
-  {
-    "name": "Vex 4",
-    "link": "/e/vex4/index.html",
-    "image": "/assets/media/icons/vex4.png",
-    "categories": ["all", "local"]
   {
     "name": "Voxiom.io",
     "link": "https://voxiom.io/",
@@ -1548,154 +1515,153 @@
   },
   {
     "name": "Retro Bowl",
-    "link": "/y/retro/index.html",
+    "link": "/e/retro/index.html",
     "image": "/assets/media/icons/retro.webp",
-    "categories": ["all,", "sports", "local"],
-    "local": "true"
+    "categories": ["all,", "sports", "local"]
   },
   {
     "name": "Roblox (Now.GG)",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.roblox.client&partner=interstellar",
     "image": "/assets/media/icons/roblox.webp",
-    "categories": ["all", "emu", "android"],
-    "say": "Now.gg is currently not working.",
-    "error": true
+    "categories": ["all", "emu", "android"]
   },
   {
     "name": "Madden NFL 24",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.ea.gp.maddennfl21mobile&partner=interstellar",
     "image": "/assets/media/icons/maddennfl24.webp",
-    "categories": ["all", "emu", "android"],
-    "say": "Now.gg is currently not working.",
-    "error": true
+    "categories": ["all", "emu", "android"]
   },
   {
     "name": "Android",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.uncube.launcher3&partner=interstellar",
     "image": "/assets/media/icons/android.webp",
-    "categories": ["all", "emu", "android"],
-    "say": "Now.gg is currently not working.",
-    "error": true
+    "categories": ["all", "emu", "android"]
+  },
+  {
+    "name": "Genshin Impact",
+    "link": "https://now.gg/iframe/snippet?app_pkg=com.miHoYo.GenshinImpact&partner=interstellar",
+    "image": "/assets/media/icons/genshinimpact.webp",
+    "categories": ["all", "emu", "android"]
+  },
+  {
+    "name": "Fortnite (Android)",
+    "link": "https://now.gg/iframe/snippet?app_pkg=com.epicgames.fortnite&partner=interstellar",
+    "image": "/assets/media/icons/fortnite.webp",
+    "categories": ["all", "emu", "android"]
+  },
+  {
+    "name": "EA SPORTS FC™ MOBILE 24 SOCCER",
+    "link": "https://now.gg/iframe/snippet?app_pkg=com.ea.gp.fifamobile&partner=interstellar",
+    "image": "/assets/media/icons/easports-fcmobile24.webp",
+    "categories": ["all", "emu", "android"]
   },
   {
     "name": "EA SPORTS™ UFC® Mobile 2",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.ea.gp.easportsufc2&partner=interstellar",
     "image": "/assets/media/icons/easports-ufc.webp",
-    "categories": ["all", "emu", "android"],
-    "say": "Now.gg is currently not working.",
-    "error": true
+    "categories": ["all", "emu", "android"]
   },
   {
     "name": "Melon Playground",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.studio27.MelonPlayground&partner=interstellar",
     "image": "/assets/media/icons/melonplayground.webp",
-    "categories": ["all", "emu", "android"],
-    "say": "Now.gg is currently not working.",
-    "error": true
+    "categories": ["all", "emu", "android"]
   },
   {
     "name": "Solar Smash",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.paradyme.solarsmash&partner=interstellar",
     "image": "/assets/media/icons/solarsmash.webp",
-    "categories": ["all", "emu", "android"],
-    "say": "Now.gg is currently not working.",
-    "error": true
+    "categories": ["all", "emu", "android"]
   },
   {
     "name": "Bloons TD Battles 2",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.ninjakiwi.bloonstdbattles2&partner=interstellar",
     "image": "/assets/media/icons/bloonstd2.webp",
-    "categories": ["all", "emu", "android"],
-    "say": "Now.gg is currently not working.",
-    "error": true
+    "categories": ["all", "emu", "android"]
   },
   {
     "name": "Bloons TD Battles",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.ninjakiwi.bloonstdbattles&partner=interstellar",
     "image": "/assets/media/icons/bloonstd.webp",
-    "categories": ["all", "emu", "android"],
-    "say": "Now.gg is currently not working.",
-    "error": true
+    "categories": ["all", "emu", "android"]
   },
   {
     "name": "Cookie Run Kingdom",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.devsisters.ck&partner=interstellar",
     "image": "/assets/media/icons/cookierunkingdom.webp",
-    "categories": ["all", "emu", "android"],
-    "say": "Now.gg is currently not working.",
-    "error": true
+    "categories": ["all", "emu", "android"]
   },
   {
     "name": "Character AI",
     "link": "https://now.gg/iframe/snippet?app_pkg=ai.character.app&partner=interstellar",
     "image": "/assets/media/icons/characterai.webp",
-    "categories": ["all", "emu", "android"],
-    "say": "Now.gg is currently not working.",
-    "error": true
+    "categories": ["all", "emu", "android"]
+  },
+  {
+    "name": "Aptoide",
+    "link": "https://now.gg/iframe/snippet?app_pkg=com.aptoide.partners.nowgg.store&partner=interstellar",
+    "image": "/assets/media/icons/aptoide.webp",
+    "categories": ["all", "emu", "android"]
   },
   {
     "name": "Akinator",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.digidust.elokence.akinator.freemium&partner=interstellar",
     "image": "/assets/media/icons/akinator.webp",
-    "categories": ["all", "emu", "android"],
-    "say": "Now.gg is currently not working.",
-    "error": true
+    "categories": ["all", "emu", "android"]
   },
   {
     "name": "WorldBox",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.mkarpenko.worldbox&partner=interstellar",
     "image": "/assets/media/icons/worldbox.webp",
-    "categories": ["all", "emu", "android"],
-    "say": "Now.gg is currently not working.",
-    "error": true
+    "categories": ["all", "emu", "android"]
+  },
+  {
+    "name": "Toca Life World",
+    "link": "https://now.gg/iframe/snippet?app_pkg=com.tocaboca.tocalifeworld&partner=interstellar",
+    "image": "/assets/media/icons/tocalifeworld.webp",
+    "categories": ["all", "emu", "android"]
+  },
+  {
+    "name": "Toca Hair Salon 4",
+    "link": "https://now.gg/iframe/snippet?app_pkg=com.tocaboca.tocahairsalon4&partner=interstellar",
+    "image": "/assets/media/icons/tocabocahairsalon4.webp",
+    "categories": ["all", "emu", "android"]
+  },
+  {
+    "name": "Toca Kitchen 2",
+    "link": "https://now.gg/iframe/snippet?app_pkg=com.tocaboca.tocakitchen2&partner=interstellar",
+    "image": "/assets/media/icons/tocakitchen2.webp",
+    "categories": ["all", "emu", "android"]
   },
   {
     "name": "Free Fire",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.dts.freefireth&partner=interstellar",
     "image": "/assets/media/icons/freefire.webp",
-    "categories": ["all", "emu", "android"],
-    "say": "Now.gg is currently not working.",
-    "error": true
+    "categories": ["all", "emu", "android"]
+  },
+  {
+    "name": "Stumble Guys (Android)",
+    "link": "https://now.gg/iframe/snippet?app_pkg=com.kitkagames.fallbuddies&partner=interstellar",
+    "image": "/assets/media/icons/stumbleguys.webp",
+    "categories": ["all", "emu", "android"]
   },
   {
     "name": "Now.GG",
     "link": "https://now.gg",
     "image": "/assets/media/icons/now-gg.webp",
-    "categories": ["all", "emu", "android"],
-    "say": "Now.gg is currently not working.",
-    "error": true
-  },
-  {
-    "name": "Roblox (NowGG.nl)",
-    "link": "https://nowgg.nl/iframe/snippet?app_pkg=com.roblox.client&partner=interstellar",
-    "image": "/assets/media/icons/astroid.webp",
-    "categories": ["all", "emu", "android"],
-    "say": "Now.gg is currently not working.",
-    "error": true
+    "categories": ["all", "emu", "android"]
   },
   {
     "name": "Roblox (NowGG.me) [Working]",
     "link": "https://nowgg.me/apps/roblox-corporation/5349/roblox.html",
     "image": "/assets/media/icons/shuttle.webp",
-    "categories": ["all", "emu", "android"],
-    "say": "Now.gg is currently not working.",
-    "error": true
-  },
-  {
-    "name": "Now.GG (NowGG.nl)",
-    "link": "https://nowgg.nl",
-    "image": "/assets/media/icons/astroid.webp",
-    "categories": ["all", "emu", "android"],
-    "say": "Now.gg is currently not working.",
-    "error": true
+    "categories": ["all", "emu", "android"]
   },
   {
     "name": "Now.GG (NowGG.me) [Working]",
     "link": "https://nowgg.me",
     "image": "/assets/media/icons/shuttle.webp",
-    "categories": ["all", "emu", "android"],
-    "say": "Now.gg is currently not working.",
-    "error": true
+    "categories": ["all", "emu", "android"]
   },
   {
     "name": "Parappa the Rapper",
@@ -1759,17 +1725,15 @@
   },
   {
     "name": "Minecraft 1.5.2 (Eaglercraft)",
-    "link": "/f/ec-15/index.html",
+    "link": "/e/ec-15/index.html",
     "image": "/assets/media/icons/mc.webp",
-    "categories": ["all", "2P", "emu", "local"],
-    "local": "true"
+    "categories": ["all", "2P", "emu", "local"]
   },
   {
     "name": "Minecraft 1.8 (Eaglercraft)",
-    "link": "/f/ec-18/index.html",
+    "link": "/e/ec-18/index.html",
     "image": "/assets/media/icons/mc.webp",
-    "categories": ["all", "2P", "emu", "local"],
-    "local": "true"
+    "categories": ["all", "2P", "emu", "local"]
   },
   {
     "name": "Getaway S.",
@@ -1783,6 +1747,47 @@
     "image": "/assets/media/icons/mc.webp",
     "categories": ["all", "2P", "emu"],
     "blank": "true"
+  },
+  {
+    "name": "2048",
+    "link": "/e/2048/index.html",
+    "image": "/assets/media/icons/2048.png",
+    "categories": ["all", "local"]
+  },
+  {
+    "name": "2048 Multitasking",
+    "link": "/e/2048-multitask/index.html",
+    "image": "/assets/media/icons/2048.png",
+    "categories": ["all", "local"]
+  },
+  {
+    "name": "Vex 7",
+    "link": "/e/vex7/index.html",
+    "image": "/assets/media/icons/vex7.webp",
+    "categories": ["all", "local"]
+  },
+  {
+    "name": "Vex 6",
+    "link": "/e/vex6/index.html",
+    "image": "/assets/media/icons/vex6.jpeg",
+    "categories": ["all", "local"]
+  },
+  {
+    "name": "Vex 5",
+    "link": "/e/vex5/index.html",
+    "image": "/assets/media/icons/vex5.webp",
+    "categories": ["all", "local"]
+  },
+  {
+    "name": "Vex 3",
+    "link": "/e/vex3/index.html",
+    "image": "/assets/media/icons/vex3.png",
+    "categories": ["all", "local"]
+  },
+  {
+    "name": "Vex 4",
+    "link": "/e/vex4/index.html",
+    "image": "/assets/media/icons/vex4.png",
+    "categories": ["all", "local"]
   }
-
 ]
