@@ -9,7 +9,7 @@ try {
 if (!inFrame && !navigator.userAgent.includes('Firefox')) {
   const popup = open('about:blank', '_blank')
   if (!popup || popup.closed) {
-    alert('This is a safe site, I don't collect aany information on you, press ok.')
+    alert('Please allow popups and redirects.')
   } else {
     const doc = popup.document
     const iframe = doc.createElement('iframe')
@@ -32,7 +32,7 @@ if (!inFrame && !navigator.userAgent.includes('Firefox')) {
     doc.head.appendChild(link)
     doc.body.appendChild(iframe)
 
-    const pLink = localStorage.getItem(encodeURI('pLink')) || 'https://rock.vercel.app/'
+    const pLink = localStorage.getItem(encodeURI('pLink')) || 'https://rock.vercel.app'
     location.replace(pLink)
 
     const script = doc.createElement('script')
@@ -55,35 +55,17 @@ document.addEventListener('DOMContentLoaded', function (event) {
   }
 })
 
-window.addEventListener('visibilitychange', () => {
-  if (document.visibilityState === 'hidden') {
-    document.body.insertAdjacentHTML(
-      'beforeend',
-      `<iframe src="/a/hvtrs8%2F-gmoelg.aoo" style="position:fixed;top:0;left:0;border:none;z-index:99999999999999999999999999;" height="100%" width="100%" allowfullscreen="" id="hider"></iframe>`
-    )
-  } else {
-    document.querySelector('#hider')?.remove()
-  }
-})
-
-document.onkeydown = function (evt) {
-  evt = evt || window.event
-  if (evt.keyCode == 27) {
-    document.getElementById('is').blur()
-  }
-}
-
 let splashtext = [
-  'Over 7 Million Users in 2023!',
-  'Fastest growing proxy server!',
-  'Made by someone you know.!',
-  'dont leak this. :)',
+  'Over 5 Users since 2023',
+  'Fastest growing proxy server',
+  'Made by babies',
+  'Check out discord.gg/BBAYABAYBBAYABYA :)',
   'Thanks for using the site',
-  'respect us)',
-  'dont do anything bad, because I know.',
-  'stoop',
-  'Check out the settings page',
-  'im here',
+  'thanks',
+  'everything is annoying',
+  'this state is annoying',
+  'ur annoying',
+  'u suck)',
 ]
 
 document.getElementById('splash').innerText = splashtext[Math.floor(Math.random() * splashtext.length)]
