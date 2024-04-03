@@ -133,6 +133,18 @@
     "image": "/assets/media/icons/hbo.webp",
     "categories": ["all", "stream"]
   },
+    {
+    "name": "GoMovies (Best)",
+    "link": "gomovies123.fi/",
+    "image": "/assets/media/icons/freemovieswatch.webp",
+    "categories": ["all", "stream"]
+  },
+      {
+    "name": "Anime (Best)",
+    "link": "https://animevibe.ru/",
+    "image": "/assets/media/icons/freemovieswatch.webp",
+    "categories": ["all", "stream"]
+  },
   {
     "name": "Messenger",
     "link": "https://messenger.com/",
@@ -176,6 +188,12 @@
     "categories": ["all", "media"],
     "say": "Spotify is currently not working on the proxy.",
     "error": true
+  },
+    {
+    "name": "Youtube Music",
+    "link": "https://music.youtube.com",
+    "image": "/assets/media/icons/ytm.webp",
+    "categories": ["all", "media"],
   },
   {
     "name": "Telegram",
