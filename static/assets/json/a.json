@@ -1,5 +1,11 @@
 [
   {
+    "name": "! Create Custom App",
+    "image": "/assets/media/icons/custom.webp",
+    "categories": ["all"],
+    "custom": "true"
+  },
+  {
     "name": "Amazon",
     "link": "https://amazon.com/",
     "image": "/assets/media/icons/amazon.webp",
@@ -12,28 +18,18 @@
     "categories": ["all", "media"]
   },
   {
-    "name": "IDR Labs (Personality tests.)",
-    "link": "https://idrlabs.com/",
-    "image": "/assets/media/icons/IDR.png",
-    "categories": ["all", "media"]
-  },
-  {
-    "name": "Reaction speed tester. 285 MS is avg.",
-    "link": "https://humanbenchmark.com/tests/reactiontime",
-    "image": "/assets/media/icons/light.avif",
-    "categories": ["all", "media"]
-  },
-  {
-    "name": "Quizzes And Reaction speed tester",
-    "link": "https://www.arealme.com/reaction-test/en/",
-    "image": "/assets/media/icons/light.avif",
-    "categories": ["all", "media"]
+    "name": "Guilded",
+    "link": "https://guilded.gg",
+    "image": "/assets/media/icons/guilded.png",
+    "categories": ["all", "social"]
   },
   {
     "name": "Android",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.uncube.launcher3&partner=interstellar",
     "image": "/assets/media/icons/android.webp",
-    "categories": ["all", "emu", "android"]
+    "categories": ["all", "emu", "android"],
+    "say": "Now.gg is currently not working.",
+    "error": true
   },
   {
     "name": "Temu",
@@ -42,64 +38,28 @@
     "categories": ["all"]
   },
   {
-    "name": "9Anime (WORKING FREE ANIME)",
-    "link": "https://9animetv.to",
-    "image": "/assets/media/icons/skull.png",
-    "categories": ["all", "media", "stream"]
-  },
-  {
-    "name": "HDBest (NOW WORKING! FREE MOVIES!)",
-    "link": "https://hdbest.net",
-    "image": "/assets/media/icons/skull.png",
-    "categories": ["all", "media", "stream"]
-  },
-  {
-    "name": "XXiku (FREE MOVIES ALTERNATIVE)",
-    "link": "https://movie.xxiku.com/",
-    "image": "/assets/media/icons/skull.png",
-    "categories": ["all", "media", "stream"]
-  },
-  {
-    "name": "Soap2Day (FREE MOVIES ALTERNATIVE)",
-    "link": "https://soap2dayhd.co",
-    "image": "/assets/media/icons/skull.png",
-    "categories": ["all", "media", "stream"]
-  },
-  {
-    "name": "Youtube Alternative (N/)",
-    "link": "https://tokyvideo.com",
-    "image": "/assets/media/icons/yt.png",
-    "categories": ["all", "media", "stream"]
-  },
-  {
-    "name": "Fmovies (FREE MOVIES ALTERNATIVE) (Second Best one?)",
-    "link": "https://fmovies.fo",
-    "image": "/assets/media/icons/skull.png",
-    "categories": ["all", "media", "stream"]
-  },
-  {
-    "name": "Fmovies v2 (FREE MOVIES ALTERNATIVE) (BEST ONE!?)",
-    "link": "https://fmovieszfree.org",
-    "image": "/assets/media/icons/skull.png",
-    "categories": ["all", "media", "stream"]
-  },
-  {
-    "name": "Fmovies v2 (FREE MOVIES ALTERNATIVE)",
-    "link": "https://fmovieszfree.org",
-    "image": "/assets/media/icons/skull.png",
-    "categories": ["all", "media", "stream"]
-  },
-  {
-    "name": "Hulu (Working)",
-    "link": "https://hulu.com/",
-    "image": "/assets/media/icons/hulu.webp",
-    "categories": ["all", "media", "stream"]
-  },
-  {
     "name": "Character AI",
     "link": "https://now.gg/iframe/snippet?app_pkg=ai.character.app&partner=interstellar",
     "image": "/assets/media/icons/characterai.webp",
     "categories": ["all", "emu", "android"]
+  },
+  {
+    "name": "Aptoide",
+    "link": "https://now.gg/iframe/snippet?app_pkg=com.aptoide.partners.nowgg.store&partner=interstellar",
+    "image": "/assets/media/icons/aptoide.webp",
+    "categories": ["all", "emu", "android"]
+  },
+  {
+    "name": "Movie Web",
+    "link": "https://movie-web.app",
+    "image": "/assets/media/icons/movie-web.webp",
+    "categories": ["all", "media", "stream"]
+  },
+  {
+    "name": "Scratch",
+    "link": "https://scratch.mit.edu",
+    "image": "/assets/media/icons/scratch.webp",
+    "categories": ["all", "social", "game", "media"]
   },
   {
     "name": "Chess.com",
@@ -138,6 +98,18 @@
     "categories": ["all", "media"]
   },
   {
+    "name": "Firefox Web Browser",
+    "link": "https://replit.com/@cooleddie001/Firefox-Legacy?v=1",
+    "image": "/assets/media/icons/firefox.webp",
+    "categories": ["all", "media"]
+  },
+  {
+    "name": "Flix HQ",
+    "link": "https://flixhq.to",
+    "image": "/assets/media/icons/flixhq.webp",
+    "categories": ["all", "media"]
+  },
+  {
     "name": "Geforce NOW",
     "link": "https://play.geforcenow.com",
     "image": "/assets/media/icons/geforce-now.webp",
@@ -162,6 +134,12 @@
     "categories": ["all", "stream"]
   },
   {
+    "name": "Messenger",
+    "link": "https://messenger.com/",
+    "image": "/assets/media/icons/messenger.webp",
+    "categories": ["all", "social", "message"]
+  },
+  {
     "name": "Paramount Plus",
     "link": "https://paramountplus.com",
     "image": "/assets/media/icons/paramount.webp",
@@ -171,6 +149,12 @@
     "name": "Pinterest",
     "link": "https://pinterest.com",
     "image": "/assets/media/icons/pinterest.webp",
+    "categories": ["all", "media"]
+  },
+  {
+    "name": "Pixlr",
+    "link": "https://pixlr.com/",
+    "image": "/assets/media/icons/pix.webp",
     "categories": ["all", "media"]
   },
   {
@@ -184,6 +168,20 @@
     "link": "https://soundcloud.com",
     "image": "/assets/media/icons/soundcloud.webp",
     "categories": ["all", "media"]
+  },
+  {
+    "name": "Spotify",
+    "link": "https://open.spotify.com",
+    "image": "/assets/media/icons/spotify.webp",
+    "categories": ["all", "media"],
+    "say": "Spotify is currently not working on the proxy.",
+    "error": true
+  },
+  {
+    "name": "Telegram",
+    "link": "https://web.telegram.org/",
+    "image": "/assets/media/icons/telegram.webp",
+    "categories": ["all", "social"]
   },
   {
     "name": "Tiktok",
@@ -225,12 +223,14 @@
     "name": "YouTube",
     "link": "https://youtube.com",
     "image": "/assets/media/icons/yt.webp",
-    "categories": ["all", "social", "stream", "media"]
+    "categories": ["all", "social", "stream", "media"],
+    "error": true, 
+    "say": "YouTube is currently not working."    
   },
   {
-    "name": "YouTube Music",
-    "link": "https://music.youtube.com",
-    "image": "/assets/media/icons/ytm.webp",
+    "name": "Invidous (YouTube)",
+    "link": "https://vid.puffyan.us/",
+    "image": "/assets/media/icons/iv.png",
     "categories": ["all", "social", "stream", "media"]
   },
   {
@@ -256,7 +256,7 @@
     "link": "https://canary.discord.com/login",
     "image": "/assets/media/icons/discord.webp",
     "categories": ["all", "social"],
-    "blank": true
+    "blank": "true"
   },
   {
     "name": "HD Today",
@@ -271,23 +271,23 @@
     "categories": ["all", "emu", "android"]
   },
   {
-    "name": "Now.GG (NowGG.nl)",
-    "link": "https://nowgg.nl",
-    "image": "/assets/media/icons/astroid.webp",
-    "categories": ["all", "emu", "android"]
-  },
-  {
     "name": "Now.GG (NowGG.me) [Working]",
     "link": "https://nowgg.me",
     "image": "/assets/media/icons/shuttle.webp",
     "categories": ["all", "emu", "android"]
   },
   {
+    "name": "Vercel",
+    "link": "https://vercel.com",
+    "image": "/assets/media/icons/vercel.png",
+    "categories": ["all", "tool"]
+  },
+  {
     "name": "Amazon Luna",
     "link": "https://luna.amazon.com/",
     "image": "/assets/media/icons/amazon-luna.webp",
     "categories": ["all", "game", "cloud"],
-    "blank": true
+    "blank": "true"
   },
   {
     "name": "Google Gemini ",
