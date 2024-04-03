@@ -1,22 +1,4 @@
 [
-    {
-    "name": "! Create Custom App",
-    "image": "/assets/media/icons/custom.webp",
-    "categories": ["all"],
-    "custom": "true"
-  },
-  {
-    "name": "! Request A Game/App (Fixed)",
-    "link": "https://forms.gle/zJecjYZMQ2kTraSN9",
-    "image": "/assets/media/icons/request.webp",
-    "categories": ["all"]
- {
-    "name": "Amazon Luna",
-    "link": "https://luna.amazon.com/",
-    "image": "/assets/media/icons/amazon-luna.webp",
-    "categories": ["all"],
-    "blank": "true"
-  },
   {
     "name": "Newgrounds",
     "link": "https://newgrounds.com/",
