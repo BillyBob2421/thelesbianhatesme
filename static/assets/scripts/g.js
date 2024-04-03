@@ -1,18 +1,166 @@
-document.addEventListener('DOMContentLoaded', () => {
-  fetch('/assets/json/g.min.json')
-    .then((response) => response.json())
-    .then((appsList) => {
-      appsList.sort((a, b) => a.name.localeCompare(b.name))
+let appInd
 
+function saveToLocal(path) {
+  sessionStorage.setItem('GoUrl', path)
+}
+
+function handleClick(app) {
+  if (typeof app.say !== 'undefined') {
+    alert(app.say)
+  }
+
+  if (app.local) {
+    saveToLocal(app.link)
+    window.location.href = '1'
+  } else if (app.local2) {
+    saveToLocal(app.link)
+    window.location.href = app.link
+  } else if (app.blank) {
+    blank(app.link)
+  } else if (app.now) {
+    now(app.link)
+  } else if (app.custom) {
+    Custom(app)
+  } else {
+    go(app.link)
+  }
+
+  return false
+}
+
+function CustomApp(customApp) {
+  let apps = localStorage.getItem('Gcustom')
+
+  if (apps === null) {
+    apps = {}
+  } else {
+    apps = JSON.parse(apps)
+  }
+
+  const key = 'custom' + (Object.keys(apps).length + 1)
+
+  apps[key] = customApp
+
+  localStorage.setItem('Gcustom', JSON.stringify(apps))
+}
+
+function setPin(index) {
+  let pins = localStorage.getItem('Gpinned')
+  if (pins == null) {
+    pins = []
+  }
+  if (pins == '') {
+    pins = []
+  } else {
+    pins = pins.split(',').map(Number)
+  }
+  if (pinContains(index, pins)) {
+    let remove = pins.indexOf(index)
+    pins.splice(remove, 1)
+  } else {
+    pins.push(index)
+  }
+  localStorage.setItem('Gpinned', pins)
+  location.reload()
+}
+
+function pinContains(i, p) {
+  if (p == '') {
+    return false
+  }
+  for (var x = 0; x < p.length; x++) {
+    if (p[x] === i) {
+      return true
+    }
+  }
+  return false
+}
+
+function Custom(app) {
+  const title = prompt('Enter title for the app:')
+  const link = prompt('Enter link for the app:')
+  if (title && link) {
+    const customApp = {
+      name: '[Custom] ' + title,
+      link: link,
+      image: '/assets/media/icons/custom.webp',
+      custom: false,
+    }
+
+    CustomApp(customApp)
+    initializeCustomApp(customApp)
+  }
+}
+
+function initializeCustomApp(customApp) {
+  const columnDiv = document.createElement('div')
+  columnDiv.classList.add('column')
+  columnDiv.setAttribute('data-category', 'all')
+
+  const pinIcon = document.createElement('i')
+  pinIcon.classList.add('fa', 'fa-map-pin')
+  pinIcon.ariaHidden = true
+
+  const btn = document.createElement('button')
+  btn.appendChild(pinIcon)
+  btn.style.float = 'right'
+  btn.style.backgroundColor = 'rgb(45,45,45)'
+  btn.style.borderRadius = '50%'
+  btn.style.borderColor = 'transparent'
+  btn.style.color = 'white'
+  btn.style.top = '-200px'
+  btn.style.position = 'relative'
+  btn.onclick = function () {
+    setPin(appInd)
+  }
+  btn.title = 'Pin'
+
+  const linkElem = document.createElement('a')
+  linkElem.onclick = function () {
+    handleClick(customApp)
+  }
+
+  const image = document.createElement('img')
+  image.width = 145
+  image.height = 145
+  image.src = customApp.image
+  image.loading = 'lazy'
+
+  const paragraph = document.createElement('p')
+  paragraph.textContent = customApp.name
+
+  linkElem.appendChild(image)
+  linkElem.appendChild(paragraph)
+  columnDiv.appendChild(linkElem)
+  columnDiv.appendChild(btn)
+
+  const nonPinnedApps = document.querySelector('.container-apps')
+  nonPinnedApps.insertBefore(columnDiv, nonPinnedApps.firstChild)
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const storedApps = JSON.parse(localStorage.getItem('Gcustom'))
+  if (storedApps) {
+    Object.values(storedApps).forEach((app) => {
+      initializeCustomApp(app)
+    })
+  }
+
+  fetch('/assets/json/g.min.json')
+    .then((response) => {
+      return response.json()
+    })
+    .then((appsList) => {
+      appsList.sort((a, b) => {
+        if (a.name.startsWith('[Custom]')) return -1
+        if (b.name.startsWith('[Custom]')) return 1
+        return a.name.localeCompare(b.name)
+      })
       const nonPinnedApps = document.querySelector('.container-apps')
       const pinnedApps = document.querySelector('.pinned-apps')
-
-      var pinList = localStorage.getItem('pinnedGames')
-      try {
-        pinList = pinList.split(',').map(Number)
-      } catch {}
-
-      var appInd = 0
+      var pinList = localStorage.getItem('Gpinned') || ''
+      pinList = pinList ? pinList.split(',').map(Number) : []
+      appInd = 0
       appsList.forEach((app) => {
         const isLocal = app.categories.includes('local')
 
@@ -46,32 +194,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const link = document.createElement('a')
 
-        function saveToLocal(path) {
-          sessionStorage.setItem('GoUrl', path)
-        }
-
-        function handleClick(app) {
-          if (typeof app.say !== 'undefined') {
-            alert(app.say)
-          }
-
-          if (app.local) {
-            saveToLocal(app.link)
-            window.location.href = '1'
-          } else if (app.local2) {
-            saveToLocal(app.link)
-            window.location.href = app.link
-          } else if (app.blank) {
-            blank(app.link)
-          } else if (app.now) {
-            now(app.link)
-          } else {
-            go(app.link)
-          }
-
-          return false
-        }
-
         link.onclick = function () {
           handleClick(app)
         }
@@ -84,6 +206,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const paragraph = document.createElement('p')
         paragraph.textContent = app.name
+
         if (app.error) {
           paragraph.style.color = 'red'
         }
@@ -116,38 +239,6 @@ document.addEventListener('DOMContentLoaded', () => {
       console.error('Error fetching JSON data:', error)
     })
 })
-
-function setPin(index) {
-  let pins = localStorage.getItem('pinnedGames')
-  if (pins == null) {
-    pins = []
-  }
-  if (pins == '') {
-    pins = []
-  } else {
-    pins = pins.split(',').map(Number)
-  }
-  if (pinContains(index, pins)) {
-    let remove = pins.indexOf(index)
-    pins.splice(remove, 1)
-  } else {
-    pins.push(index)
-  }
-  localStorage.setItem('pinnedGames', pins)
-  location.reload()
-}
-
-function pinContains(i, p) {
-  if (p == '') {
-    return false
-  }
-  for (var x = 0; x < p.length; x++) {
-    if (p[x] === i) {
-      return true
-    }
-  }
-  return false
-}
 
 function show_category() {
   var selectedCategories = Array.from(document.querySelectorAll('#category option:checked')).map(
