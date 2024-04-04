@@ -140,6 +140,12 @@
     "categories": ["all", "stream"]
   },
       {
+    "name": "Fmovies (Best)",
+    "link": "https://ww4.fmovies.co/home/",
+    "image": "/assets/media/icons/freemovieswatch.webp",
+    "categories": ["all", "stream"]
+  },
+      {
     "name": "Anime (Best)",
     "link": "https://animevibe.ru/",
     "image": "/assets/media/icons/freemovieswatch.webp",
