@@ -304,7 +304,7 @@
     "name": "Amazon Luna",
     "link": "https://luna.amazon.com/",
     "image": "/assets/media/icons/amazon-luna.webp",
-    "categories": ["all", "game", "cloud"],
+    "categories": ["all", "game", "cloud"]
     "blank": "true"
   },
   {
