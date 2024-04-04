@@ -241,9 +241,7 @@
     "name": "YouTube",
     "link": "https://youtube.com",
     "image": "/assets/media/icons/yt.webp",
-    "categories": ["all", "social", "stream", "media"],
-    "error": true, 
-    "say": "YouTube is currently not working."    
+    "categories": ["all", "social", "stream", "media"]
   },
   {
     "name": "Invidous (YouTube)",
