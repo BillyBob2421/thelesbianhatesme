@@ -134,6 +134,12 @@
     "categories": ["all", "stream"]
   },
     {
+    "name": "Systems 01 (CLOUD DESKTOP!) (COMMUNICATE WITH PEOPLE AROUND THE WORLD!)",
+    "link": "https://systems01.com/",
+    "image": "/assets/media/icons/sys.png",
+    "categories": ["all", "stream", "media"]
+  },
+    {
     "name": "GoMovies (Best)",
     "link": "gomovies123.fi/",
     "image": "/assets/media/icons/freemovieswatch.webp",
