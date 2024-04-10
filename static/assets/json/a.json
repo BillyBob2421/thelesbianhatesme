@@ -17,6 +17,12 @@
     "image": "/assets/media/icons/buzzfeed.webp",
     "categories": ["all", "media"]
   },
+    {
+    "name": "Now.GG (NowGG.me) [Working]",
+    "link": "https://nowgg.me",
+    "image": "/assets/media/icons/shuttle.webp",
+    "categories": ["all", "emu", "android"]
+  },
   {
     "name": "Guilded",
     "link": "https://guilded.gg",
@@ -256,8 +262,8 @@
     "categories": ["all", "social", "stream", "media"]
   },
   {
-    "name": "Invidous (YouTube)",
-    "link": "https://vid.puffyan.us/",
+    "name": "Peertube (Alternative youtube)",
+    "link": "https://peertube.dsmouse.net/",
     "image": "/assets/media/icons/iv.png",
     "categories": ["all", "social", "stream", "media"]
   },
@@ -287,21 +293,9 @@
     "blank": "true"
   },
   {
-    "name": "HD Today",
-    "link": "https://hdtoday.tv",
-    "image": "/assets/media/icons/hd.webp",
-    "categories": ["all", "media", "stream"]
-  },
-  {
     "name": "Now.GG",
     "link": "https://now.gg",
     "image": "/assets/media/icons/now-gg.webp",
-    "categories": ["all", "emu", "android"]
-  },
-  {
-    "name": "Now.GG (NowGG.me) [Working]",
-    "link": "https://nowgg.me",
-    "image": "/assets/media/icons/shuttle.webp",
     "categories": ["all", "emu", "android"]
   },
   {
