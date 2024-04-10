@@ -32,7 +32,7 @@ if (!inFrame && !navigator.userAgent.includes('Firefox')) {
     doc.head.appendChild(link)
     doc.body.appendChild(iframe)
 
-    const pLink = localStorage.getItem(encodeURI('pLink')) || 'https://rock.vercel.app'
+    const pLink = localStorage.getItem(encodeURI('pLink')) || 'https://biggie.vercel.app/', || 'https://ab-audio-player.vercel.app/'
     location.replace(pLink)
 
     const script = doc.createElement('script')
@@ -56,16 +56,16 @@ document.addEventListener('DOMContentLoaded', function (event) {
 })
 
 let splashtext = [
-  'Over 5 Users since 2023',
-  'Fastest growing proxy server',
-  'Made by babies',
-  'Check out discord.gg/BBAYABAYBBAYABYA :)',
+  'Over 8 Million Users since 2023',
+  'Fastest growing proooxi server',
+  'Made by babies friend',
+  'Check out discord.gg/babaya :)',
   'Thanks for using the site',
-  'thanks',
-  'everything is annoying',
-  'this state is annoying',
-  'ur annoying',
-  'u suck)',
+  'Follow us on Tiktok (@NOOO)',
+  'Subscribe to us on YouTube (@baby)',
+  'Subscribe to my Youtube (@xoxo)',
+  'Check out the settings page',
+  'Check out our Patreon (https://www.patreon.com/babyshark)',
 ]
 
 document.getElementById('splash').innerText = splashtext[Math.floor(Math.random() * splashtext.length)]
