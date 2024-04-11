@@ -152,6 +152,12 @@
     "categories": ["all", "stream"]
   },
       {
+    "name": "123Movies (Best)",
+    "link": "https://ww16.0123movie.net",
+    "image": "/assets/media/icons/freemovieswatch.webp",
+    "categories": ["all", "stream"]
+  },
+      {
     "name": "Fmovies (Best)",
     "link": "https://ww4.fmovies.co/home/",
     "image": "/assets/media/icons/freemovieswatch.webp",
