@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   letter-spacing: 0px;
+  overflow-x: hidden;
 }
 
 .settings-container {
@@ -157,14 +158,12 @@ select {
   outline: none;
 }
 
-
-
 @media screen and (max-width: 768px) {
   .settings-container {
-    padding: 25% 20px 20px 20px; 
+    padding: 25% 20px 20px 20px;
   }
   .settings-card {
-    width: 100%; 
+    width: 100%;
     max-width: 400px;
   }
 
@@ -174,26 +173,25 @@ select {
 
   input,
   .key-form {
-    width: 90%; 
+    width: 90%;
   }
 
   button,
   .key-button {
-    width: 100%; 
+    width: 100%;
     max-width: 200px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .settings-container {
-    padding-top: 35%; 
+    padding-top: 35%;
   }
 }
 
-
 @media screen and (min-width: 1000px) {
   .settings-container {
-    padding-top: 10%; 
+    padding-top: 10%;
   }
 }
 
