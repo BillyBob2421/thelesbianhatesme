@@ -176,7 +176,7 @@ let splashtext = [
   'You abandoned me, I don't live here any more.',
   'He is a worker and I am a boss',
   'If you did not gain authorization for this website, watch your back.',
-  'Updated stuff',
+  'Updated stuff'
 ]
 
 document.getElementById('splash').innerText = splashtext[Math.floor(Math.random() * splashtext.length)]
