@@ -168,15 +168,9 @@ let splashtext = [
   'Look me in my eyes, this alll for fun',
   'Yeah that boy he wanna be me yeah I see him he my son',
   'OD CRASHIN ',
-  'It's the bullets inn my jumpsuit too',
-  'I cant wait to let it hit',
   'Idk why he did zamari like we don't know where he stay 🤷',
-  'I don't care',
-  'I'm trying my best to defend you and your info from being collected to int,erstellar servers, but still don't do anything bad.',
-  'You abandoned me, I don't live here any more.',
-  'He is a worker and I am a boss',
+  'I'm trying my best to defend you and your info from being collected to stellar servers, but still don't do anything bad.',
   'If you did not gain authorization for this website, watch your back.',
-  'Updated stuff'
 ]
 
 document.getElementById('splash').innerText = splashtext[Math.floor(Math.random() * splashtext.length)]
