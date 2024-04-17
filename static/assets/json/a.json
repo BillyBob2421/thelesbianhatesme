@@ -97,6 +97,12 @@
     "image": "/assets/media/icons/espn.webp",
     "categories": ["all", "media"]
   },
+    {
+    "name": "Music IDK",
+    "link": "  https://audia.vercel.app/",
+    "image": "/assets/media/icons/firefox.webp",
+    "categories": ["all", "media"]
+  },
   {
     "name": "Fifa Rosters",
     "link": "https://fifarosters.com/",
