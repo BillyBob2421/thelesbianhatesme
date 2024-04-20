@@ -11,13 +11,6 @@
     "image": "/assets/media/icons/request.webp",
     "categories": ["all"]
   },
-  {
-    "name": "Amazon Luna",
-    "link": "https://luna.amazon.com/",
-    "image": "/assets/media/icons/amazon-luna.webp",
-    "categories": ["all"],
-    "blank": "true"
-  },
     {
     "name": "Wrassling",
     "link": "https://poki.com/en/g/wrassling",
@@ -280,6 +273,18 @@
     "name": "Tube Jumpers",
     "link": "https://unblocked76.github.io/tube-jumpers/",
     "image": "/assets/media/icons/tubejumpers.webp",
+    "categories": ["all", "2Player"]
+  },
+    {
+    "name": "Thumb fighters",
+    "link": "https://poki.com/en/g/thumb-fighter-christmas",
+    "image": "/assets/media/icons/TF.png",
+    "categories": ["all", "2Player"]
+  },
+      {
+    "name": "Tumble Wrestling",
+    "link": "https://poki.com/en/g/tumble-wrestling",
+    "image": "/assets/media/icons/TW.png",
     "categories": ["all", "2Player"]
   },
   {
@@ -1317,16 +1322,16 @@
     "categories": ["all"]
   },
   {
-    "name": "Rocket Pult",
-    "link": "https://v6p9d9t4.ssl.hwcdn.net/html/565140/index.html",
-    "image": "/assets/media/icons/rocketpult.webp",
-    "categories": ["all"]
-  },
-  {
     "name": "Rooftop Snipers",
-    "link": "https://html5.gamedistribution.com/rvvASMiM/c3a70ae98547407a92ebedca8b79fdfa/index.html",
+    "link": "https://poki.com/en/g/rooftop-snipers",
     "image": "/assets/media/icons/rooftop.webp",
-    "categories": ["all"]
+    "categories": ["all", "2Player]
+  },
+    {
+    "name": "Rooftop Snipers Alternative",
+    "link": "https://rooftop-snipers.github.io/",
+    "image": "/assets/media/icons/rooftop.webp",
+    "categories": ["all", "2Player"]
   },
   {
     "name": "Sand Spiel",
@@ -1380,18 +1385,6 @@
     "name": "Space Plan",
     "link": "https://jhollands.co.uk/spaceplan/",
     "image": "/assets/media/icons/spaceplan.webp",
-    "categories": ["all"]
-  },
-  {
-    "name": "Stumble Guys",
-    "link": "https://www.stumbleguys.com/play",
-    "image": "/assets/media/icons/stumble-guys.webp",
-    "categories": ["all"]
-  },
-  {
-    "name": "Stumble Guys Clone",
-    "link": "https://stumble-guys.io/stumble-guys.embed",
-    "image": "/assets/media/icons/stumble-guys.webp",
     "categories": ["all"]
   },
   {
@@ -1505,36 +1498,6 @@
     "categories": ["all", "emu", "android"]
   },
   {
-    "name": "Android",
-    "link": "https://now.gg/iframe/snippet?app_pkg=com.uncube.launcher3&partner=interstellar",
-    "image": "/assets/media/icons/android.webp",
-    "categories": ["all", "emu", "android"]
-  },
-  {
-    "name": "Genshin Impact",
-    "link": "https://now.gg/iframe/snippet?app_pkg=com.miHoYo.GenshinImpact&partner=interstellar",
-    "image": "/assets/media/icons/genshinimpact.webp",
-    "categories": ["all", "emu", "android"]
-  },
-  {
-    "name": "Fortnite (Now.GG)",
-    "link": "https://now.gg/iframe/snippet?app_pkg=com.epicgames.fortnite&partner=interstellar",
-    "image": "/assets/media/icons/fortnite.webp",
-    "categories": ["all", "emu", "android"]
-  },
-  {
-    "name": "EA SPORTS FC™ MOBILE 24 SOCCER",
-    "link": "https://now.gg/iframe/snippet?app_pkg=com.ea.gp.fifamobile&partner=interstellar",
-    "image": "/assets/media/icons/easports-fcmobile24.webp",
-    "categories": ["all", "emu", "android"]
-  },
-  {
-    "name": "EA SPORTS™ UFC® Mobile 2",
-    "link": "https://now.gg/iframe/snippet?app_pkg=com.ea.gp.easportsufc2&partner=interstellar",
-    "image": "/assets/media/icons/easports-ufc.webp",
-    "categories": ["all", "emu", "android"]
-  },
-  {
     "name": "Melon Playground",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.studio27.MelonPlayground&partner=interstellar",
     "image": "/assets/media/icons/melonplayground.webp",
@@ -1565,20 +1528,8 @@
     "categories": ["all", "emu", "android"]
   },
   {
-    "name": "Character AI",
-    "link": "https://now.gg/iframe/snippet?app_pkg=ai.character.app&partner=interstellar",
-    "image": "/assets/media/icons/characterai.webp",
-    "categories": ["all", "emu", "android"]
-  },
-  {
-    "name": "Aptoide",
-    "link": "https://now.gg/iframe/snippet?app_pkg=com.aptoide.partners.nowgg.store&partner=interstellar",
-    "image": "/assets/media/icons/aptoide.webp",
-    "categories": ["all", "emu", "android"]
-  },
-  {
     "name": "Akinator",
-    "link": "https://now.gg/iframe/snippet?app_pkg=com.digidust.elokence.akinator.freemium&partner=interstellar",
+    "link": "https://en.akinator.com/theme_selection",
     "image": "/assets/media/icons/akinator.webp",
     "categories": ["all", "emu", "android"]
   },
@@ -1586,24 +1537,6 @@
     "name": "WorldBox",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.mkarpenko.worldbox&partner=interstellar",
     "image": "/assets/media/icons/worldbox.webp",
-    "categories": ["all", "emu", "android"]
-  },
-  {
-    "name": "Toca Life World",
-    "link": "https://now.gg/iframe/snippet?app_pkg=com.tocaboca.tocalifeworld&partner=interstellar",
-    "image": "/assets/media/icons/tocalifeworld.webp",
-    "categories": ["all", "emu", "android"]
-  },
-  {
-    "name": "Toca Hair Salon 4",
-    "link": "https://now.gg/iframe/snippet?app_pkg=com.tocaboca.tocahairsalon4&partner=interstellar",
-    "image": "/assets/media/icons/tocabocahairsalon4.webp",
-    "categories": ["all", "emu", "android"]
-  },
-  {
-    "name": "Toca Kitchen 2",
-    "link": "https://now.gg/iframe/snippet?app_pkg=com.tocaboca.tocakitchen2&partner=interstellar",
-    "image": "/assets/media/icons/tocakitchen2.webp",
     "categories": ["all", "emu", "android"]
   },
   {
@@ -1661,12 +1594,6 @@
     "categories": ["all"]
   },
   {
-    "name": "Counter Strike 1.6",
-    "link": "https://play-cs.com/en/servers",
-    "image": "/assets/media/icons/cs16.webp",
-    "categories": ["all"]
-  },
-  {
     "name": "Narrow One",
     "link": "https://narrow.one",
     "image": "/assets/media/icons/narrowone.webp",
@@ -1697,14 +1624,8 @@
     "categories": ["all"]
   },
   {
-    "name": "Minecraft 1.5.2 (Eaglercraft)",
-    "link": "/e/ec-15/index.html",
-    "image": "/assets/media/icons/mc.webp",
-    "categories": ["all", "2P", "emu", "local"]
-  },
-  {
-    "name": "Minecraft 1.8 (Eaglercraft)",
-    "link": "/e/ec-18/index.html",
+    "name": "Minecraft 1.8 (Eaglercraft) Fixed",
+    "link": "https://sd592g.github.io/zj684od4lfg/",
     "image": "/assets/media/icons/mc.webp",
     "categories": ["all", "2P", "emu", "local"]
   },
