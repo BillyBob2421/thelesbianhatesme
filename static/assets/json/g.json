@@ -37,13 +37,6 @@
     "categories": ["all"]
   },
   {
-    "name": "Steam",
-    "link": "https://steampowered.com/",
-    "image": "/assets/media/icons/steam.ico",
-    "categories": ["all"]
-    "say": "Steam can't actually be added because it's an app, not a website. This only lets you browse the Steam website, you can't actually play any games unless you use Geforce Now."
-  },
-  {
     "name": "Stabfish.io",
     "link": "https://stabfish.io/",
     "image": "/assets/media/icons/stabfish.webp",
@@ -418,18 +411,6 @@
     "categories": ["all"]
   },
   {
-    "name": "Papa's Pancakeria",
-    "link": "https://www.coolmathgames.com/0-papas-pancakeria/play",
-    "image": "/assets/media/icons/papaspancakeria.webp",
-    "categories": ["all"]
-  },
-  {
-    "name": "Papa's Wingeria",
-    "link": "https://www.coolmathgames.com/0-papas-wingeria/play",
-    "image": "/assets/media/icons/papaswingeria.webp",
-    "categories": ["all"]
-  },
-  {
     "name": "Riddle School 1",
     "link": "https://uploads.ungrounded.net/ruffle_wrapper/ruffleembed.html?v=1.0.67&browsermode=default&props=%7B%22ruffle%22%3A%22%2Fruffle_wrapper%2Flib%2Fruffle.js%3F1695474658%22%2C%22public_path%22%3A%22%2Fruffle_wrapper%2Flib%2F%22%2C%22swf%22%3A%22https%3A%2F%2Fuploads.ungrounded.net%2F314000%2F314680_Riddle_School.swf%3F1148577264%22%2C%22vars%22%3A%7B%22NewgroundsAPI_PublisherID%22%3A1%2C%22NewgroundsAPI_SandboxID%22%3A%2265103f0745c96%22%2C%22NewgroundsAPI_SessionID%22%3A%22%22%2C%22NewgroundsAPI_UserName%22%3A%22%26lt%3Bdeleted%26gt%3B%22%2C%22NewgroundsAPI_UserID%22%3A0%2C%22ng_username%22%3A%22%26lt%3Bdeleted%26gt%3B%22%7D%2C%22width%22%3A550%2C%22height%22%3A400%2C%22icon%22%3A%22https%3A%2F%2Fpicon.ngfiles.com%2F314000%2Fflash_314680_card.webp%3Ff1607914286%22%2C%22warnOnUnsupportedContent%22%3Afalse%7D",
     "image": "/assets/media/icons/riddle-school.webp",
@@ -458,36 +439,6 @@
     "link": "https://f.silvergames.com/awayfl/index.html?swf=burrito-bison.swf",
     "image": "/assets/media/icons/burritobison.webp",
     "categories": ["all"]
-  },
-  {
-    "name": "Fireboy And Watergirl 2 In The Light Temple",
-    "link": "https://www.coolmathgames.com/sites/default/files/public_games/40210/",
-    "image": "/assets/media/icons/fireboyandwatergirllighttemple.webp",
-    "categories": ["all", "2P"]
-  },
-  {
-    "name": "Fireboy And Watergirl 4 In The Crystal Temple",
-    "link": "https://www.coolmathgames.com/sites/default/files/public_games/40212/",
-    "image": "/assets/media/icons/fireboyandwatergirlcrystaltemple.webp",
-    "categories": ["all", "2P"]
-  },
-  {
-    "name": "Fireboy And Watergirl 5: Elements",
-    "link": "https://www.coolmathgames.com/sites/default/files/public_games/40218",
-    "image": "/assets/media/icons/fireboyandwatergirlelements.webp",
-    "categories": ["all", "2P"]
-  },
-  {
-    "name": "Fireboy And Watergirl 6: Fairy Tales",
-    "link": "https://html5.gamedistribution.com/rvvASMiM/be3cff113c4e4f069b7614851825ffe9/index.html",
-    "image": "/assets/media/icons/fireboyandwatergirlfairytales.webp",
-    "categories": ["all", "2P"]
-  },
-  {
-    "name": "Fireboy And Watergirl In The Forest Temple",
-    "link": "https://www.coolmathgames.com/sites/default/files/public_games/40034/",
-    "image": "/assets/media/icons/fireboyandwatergirlforesttemple.webp",
-    "categories": ["all", "2P"]
   },
   {
     "name": "Gunspin",
