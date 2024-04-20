@@ -1,9 +1,9 @@
 // Ads
 document.addEventListener('DOMContentLoaded', function () {
   function adChange(selectedValue) {
-    if (selectedValue === 'on') {
-      localStorage.setItem('ad', 'off')
-    } else if (selectedValue === 'on') {
+    if (selectedValue === 'default') {
+      localStorage.setItem('ad', 'on')
+    } else if (selectedValue === 'off') {
       localStorage.setItem('ad', 'off')
     }
   }
@@ -18,14 +18,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var storedAd = localStorage.getItem('ad')
     if (storedAd === 'on') {
-      adTypeElement.value = 'off'
+      adTypeElement.value = 'default'
     } else if (storedAd === 'off') {
       adTypeElement.value = 'off'
     } else {
-      adTypeElement.value = 'off'
+      adTypeElement.value = 'default'
     }
   }
-  //makes the custom icon and name persistent
+  // Makes the custom icon and name persistent
   const iconElement = document.getElementById('icon')
   const nameElement = document.getElementById('name')
   const customIcon = localStorage.getItem('CustomIcon')
@@ -297,7 +297,7 @@ function AB() {
       doc.head.appendChild(link)
       doc.body.appendChild(iframe)
 
-      const pLink = localStorage.getItem(encodeURI('pLink')) || 'https://www.nasa.gov/'
+      const pLink = localStorage.getItem(encodeURI('pLink')) || 'https://mom.vercel.app/'
       location.replace(pLink)
 
       const script = doc.createElement('script')
