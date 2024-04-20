@@ -20,9 +20,9 @@
   },
     {
     "name": "Wrassling",
-    "link": "https://games.poki.com/458768/wrassling",
+    "link": "https://poki.com/en/g/wrassling",
     "image": "/assets/media/icons/wrassling.png",
-    "categories": ["all"]
+    "categories": ["all,", "2Player"]
   },
   {
     "name": "Newgrounds",
@@ -287,7 +287,7 @@
     "name": "Tube Jumpers",
     "link": "https://unblocked76.github.io/tube-jumpers/",
     "image": "/assets/media/icons/tubejumpers.webp",
-    "categories": ["all", "2P"]
+    "categories": ["all,", "2Player"]
   },
   {
     "name": "Tunnel Rush",
@@ -781,7 +781,7 @@
     "name": "Basket Random",
     "link": "https://html5.gamedistribution.com/rvvASMiM/bf1268dccb5d43e7970bb3edaa54afc8/index.html",
     "image": "/assets/media/icons/br.webp",
-    "categories": ["all"]
+    "categories": ["all," "2Player"]
   },
   {
     "name": "Basketball Stars",
