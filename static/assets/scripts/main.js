@@ -1,14 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
   // Ads
   if (localStorage.getItem('ad') === null || localStorage.getItem('ad') === 'default') {
-    localStorage.setItem('ad', 'off')
+    localStorage.setItem('ad', 'on')
   }
 
   var advDiv = document.getElementById('adv')
   if (advDiv && localStorage.getItem('ad') === 'default') {
     var script = document.createElement('script')
     script.type = 'text/javascript'
-    script.src = '//oysterscoldtiny.com/1c/c3/8a/1cc38a6899fdf8ba4dfe779bcc54627b.js'
+    script.src = '//raggedstriking.com/4a/60/13/4a60134b5ce9b51b61acf6084265ecfd.js'
     advDiv.appendChild(script)
     console.log('Script inserted inside the adv div.')
   } else if (advDiv && localStorage.getItem('ad') === 'off') {
