@@ -18,6 +18,12 @@
     "categories": ["all"],
     "blank": "true"
   },
+    {
+    "name": "Wrassling",
+    "link": "https://games.poki.com/458768/wrassling",
+    "image": "/assets/media/icons/wrassling.png",
+    "categories": ["all"]
+  },
   {
     "name": "Newgrounds",
     "link": "https://newgrounds.com/",
