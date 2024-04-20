@@ -497,31 +497,31 @@
     "name": "Evades",
     "link": "https://evades.io",
     "image": "/assets/media/icons/evadesio.webp",
-    "categories": ["all,", "2P"]
+    "categories": ["all", "2P"]
   },
   {
     "name": "Bullet Force Multiplayer",
     "link": "https://www.crazygames.com/game/bullet-force-multiplayer",
     "image": "/assets/media/icons/BFM.webp",
-    "categories": ["all,", "2P"]
+    "categories": ["all", "2P"]
   },
   {
     "name": "Crazy Games",
     "link": "https://www.crazygames.com/",
     "image": "/assets/media/icons/crazy.webp",
-    "categories": ["all,", "emu,", "2P,", "sports,", "flash"]
+    "categories": ["all", "emu", "2P", "sports", "flash"]
   },
   {
     "name": "Cubes 2048",
     "link": "https://www.crazygames.com/game/cubes-2048-io",
     "image": "/assets/media/icons/C2048.webp",
-    "categories": ["all,", "2P"]
+    "categories": ["all", "2P"]
   },
   {
     "name": "DOOM",
     "link": "https://archive.org/details/doom-play",
     "image": "/assets/media/icons/DOOM.webp",
-    "categories": ["all,", "emu"]
+    "categories": ["all", "emu"]
   },
   {
     "name": "FNAF 2",
@@ -557,13 +557,13 @@
     "name": "GBA Emulator",
     "link": "https://ds.44670.org/gba/",
     "image": "/assets/media/icons/gba.webp",
-    "categories": ["all,", "emu"]
+    "categories": ["all", "emu"]
   },
   {
     "name": "Itch.io",
     "link": "https://itch.io",
     "image": "/assets/media/icons/itch.webp",
-    "categories": ["all,", "emu,", "2P"]
+    "categories": ["all", "emu", "2P"]
   },
   {
     "name": "N-Gon",
@@ -575,49 +575,49 @@
     "name": "Nintendo DS Emulator",
     "link": "https://ds.44670.org/",
     "image": "/assets/media/icons/ds.webp",
-    "categories": ["all,", "emu"]
+    "categories": ["all", "emu"]
   },
   {
     "name": "Nintendo 64 Emulator",
     "link": "https://www.neilb.net/n64wasm/",
     "image": "/assets/media/icons/N64.webp",
-    "categories": ["all,", "emu"]
+    "categories": ["all", "emu"]
   },
   {
     "name": "Playstation 2 Emulator",
     "link": "https://playjs.purei.org/",
     "image": "/assets/media/icons/PS2.webp",
-    "categories": ["all,", "emu"]
+    "categories": ["all", "emu"]
   },
   {
     "name": "Run 3",
     "link": "https://www.coolmathgames.com/0-run-3/play",
     "image": "/assets/media/icons/run3.webp",
-    "categories": ["all,", "flash"]
+    "categories": ["all", "flash"]
   },
   {
     "name": "Subway Surfers: San Francisco ",
     "link": "https://raw.githack.com/3kh0/3kh0-assets/main/subway-surfers/index.html",
     "image": "/assets/media/icons/SF.webp",
-    "categories": ["all,", "emu"]
+    "categories": ["all", "emu"]
   },
   {
     "name": "Super Mario Bros",
     "link": "https://topoi.pooq.com/hendrik/notmine/FullScreenMario/mario.html",
     "image": "/assets/media/icons/SMB.webp",
-    "categories": ["all,", "emu"]
+    "categories": ["all", "emu"]
   },
   {
     "name": "Survivor.io",
     "link": "https://html5.gamedistribution.com/rvvASMiM/f1c451e586c04b4c8cba01b0c50d9090/index.html",
     "image": "/assets/media/icons/SVI.webp",
-    "categories": ["all,", "emu"]
+    "categories": ["all", "emu"]
   },
   {
     "name": "Web Retro",
     "link": "/e/index.html",
     "image": "/assets/media/icons/webretro.webp",
-    "categories": ["all,", "emu", "local"]
+    "categories": ["all", "emu", "local"]
   },
   {
     "name": "Slope",
@@ -647,7 +647,7 @@
     "name": "1v1.LOL",
     "link": "https://1v1.lol",
     "image": "/assets/media/icons/1v1-lol.webp",
-    "categories": ["all,", "2P"]
+    "categories": ["all", "2P"]
   },
   {
     "name": "2D Rocket League",
@@ -1453,7 +1453,7 @@
     "name": "Zombs Royale",
     "link": "https://zombsroyale.io",
     "image": "/assets/media/icons/zombs-royale.webp",
-    "categories": ["all,", "2P"]
+    "categories": ["all", "2P"]
   },
   {
     "name": "GBA Games",
@@ -1465,7 +1465,7 @@
     "name": "Retro Bowl",
     "link": "/e/retro/index.html",
     "image": "/assets/media/icons/retro.webp",
-    "categories": ["all,", "sports", "local"]
+    "categories": ["all", "sports", "local"]
   },
   {
     "name": "Roblox (Now.GG)",
