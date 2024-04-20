@@ -24,35 +24,9 @@
     "categories": ["all", "emu", "android"]
   },
   {
-    "name": "Guilded",
-    "link": "https://guilded.gg",
-    "image": "/assets/media/icons/guilded.png",
-    "categories": ["all", "social"]
-  },
-  {
-    "name": "Android",
-    "link": "https://now.gg/iframe/snippet?app_pkg=com.uncube.launcher3&partner=interstellar",
-    "image": "/assets/media/icons/android.webp",
-    "categories": ["all", "emu", "android"],
-    "say": "Now.gg is currently not working.",
-    "error": true
-  },
-  {
-    "name": "Temu",
-    "link": "https://temu.com",
-    "image": "/assets/media/icons/temu.webp",
-    "categories": ["all"]
-  },
-  {
     "name": "Character AI",
     "link": "https://now.gg/iframe/snippet?app_pkg=ai.character.app&partner=interstellar",
     "image": "/assets/media/icons/characterai.webp",
-    "categories": ["all", "emu", "android"]
-  },
-  {
-    "name": "Aptoide",
-    "link": "https://now.gg/iframe/snippet?app_pkg=com.aptoide.partners.nowgg.store&partner=interstellar",
-    "image": "/assets/media/icons/aptoide.webp",
     "categories": ["all", "emu", "android"]
   },
   {
@@ -92,8 +66,8 @@
     "categories": ["all"]
   },
   {
-    "name": "ESPN",
-    "link": "https://www.espn.com/watch/",
+    "name": "Free sports",
+    "link": "https://www.sportsfeed24.com/",
     "image": "/assets/media/icons/espn.webp",
     "categories": ["all", "media"]
   },
