@@ -299,13 +299,12 @@
     "image": "/assets/media/icons/learntofly3.webp",
     "categories": ["all"]
   },
-  {
-    "name": "Neal.Fun",
-    "link": "https://neal.fun",
-    "image": "/assets/media/icons/nealfun.webp",
-    "categories": ["all"]
-    "error": "true"
-  },
+   {
+     "name": "Neal.Fun",
+     "link": "https://neal.fun",
+     "image": "/assets/media/icons/nealfun.webp",
+     "categories": ["all"]
+   },
   {
     "name": "YoHoHo.io",
     "link": "https://yohoho.io/",
@@ -1374,13 +1373,12 @@
     "image": "/assets/media/icons/supplychainlogo.webp",
     "categories": ["all"]
   },
-  {
-    "name": "Taming.io",
-    "link": "https://taming.io/",
-    "image": "/assets/media/icons/tamingio.webp",
-    "categories": ["all"],
-    "error": "true"
-  },
+   {
+     "name": "Taming.io",
+     "link": "https://taming.io/",
+     "image": "/assets/media/icons/tamingio.webp",
+     "categories": ["all"]
+   },
   {
     "name": "Temple of Boom",
     "link": "https://temple-of-boom.github.io/file/",
