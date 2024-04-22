@@ -1590,12 +1590,12 @@
     "image": "/assets/media/icons/vex4.webp",
     "categories": ["all", "local"]
   },
-  {
-    "name": "Windows 96",
-    "link": "https://windows96.net",
-    "image": "/assets/media/icons/windows96.png",
-    "categories": ["all"]
-  },
+  {
+    "name": "Windows 96",
+    "link": "https://windows96.net",
+    "image": "/assets/media/icons/windows96.png",
+    "categories": ["all"]
+  },
   {
     "name": "The Impossible Quiz: Book 2",
     "link": "https://f.silvergames.com/ruffle/player.php?id=3742",
