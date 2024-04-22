@@ -1,22 +1,4 @@
 [
-    {
-    "name": "Wrassling",
-    "link": "https://poki.com/en/g/wrassling",
-    "image": "/assets/media/icons/wrassling.png",
-    "categories": ["all", "2Player"]
-  },
-  {
-    "name": "Newgrounds",
-    "link": "https://newgrounds.com/",
-    "image": "/assets/media/icons/newgrounds.webp",
-    "categories": ["all"]
-  },
-  {
-    "name": "Pranx",
-    "link": "https://pranx.com/",
-    "image": "/assets/media/icons/pranx.jpg",
-    "categories": ["all"]
-  },
   {
     "name": "Stabfish.io",
     "link": "https://stabfish.io/",
