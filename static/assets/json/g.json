@@ -372,18 +372,6 @@
     "categories": ["all"]
   },
   {
-    "name": "Papa's Burgeria",
-    "link": "https://www.coolmathgames.com/0-papas-burgeria/play",
-    "image": "/assets/media/icons/papasburgeria.webp",
-    "categories": ["all"]
-  },
-  {
-    "name": "Papa's Cheeseria",
-    "link": "https://www.coolmathgames.com/0-papas-cheeseria/play",
-    "image": "/assets/media/icons/papascheeseria.webp",
-    "categories": ["all"]
-  },
-  {
     "name": "Riddle School 1",
     "link": "https://uploads.ungrounded.net/ruffle_wrapper/ruffleembed.html?v=1.0.67&browsermode=default&props=%7B%22ruffle%22%3A%22%2Fruffle_wrapper%2Flib%2Fruffle.js%3F1695474658%22%2C%22public_path%22%3A%22%2Fruffle_wrapper%2Flib%2F%22%2C%22swf%22%3A%22https%3A%2F%2Fuploads.ungrounded.net%2F314000%2F314680_Riddle_School.swf%3F1148577264%22%2C%22vars%22%3A%7B%22NewgroundsAPI_PublisherID%22%3A1%2C%22NewgroundsAPI_SandboxID%22%3A%2265103f0745c96%22%2C%22NewgroundsAPI_SessionID%22%3A%22%22%2C%22NewgroundsAPI_UserName%22%3A%22%26lt%3Bdeleted%26gt%3B%22%2C%22NewgroundsAPI_UserID%22%3A0%2C%22ng_username%22%3A%22%26lt%3Bdeleted%26gt%3B%22%7D%2C%22width%22%3A550%2C%22height%22%3A400%2C%22icon%22%3A%22https%3A%2F%2Fpicon.ngfiles.com%2F314000%2Fflash_314680_card.webp%3Ff1607914286%22%2C%22warnOnUnsupportedContent%22%3Afalse%7D",
     "image": "/assets/media/icons/riddle-school.webp",
@@ -394,18 +382,6 @@
     "link": "https://powerline.io",
     "image": "/assets/media/icons/powerline.webp",
     "categories": ["all", "2P"]
-  },
-  {
-    "name": "Papa's Scooperia",
-    "link": "https://files.crazygames.com/ruffle/papasscooperia.html",
-    "image": "/assets/media/icons/papasscooperia.webp",
-    "categories": ["all"]
-  },
-  {
-    "name": "Papa's Sushiria",
-    "link": "https://files.crazygames.com/ruffle/papassushiria.html",
-    "image": "/assets/media/icons/papassushiria.webp",
-    "categories": ["all"]
   },
   {
     "name": "Burrito Bison",
@@ -472,12 +448,6 @@
     "link": "https://www.hoodamath.com/mobile/games/duck-life-4/game.html",
     "image": "/assets/media/icons/ducklife.webp",
     "categories": ["all"]
-  },
-  {
-    "name": "Papa's Freezeria",
-    "link": "https://www.coolmathgames.com/0-papas-freezeria/play",
-    "image": "/assets/media/icons/papasfreezeria.webp",
-    "categories": ["all", "2P"]
   },
   {
     "name": "Evades",
@@ -852,7 +822,7 @@
     "categories": ["all"]
   },
   {
-    "name": "Friday Night Funkin'",
+    "name": "Friday Night Funkin",
     "link": "https://w8.snokido.com/games/html5/friday-night-funkin/0281/index.html",
     "image": "/assets/media/icons/fnf.webp",
     "categories": ["all"]
@@ -1092,18 +1062,6 @@
     "categories": ["all"]
   },
   {
-    "name": "Papa's Bakeria",
-    "link": "https://f.silvergames.com/emu/waffle/?id=5458",
-    "image": "/assets/media/icons/bakeria.webp",
-    "categories": ["all"]
-  },
-  {
-    "name": "Papa's Cupcakeria",
-    "link": "https://f.silvergames.com/emu/waffle/?id=3246",
-    "image": "/assets/media/icons/cupcakeria.webp",
-    "categories": ["all"]
-  },
-  {
     "name": "Papa Louie 1",
     "link": "https://f.silvergames.com/ruffle/player.php?id=1373",
     "image": "/assets/media/icons/louie1.webp",
@@ -1119,12 +1077,6 @@
     "name": "Papa Louie 3",
     "link": "https://f.silvergames.com/emu/waffle/?id=4693",
     "image": "/assets/media/icons/papa-louie-3.webp",
-    "categories": ["all"]
-  },
-  {
-    "name": "Papa's Pizzeria",
-    "link": "https://f.silvergames.com/ruffle/player.php?id=1360",
-    "image": "/assets/media/icons/pizzeria.webp",
     "categories": ["all"]
   },
   {
