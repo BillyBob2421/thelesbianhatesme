@@ -304,8 +304,7 @@
     "link": "https://neal.fun",
     "image": "/assets/media/icons/nealfun.webp",
     "categories": ["all"]
-    "error": "true",
-    "say": "Neal.fun does not work on Interstellar because of Cloudflare protection."
+    "error": "true"
   },
   {
     "name": "YoHoHo.io",
@@ -1283,7 +1282,7 @@
     "name": "Rooftop Snipers",
     "link": "https://poki.com/en/g/rooftop-snipers",
     "image": "/assets/media/icons/rooftop.webp",
-    "categories": ["all", "2Player]
+    "categories": ["all", "2Player"]
   },
     {
     "name": "Rooftop Snipers Alternative",
@@ -1380,8 +1379,7 @@
     "link": "https://taming.io/",
     "image": "/assets/media/icons/tamingio.webp",
     "categories": ["all"],
-    "error": "true",
-    "say": "Taming.io is currently broken on the proxy and will crash Interstellar when attempted to load."
+    "error": "true"
   },
   {
     "name": "Temple of Boom",
