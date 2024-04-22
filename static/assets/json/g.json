@@ -2,7 +2,7 @@
   {
     "name": "! Create Custom App",
     "image": "/assets/media/icons/custom.webp",
-    "categories": ["all"],
+    "categories": ["all"]
     "custom": "true"
   },
   {
