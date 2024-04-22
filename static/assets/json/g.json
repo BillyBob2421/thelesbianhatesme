@@ -1,24 +1,20 @@
 [
-  {
-    "name": "Request A Game",
+  {"name": "Request A Game",
     "link": "https://forms.gle/vwdHN3iPz5cLaHaMA",
     "image": "/assets/media/icons/request.webp",
     "categories": ["all"]
   },
-    {
-    "name": "Wrassling",
+    {"name": "Wrassling",
     "link": "https://poki.com/en/g/wrassling",
     "image": "/assets/media/icons/wrassling.png",
     "categories": ["all", "2Player"]
   },
-  {
-    "name": "Newgrounds",
+  {"name": "Newgrounds",
     "link": "https://newgrounds.com/",
     "image": "/assets/media/icons/newgrounds.webp",
     "categories": ["all"]
   },
-  {
-    "name": "Pranx",
+  {"name": "Pranx",
     "link": "https://pranx.com/",
     "image": "/assets/media/icons/pranx.jpg",
     "categories": ["all"]
