@@ -2,7 +2,7 @@
   {
     "name": "! Create Custom App",
     "image": "/assets/media/icons/custom.webp",
-    "categories": ["all"]
+    "categories": ["all"],
     "custom": "true"
   },
   {
@@ -620,12 +620,6 @@
     "categories": ["all"]
   },
   {
-    "name": "Fortnite (Geforce NOW)",
-    "link": "https://play.geforcenow.com/mall/#/deeplink?game-id=46bfab06-d864-465d-9e56-2d9e45cdee0a",
-    "image": "/assets/media/icons/fortnite.webp",
-    "categories": ["all"]
-  },
-  {
     "name": "Bomb Party",
     "link": "https://jklm.fun",
     "image": "/assets/media/icons/BP.webp",
@@ -695,12 +689,6 @@
     "name": "Agar.io",
     "link": "https://agar.io",
     "image": "/assets/media/icons/agario.webp",
-    "categories": ["all"]
-  },
-  {
-    "name": "Among Us (Scratch)",
-    "link": "https://turbowarp.org/523967150/fullscreen",
-    "image": "/assets/media/icons/scratch-among-us.webp",
     "categories": ["all"]
   },
   {
