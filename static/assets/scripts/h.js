@@ -6,36 +6,36 @@ try {
   inFrame = true
 }
 
-if (!inFrame && !navigator.userAgent.includes('Firefox')) {
-  const popup = open('about:blank', '_blank')
+if (!inFrame && !navigator.userAgent.includes("Firefox")) {
+  const popup = open("about:blank", "_blank")
   if (!popup || popup.closed) {
-    alert('Please allow popups and redirects.')
+    alert("Please allow popups and redirects.")
   } else {
     const doc = popup.document
-    const iframe = doc.createElement('iframe')
+    const iframe = doc.createElement("iframe")
     const style = iframe.style
-    const link = doc.createElement('link')
+    const link = doc.createElement("link")
 
-    const name = localStorage.getItem('name') || 'My Drive - Google Drive'
-    const icon = localStorage.getItem('icon') || 'https://ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png'
+    const name = localStorage.getItem("name") || "My Drive - Google Drive"
+    const icon = localStorage.getItem("icon") || "https://ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png"
 
     doc.title = name
-    link.rel = 'icon'
+    link.rel = "icon"
     link.href = icon
 
     iframe.src = location.href
-    style.position = 'fixed'
+    style.position = "fixed"
     style.top = style.bottom = style.left = style.right = 0
-    style.border = style.outline = 'none'
-    style.width = style.height = '100%'
+    style.border = style.outline = "none"
+    style.width = style.height = "100%"
 
     doc.head.appendChild(link)
     doc.body.appendChild(iframe)
 
-    const pLink = localStorage.getItem(encodeURI('pLink')) || 'https://www.nasa.gov/'
+    const pLink = localStorage.getItem(encodeURI("pLink")) || "https://www.nasa.gov/"
     location.replace(pLink)
 
-    const script = doc.createElement('script')
+    const script = doc.createElement("script")
     script.textContent = `
       window.onbeforeunload = function (event) {
         const confirmationMessage = 'Leave Site?';
@@ -47,8 +47,8 @@ if (!inFrame && !navigator.userAgent.includes('Firefox')) {
   }
 }
 
-document.addEventListener('DOMContentLoaded', function (event) {
-  if (window.localStorage.getItem('v4Particles') === 'true') {
+document.addEventListener("DOMContentLoaded", function (event) {
+  if (window.localStorage.getItem("v4Particles") === "true") {
     var particlesConfig = {
       particles: {
         number: {
@@ -59,19 +59,19 @@ document.addEventListener('DOMContentLoaded', function (event) {
           },
         },
         color: {
-          value: '#ffffff',
+          value: "#ffffff",
         },
         shape: {
-          type: 'circle',
+          type: "circle",
           stroke: {
             width: 0,
-            color: '#000000',
+            color: "#000000",
           },
           polygon: {
             nb_sides: 5,
           },
           image: {
-            src: 'img/github.svg',
+            src: "img/github.svg",
             width: 100,
             height: 100,
           },
@@ -99,17 +99,17 @@ document.addEventListener('DOMContentLoaded', function (event) {
         line_linked: {
           enable: false,
           distance: 150,
-          color: '#ffffff',
+          color: "#ffffff",
           opacity: 0.4,
           width: 1,
         },
         move: {
           enable: true,
           speed: 2,
-          direction: 'bottom',
+          direction: "bottom",
           random: true,
           straight: false,
-          out_mode: 'out',
+          out_mode: "out",
           bounce: false,
           attract: {
             enable: false,
@@ -119,15 +119,15 @@ document.addEventListener('DOMContentLoaded', function (event) {
         },
       },
       interactivity: {
-        detect_on: 'canvas',
+        detect_on: "canvas",
         events: {
           onhover: {
             enable: true,
-            mode: 'repulse',
+            mode: "repulse",
           },
           onclick: {
             enable: false,
-            mode: 'push',
+            mode: "push",
           },
           resize: true,
         },
@@ -159,18 +159,12 @@ document.addEventListener('DOMContentLoaded', function (event) {
       },
       retina_detect: true,
     }
-    particlesJS('particles-js', particlesConfig)
+    particlesJS("particles-js", particlesConfig)
   }
 })
 
 let splashtext = [
-  'Vooodooo gang',
-  'Look me in my eyes, this alll for fun',
-  'Yeah that boy he wanna be me yeah I see him he my son',
-  'OD CRASHIN ',
-  'Idk why he did zamari like we don't know where he stay 🤷',
-  'I'm trying my best to defend you and your info from being collected to stellar servers, but still don't do anything bad.',
-  'If you did not gain authorization for this website, watch your back.',
+  "I attempt to protect your data from being sent to servers.",
 ]
 
-document.getElementById('splash').innerText = splashtext[Math.floor(Math.random() * splashtext.length)]
+document.getElementById("splash").innerText = splashtext[Math.floor(Math.random() * splashtext.length)]
