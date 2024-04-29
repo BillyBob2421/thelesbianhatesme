@@ -11,7 +11,7 @@ function handleClick(app) {
 
   if (app.local) {
     saveToLocal(app.link)
-    window.location.href = "p"
+    window.location.href = "ta"
   } else if (app.local2) {
     saveToLocal(app.link)
     window.location.href = app.link
@@ -226,7 +226,8 @@ document.addEventListener("DOMContentLoaded", () => {
         } else if (app.partial) {
           paragraph.style.color = "yellow"
           if (!app.say) {
-            app.say = "This app is currently experiencing some issues, it may not work for you."
+            app.say =
+              "This app is currently experiencing some issues, it may not work for you. (Dynamic doesn't work in about:blank)"
           }
         }
 
