@@ -1,3 +1,4 @@
+
 // Ads
 document.addEventListener("DOMContentLoaded", function () {
   function adChange(selectedValue) {
@@ -352,3 +353,11 @@ function SaveEngine() {
     alert("Please enter a custom search engine value.")
   }
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  var selectedEngineName = localStorage.getItem("enginename")
+  var dropdown = document.getElementById("engine")
+  if (selectedEngineName) {
+    dropdown.value = selectedEngineName
+  }
+})
