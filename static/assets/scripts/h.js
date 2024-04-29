@@ -164,7 +164,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
 })
 
 let splashtext = [
-  "I attempt to protect your data from being sent to servers.",
+  "Over 8 Million Users since 2023",
+  "OHNO",
 ]
 
 document.getElementById("splash").innerText = splashtext[Math.floor(Math.random() * splashtext.length)]
