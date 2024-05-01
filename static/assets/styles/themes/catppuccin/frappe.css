@@ -1,9 +1,9 @@
-@import url('https://unpkg.com/@catppuccin/palette/css/catppuccin.css');
+@import url("https://unpkg.com/@catppuccin/palette/css/catppuccin.css");
 :root {
   --page: var(--ctp-frappe-base) /*base*/;
-  --background: #2e1e2e;
+  --background: #1e1e2e;
   --background-secondary: var(--ctp-frappe-mantle) /*mantle*/;
-  --background-dark: #11211b /*crust*/;
+  --background-dark: #11111b /*crust*/;
 
   --title: var(--ctp-frappe-blue) /*blue*/;
   --block: var(--ctp-frappe-surface0) /*surface0*/;
