@@ -11,7 +11,7 @@ if (document.getElementById("add-tab")) {
       form.addEventListener("submit", async (event) => {
         event.preventDefault()
         const formValue = input.value.trim()
-        const url = isUrl(formValue) ? prependHttps(formValue) : "https://www.google.com/search?q=" + formValue
+        const url = isUrl(formValue) ? prependHttps(formValue) : "https://duckduckgo.com/?hps=1&q=" + formValue
         processUrl(url)
       })
     }
@@ -24,26 +24,25 @@ if (document.getElementById("add-tab")) {
       )
 
       activeIframe.src = "/a/" + __uv$config.encodeUrl(url)
+      activeIframe.dataset.tabUrl = url
+      input.value = url
+      console.log(activeIframe.dataset.tabUrl)
     }
 
-    activeIframe.dataset.tabUrl = url
-    input.value = url
-    console.log(activeIframe.dataset.tabUrl)
+    function isUrl(val = "") {
+      if (/^http(s?):\/\//.test(val) || (val.includes(".") && val.substr(0, 1) !== " ")) {
+        return true
+      }
+      return false
+    }
+
+    function prependHttps(url) {
+      if (!url.startsWith("http://") && !url.startsWith("https://")) {
+        return "https://" + url
+      }
+      return url
+    }
   })
-
-  function isUrl(val = "") {
-    if (/^http(s?):\/\//.test(val) || (val.includes(".") && val.substr(0, 1) !== " ")) {
-      return true
-    }
-    return false
-  }
-
-  function prependHttps(url) {
-    if (!url.startsWith("http://") && !url.startsWith("https://")) {
-      return "https://" + url
-    }
-    return url
-  }
 } else {
   window.addEventListener("load", () => {
     navigator.serviceWorker.register("../sw.js?v=4", {
