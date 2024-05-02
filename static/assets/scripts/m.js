@@ -1,18 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Ads
-  if (localStorage.getItem("ad") === null || localStorage.getItem("ad") === "default") {
-    localStorage.setItem("ad", "off")
-      console.log("The adv div has automatically been removed by the owner of this site for the added protection of your privacy.")
-  }
-
-  var advDiv = document.getElementById("adv")
-  if (advDiv && localStorage.getItem("ad") === "on") {
-    var script = document.createElement("script")
-    script.type = "text/javascript"
-      console.log("The adv div has automatically been removed by the owner of this site for the added protection of your privacy. Even if you turn it onto on.")
-  } else if (advDiv && localStorage.getItem("ad") === "off") {
-    advDiv.remove()
-    console.log("The adv div has automatically been removed by the owner of this site for the added protection of your privacy.")
+  if (localStorage.getItem("dy") === null || localStorage.getItem("ad") === "auto") {
+    localStorage.setItem("dy", "false")
   }
 })
 
