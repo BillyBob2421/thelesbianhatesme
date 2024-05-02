@@ -1,9 +1,8 @@
-
 // Ads
 document.addEventListener("DOMContentLoaded", function () {
   function adChange(selectedValue) {
     if (selectedValue === "default") {
-      localStorage.setItem("ad", "on")
+      localStorage.setItem("ad", "off")
     } else if (selectedValue === "off") {
       localStorage.setItem("ad", "off")
     }
@@ -222,8 +221,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const switches = document.getElementById("2")
 
-if (window.localStorage.getItem("v4Particles") != "") {
-  if (window.localStorage.getItem("v4Particles") == "true") {
+if (window.localStorage.getItem("Particles") != "") {
+  if (window.localStorage.getItem("Particles") == "true") {
     switches.checked = true
   } else {
     switches.checked = false
@@ -232,9 +231,9 @@ if (window.localStorage.getItem("v4Particles") != "") {
 
 switches.addEventListener("change", (event) => {
   if (event.currentTarget.checked) {
-    window.localStorage.setItem("v4Particles", "true")
+    window.localStorage.setItem("Particles", "true")
   } else {
-    window.localStorage.setItem("v4Particles", "false")
+    window.localStorage.setItem("Particles", "false")
   }
 })
 // Themes
