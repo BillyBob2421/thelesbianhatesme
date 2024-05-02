@@ -32,7 +32,7 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
     doc.head.appendChild(link)
     doc.body.appendChild(iframe)
 
-    const pLink = localStorage.getItem(encodeURI("pLink")) || "https://www.nasa.gov/"
+    const pLink = localStorage.getItem(encodeURI("pLink")) || "https://bible-nextjs-app.vercel.app/"
     location.replace(pLink)
 
     const script = doc.createElement("script")
@@ -164,8 +164,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
 })
 
 let splashtext = [
-  "Over 8 Million Users since 2023",
-  "OHNO",
+  "So why are we sharing this website with everyone? ",
+  "If you have this website and you are unauthorized, this is your warning.",
+  "After this website gets blocked i'm going to implement more security features so it doesn't.",
+  "New privacy policy in settings.",
 ]
 
 document.getElementById("splash").innerText = splashtext[Math.floor(Math.random() * splashtext.length)]
