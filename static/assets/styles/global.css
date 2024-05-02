@@ -1,7 +1,7 @@
 :root {
   --page: url("static/assets/styles/full12.png);
   --background: rgba(120, 46, 255, 0.94);
-  --background-filter: blur(10px) brightness70%);
+  --background-filter: blur(10px) brightness60%);
   --background-secondary: #4545459e;
   --background-dark: #282828;
   --background-other: #282828;
@@ -15,7 +15,7 @@
   --main: #222;
 
   --text-primary: #fff;
-  --text-secondary: #b0b0b0;
+  --text-secondary: #b5b0b0;
   --text-placeholder: #aaa;
   --text-dark: #555;
   --text-color: #f0f0f0;
