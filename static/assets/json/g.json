@@ -115,12 +115,6 @@
     "categories": ["all"]
   },
   {
-    "name": "Rooftop Snipers 2",
-    "link": "https://h5cdn.github.io/s6/rooftop-snipers-2/",
-    "image": "/assets/media/icons/rooftopsnipers2.webp",
-    "categories": ["all"]
-  },
-  {
     "name": "Stickman Archero Fight",
     "link": "https://html5.gamedistribution.com/rvvASMiM/3f4c166817ad4fd4b5b05d9adba22fcd/index.html",
     "image": "/assets/media/icons/stickman-archero-fight.webp",
@@ -1408,7 +1402,7 @@
     "categories": ["all"]
   },
   {
-    "name": "Rooftop Snipers",
+    "name": "Rooftop Snipers Alternative",
     "link": "https://html5.gamedistribution.com/rvvASMiM/c3a70ae98547407a92ebedca8b79fdfa/index.html",
     "image": "/assets/media/icons/rooftop.webp",
     "categories": ["all"]
