@@ -37,18 +37,46 @@
     "categories": ["all"]
   },
   {
-    "name": "Steam",
-    "link": "https://steampowered.com/",
-    "image": "/assets/media/icons/steam.webp",
-    "categories": ["all"],
-    "say": "Steam can't actually be added because it's an app, not a website. This only lets you browse the Steam website, you can't actually play any games unless you use Geforce Now.",
-    "partial": true
-  },
-  {
     "name": "Swordbattle.io",
     "link": "https://swordbattle.io/",
     "image": "/assets/media/icons/swordbattle.webp",
     "categories": ["all", "2d"]
+  },
+    {
+    "name": "Soccer Physics",
+    "link": "https://k-mertens.github.io/soccer_physics/",
+    "image": "/assets/media/icons/spp.png",
+    "categories": ["all", "2d", "2player"]
+  },
+      {
+    "name": "Boxing Drunken",
+    "link": "https://www.twoplayergames.org/game/drunken-boxing",
+    "image": "/assets/media/icons/dbb.png",
+    "categories": ["all", "2d", "2player"]
+  },
+        {
+    "name": "Tug War",
+    "link": "https://www.twoplayergames.org/game/drunken-tug-war",
+    "image": "/assets/media/icons/mmm.png",
+    "categories": ["all", "2d", "2player"]
+  },
+          {
+    "name": "Slap Comp",
+    "link": "https://www.twoplayergames.org/game/drunken-slap-wars",
+    "image": "/assets/media/icons/zzz.png",
+    "categories": ["all", "2d", "2player"]
+  },
+            {
+    "name": "Soccer Random",
+    "link": "https://www.twoplayergames.org/game/soccer-random",
+    "image": "/assets/media/icons/scr.png",
+    "categories": ["all", "2d", "2player"]
+  },
+              {
+    "name": "GUN MAYHEM",
+    "link": "https://www.twoplayergames.org/game/gun-mayhem-2-more-mayhem",
+    "image": "/assets/media/icons/mm2.png",
+    "categories": ["all", "2d", "2player"]
   },
   {
     "name": "Stabfish.io",
