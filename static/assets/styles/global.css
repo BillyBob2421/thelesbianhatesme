@@ -1,9 +1,9 @@
 :root {
   --page: url("static/assets/styles/full12.png);
-  --background: rgba(255, 255, 255, 0.02);
+  --background: rgba(120, 46, 255, 0.94);
   --background-filter: blur(10px) brightness70%);
   --background-secondary: #4545459e;
-  --background-dark: #121212;
+  --background-dark: #282828;
   --background-other: #282828;
 
   --title: #fff;
