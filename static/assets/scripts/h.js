@@ -166,6 +166,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
 let SplashT = [
   "Stop sharing this website with everyone or else.",
   "Check the settings and read it.",
+  "Check the settings to find out more about this site.",
+  "Good news! I have officially made this website more secure so it has an even lesser chance of it getting blocked!",
 ]
 
 let SplashI = Math.floor(Math.random() * SplashT.length)
