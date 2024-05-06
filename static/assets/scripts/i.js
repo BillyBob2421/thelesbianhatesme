@@ -1,11 +1,9 @@
 window.addEventListener("load", () => {
-  navigator.serviceWorker.ready.then(() => {
-    BareMux.SetTransport("CurlMod.LibcurlClient", {
-      wisp: `${location.protocol.replace("http", "ws")}//${location.host}/u/`,
-    })
+  navigator.serviceWorker.register("../sw.js?v=5-5-2024", {
+    scope: "/a/",
   })
-  navigator.serviceWorker.register("../sw.js?v=12")
 })
+
 if (document.getElementById("add-tab")) {
   window.addEventListener("load", () => {
     const form = document.getElementById("fs")
@@ -15,7 +13,7 @@ if (document.getElementById("add-tab")) {
       form.addEventListener("submit", async (event) => {
         event.preventDefault()
         const formValue = input.value.trim()
-        const url = isUrl(formValue) ? prependHttps(formValue) : "https://duckduckgo.com/?hps=1&q=" + formValue
+        const url = isUrl(formValue) ? prependHttps(formValue) : "https://www.google.com/search?q=" + formValue
         processUrl(url)
       })
     }
@@ -61,7 +59,7 @@ if (document.getElementById("add-tab")) {
   function processUrl(value, path) {
     let url = value.trim()
     const engine = localStorage.getItem("engine")
-    const searchUrl = engine ? engine : "https://duckduckgo.com/?hps=1&q="
+    const searchUrl = engine ? engine : "https://www.google.com/search?q="
 
     if (!isUrl(url)) {
       url = searchUrl + url
