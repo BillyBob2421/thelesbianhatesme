@@ -838,8 +838,8 @@
     "categories": ["all"]
   },
   {
-    "name": "Bitlife",
-    "link": "https://xlegends.github.io/bitlife/",
+    "name": "Bitlife (Fixed)",
+    "link": "https://bitlife.online/",
     "image": "/assets/media/icons/bitlife.webp",
     "categories": ["all"]
   },
@@ -1650,14 +1650,8 @@
     "categories": ["all", "emu", "android"]
   },
   {
-    "name": "Aptoide",
-    "link": "https://now.gg/iframe/snippet?app_pkg=com.aptoide.partners.nowgg.store&partner=interstellar",
-    "image": "/assets/media/icons/aptoide.webp",
-    "categories": ["all", "emu", "android"]
-  },
-  {
     "name": "Akinator",
-    "link": "https://now.gg/iframe/snippet?app_pkg=com.digidust.elokence.akinator.freemium&partner=interstellar",
+    "link": "",
     "image": "/assets/media/icons/akinator.webp",
     "categories": ["all", "emu", "android"]
   },
