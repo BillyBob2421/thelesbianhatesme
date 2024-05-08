@@ -29,18 +29,6 @@
     "image": "/assets/media/icons/guilded.webp",
     "categories": ["all", "social"]
   },
-      {
-    "name": "Alternative pr0xy site Doge (Works best in Dynamic, Up-to-date)",
-    "link": "https://surfdoge.pro/",
-    "image": "/assets/media/icons/dg.jpg",
-    "categories": ["all", "AlternativePr0xigames"]
-  },
-  {
-    "name": "Android",
-    "link": "https://now.gg/iframe/snippet?app_pkg=com.uncube.launcher3&partner=interstellar",
-    "image": "/assets/media/icons/android.webp",
-    "categories": ["all", "emu", "android"]
-  },
   {
     "name": "Character AI",
     "link": "https://now.gg/iframe/snippet?app_pkg=ai.character.app&partner=interstellar",
@@ -281,6 +269,12 @@
     "name": "YouTube Alternative (Invidious)",
     "link": "https://vid.puffyan.us/",
     "image": "/assets/media/icons/youtube.webp",
+    "categories": ["all", "social", "stream", "media"]
+  },
+    {
+    "name": "Video.link",
+    "link": "https://video.link/",
+    "image": "/assets/media/icons/vidl.png",
     "categories": ["all", "social", "stream", "media"]
   },
   {
