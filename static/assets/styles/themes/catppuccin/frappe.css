@@ -1,4 +1,4 @@
-@import url("https://unpkg.com/@catppuccin/palette/css/catppuccin.css");
+@import url("https://unpkg.com/@catppuccin/palette@1.0.3/scss/_frappe.scss");
 :root {
   --page: var(--ctp-frappe-base) /*base*/;
   --background: #1e1e2e;
