@@ -164,10 +164,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
 })
 // Splash
 let SplashT = [
-  "I've added new features, fixed bugs, fixed lag and something new on Tuesday 6th.",
   "Check the settings and read it.",
   "Check the settings to find out more about this site.",
   "Good news! I have officially made this website more secure so it has an even lesser chance of it getting blocked!",
+  "Check out my other website bringbacktrump.vercel.app (It's the more secure version of doge unblocker. DOGE UNBLOCKER TAKES YOUR ACCOUNT INFO!)",
+  "Check out my other website bringbacktrump.vercel.app (It's the more secure version of doge unblocker. DOGE UNBLOCKER TAKES YOUR ACCOUNT INFO!)",
+  "bringbacktrump.vercel.app (It's the more secure version of doge unblocker. DOGE UNBLOCKER TAKES YOUR ACCOUNT INFO! I take NONE!)",
 ]
 
 let SplashI = Math.floor(Math.random() * SplashT.length)
