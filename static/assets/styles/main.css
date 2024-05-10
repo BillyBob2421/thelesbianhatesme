@@ -129,7 +129,7 @@ body {
   text-transform: uppercase;
   font-size: 2.5vh;
   cursor: pointer;
-  color: var(--text-primary);
+  color: #264893;
   font-weight: 800;
   right: 2%;
   font-family: "Inter", sans-serif;
@@ -144,7 +144,7 @@ body {
     text-transform: uppercase;
     font-size: 2.5vw;
     cursor: pointer;
-    color: var(--text-primary);
+    color: #264893;
     font-weight: 800;
     right: 2%;
     font-family: "Inter", sans-serif;
