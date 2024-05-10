@@ -22,8 +22,10 @@
           <p>Cloak the site in an about:blank page and toggle about:blank on startup (disabled by default)</p>
           <div id="ab-settings">
             <div id="ab-settings-container">
-
-
+<label class="switch">
+  <input type="checkbox" id="ab-settings-switch" class="slider-checkbox" checked="true" onchange="toggleAB()"/>
+  <span class="slider-round"></span>
+</label> 
 <script>
 document.getElementById("ab-settings-switch").disabled = false;
 </script>
