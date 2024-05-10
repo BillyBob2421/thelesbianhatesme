@@ -262,6 +262,7 @@
     "link": "https://youtube.com",
     "image": "/assets/media/icons/youtube.webp",
     "categories": ["all", "social", "stream", "media"],
+        "partial": "true"
   },
   {
     "name": "YouTube Alternative (Invidious)",
