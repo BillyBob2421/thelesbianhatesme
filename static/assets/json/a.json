@@ -272,8 +272,8 @@
     "categories": ["all", "social", "stream", "media"]
   },
     {
-    "name": "Video.link",
-    "link": "https://video.link/",
+    "name": "SafeShare.Tv (Video.link v2)",
+    "link": "https://safeshare.tv/",
     "image": "/assets/media/icons/vidl.png",
     "categories": ["all", "social", "stream", "media"]
   },
