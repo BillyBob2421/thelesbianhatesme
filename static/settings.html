@@ -22,14 +22,20 @@
           <p>Cloak the site in an about:blank page and toggle about:blank on startup (disabled by default)</p>
           <div id="ab-settings">
             <div id="ab-settings-container">
-<label class="switch">
-  <input type="checkbox" id="ab-settings-switch" class="slider-checkbox" checked="true" onchange="toggleAB()"/>
+            <label class="switch">
+  <input type="checkbox" id="ab-settings-switch" class="slider-checkbox" onchange="toggleAB()"/>
   <span class="slider-round"></span>
-</label> 
+</label>  
+
 <script>
-document.getElementById("ab-settings-switch").disabled = false;
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById("ab-settings-switch").checked = false;
+});
+
+function toggleAB() {
+  document.getElementById("ab-settings-switch").checked = !document.getElementById("ab-settings-switch").checked;
+}
 </script>
-            </div>
             <button onclick="AB()" class="key-button">Open Popup</button>
           </div>
         </div>
