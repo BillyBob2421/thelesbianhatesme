@@ -320,7 +320,7 @@ function toggleAB() {
   } else if (ab == "true") {
     localStorage.setItem("ab", "false")
   } else {
-    localStorage.setItem("ab", "true")
+    localStorage.setItem("ab", "false")
   }
 }
 // Search Engine
