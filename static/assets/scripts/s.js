@@ -316,11 +316,11 @@ function AB() {
 function toggleAB() {
   ab = localStorage.getItem("ab")
   if (ab == null) {
-    localStorage.setItem("ab", "true")
-  } else if (ab == "false") {
-    localStorage.setItem("ab", "true")
-  } else {
     localStorage.setItem("ab", "false")
+  } else if (ab == "true") {
+    localStorage.setItem("ab", "false")
+  } else {
+    localStorage.setItem("ab", "true")
   }
 }
 // Search Engine
