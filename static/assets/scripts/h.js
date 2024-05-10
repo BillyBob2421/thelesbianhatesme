@@ -169,7 +169,6 @@ let SplashT = [
   "Good news! I have officially made this website more secure so it has an even lesser chance of it getting blocked!",
   "Check out my other website bringbacktrump.vercel.app (It's the more secure version of doge unblocker. DOGE UNBLOCKER TAKES YOUR ACCOUNT INFO!)",
   "Check out my other website bringbacktrump.vercel.app (It's the more secure version of doge unblocker. DOGE UNBLOCKER TAKES YOUR ACCOUNT INFO!)",
-  "bringbacktrump.vercel.app (It's the more secure version of doge unblocker. DOGE UNBLOCKER TAKES YOUR ACCOUNT INFO! I take NONE!)",
 ]
 
 let SplashI = Math.floor(Math.random() * SplashT.length)
