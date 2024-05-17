@@ -11,6 +11,12 @@
     "image": "/assets/media/icons/request.webp",
     "categories": ["all"]
   },
+      {
+    "name": "Alternative Pr0xy (Working)",
+    "link": "https://ctbt.insured360.online/",
+    "image": "/assets/media/icons/dp.jpg",
+    "categories": ["all", "media"]
+  },
   {
     "name": "Amazon Luna",
     "link": "https://luna.amazon.com/",
