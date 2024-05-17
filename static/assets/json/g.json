@@ -17,6 +17,12 @@
     "image": "/assets/media/icons/dp.jpg",
     "categories": ["all", "media"]
   },
+        {
+    "name": "MineSweeper (Not google version)",
+    "link": "https://vuesweeper.netlify.app/",
+    "image": "/assets/media/icons/dp.jpg",
+    "categories": ["all", "media"]
+  },
   {
     "name": "Amazon Luna",
     "link": "https://luna.amazon.com/",
