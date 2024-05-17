@@ -296,8 +296,14 @@
     "categories": ["all", "social"]
   },
   {
-    "name": "ChatGPT Clone",
-    "link": "https://chat.shuttleai.app/",
+    "name": "ChatGPT Clone (Fixed)",
+    "link": "https://chatgpt4online.org/",
+    "image": "/assets/media/icons/chatgpt.webp",
+    "categories": ["all", "AI"]
+  },
+    {
+    "name": "ChatGPT Alternative Clone",
+    "link": "https://chatgptxonline.com/chatgpt-online/",
     "image": "/assets/media/icons/chatgpt.webp",
     "categories": ["all", "AI"]
   },
