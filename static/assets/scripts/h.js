@@ -167,8 +167,8 @@ let SplashT = [
   "Check the settings and read it.",
   "Check the settings to find out more about this site.",
   "Good news! I have officially made this website more secure so it has an even lesser chance of it getting blocked!",
-  "Check out my other website bringbacktrump.vercel.app (It's the more secure version of doge unblocker. DOGE UNBLOCKER TAKES YOUR ACCOUNT INFO!)",
-  "Check out my other website bringbacktrump.vercel.app (It's the more secure version of doge unblocker. DOGE UNBLOCKER TAKES YOUR ACCOUNT INFO!)",
+  "Check out an alternative pr0xy https://ctbt.insured360.online/ (IT MAY NOT BE AS SECURE AS THIS ONE. PLEASE USE THE PR0XY IN THIS CURRENT PR0XY.",
+  "Check out an alternative pr0xy https://ctbt.insured360.online/ (IT MAY NOT BE AS SECURE AS THIS ONE. PLEASE USE THE PR0XY IN THIS CURRENT PR0XY.",
 ]
 
 let SplashI = Math.floor(Math.random() * SplashT.length)
