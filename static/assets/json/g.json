@@ -18,9 +18,9 @@
     "categories": ["all", "media"]
   },
         {
-    "name": "MineSweeper (Not google version)",
-    "link": "https://vuesweeper.netlify.app/",
-    "image": "/assets/media/icons/dp.jpg",
+    "name": "MineSweeper (Fixed)",
+    "link": "https://mines.vercel.app/",
+    "image": "/assets/media/icons/mis.png",
     "categories": ["all", "media"]
   },
   {
