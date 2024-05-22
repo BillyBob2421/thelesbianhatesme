@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     const newTab = document.createElement("li")
     const tabTitle = document.createElement("span")
     const newIframe = document.createElement("iframe")
-    newIframe.sandbox = "allow-same-origin allow-scripts allow-forms"
+    newIframe.sandbox = "allow-same-origin allow-scripts allow-forms allow-pointer-lock"
     tabTitle.textContent = `New Tab ${tabCounter}`
     tabTitle.className = "tab-title"
     newTab.dataset.tabId = tabCounter
@@ -313,11 +313,13 @@ document.addEventListener("DOMContentLoaded", function () {
     if (NB.style.display === "none") {
       NB.style.display = ""
       activeIframe.style.top = "10%"
+      activeIframe.style.height = "90%"
       TB.querySelector("i").classList.remove("fa-magnifying-glass-plus")
       TB.querySelector("i").classList.add("fa-magnifying-glass-minus")
     } else {
       NB.style.display = "none"
       activeIframe.style.top = "5%"
+      activeIframe.style.height = "95%"
       TB.querySelector("i").classList.remove("fa-magnifying-glass-minus")
       TB.querySelector("i").classList.add("fa-magnifying-glass-plus")
     }
