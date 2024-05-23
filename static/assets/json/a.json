@@ -272,8 +272,14 @@
     "partial": true
   },
   {
-    "name": "YouTube Alternative (Invidious)",
-    "link": "https://vid.puffyan.us/",
+    "name": "YouTube Alternative (613) v1",
+    "link": "https://613tube.com",
+    "image": "/assets/media/icons/youtube.webp",
+    "categories": ["all", "social", "stream", "media"]
+  },
+      {
+    "name": "YouTube Alternative (613) v1.1",
+    "link": "https://613tu.be",
     "image": "/assets/media/icons/youtube.webp",
     "categories": ["all", "social", "stream", "media"]
   },
@@ -313,12 +319,6 @@
     "image": "/assets/media/icons/discord.webp",
     "categories": ["all", "social"],
     "blank": "true"
-  },
-  {
-    "name": "HD Today",
-    "link": "https://hdtoday.tv",
-    "image": "/assets/media/icons/hd.webp",
-    "categories": ["all", "media", "stream"]
   },
   {
     "name": "Now.GG",
@@ -392,26 +392,8 @@
     "error": "true"
   },
       {
-    "name": "GoMovies (Best)",
-    "link": "gomovies123.fi/",
-    "image": "/assets/media/icons/freemovieswatch.webp",
-    "categories": ["all", "stream"]
-  },
-      {
-    "name": "123Movies (Best)",
-    "link": "https://ww16.0123movie.net",
-    "image": "/assets/media/icons/freemovieswatch.webp",
-    "categories": ["all", "stream"]
-  },
-      {
-    "name": "Fmovies (Best)",
-    "link": "https://ww4.fmovies.co/home/",
-    "image": "/assets/media/icons/freemovieswatch.webp",
-    "categories": ["all", "stream"]
-  },
-      {
     "name": "Anime (Best)",
-    "link": "https://animevibe.ru/",
+    "link": "https://aniwave.es/",
     "image": "/assets/media/icons/freemovieswatch.webp",
     "categories": ["all", "stream"]
   },
