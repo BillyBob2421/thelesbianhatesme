@@ -17,6 +17,24 @@
     "image": "/assets/media/icons/zg.png",
     "categories": ["all", "ad"]
   },
+        {
+    "name": "Youtube Music",
+    "link": "https://music.youtube.com",
+    "image": "/assets/media/icons/ytm.webp",
+    "categories": ["all", "media"]
+      }
+    {
+    "name": "ChatGPT Clone (Fixed)",
+    "link": "https://chatgpt4online.org/",
+    "image": "/assets/media/icons/chatgpt.webp",
+    "categories": ["all", "AI"]
+  },
+    {
+    "name": "ChatGPT Alternative Clone",
+    "link": "https://chatgptxonline.com/chatgpt-online/",
+    "image": "/assets/media/icons/chatgpt.webp",
+    "categories": ["all", "AI"]
+  },
   {
     "name": "ChatGPT",
     "link": "https://chat.openai.com",
@@ -48,6 +66,18 @@
     "link": "https://kome.ai/tools/youtube-transcript-generator",
     "image": "/assets/media/icons/km.webp",
     "categories": ["all", "ts"]
+  },
+    {
+    "name": "Youtube Alternative (613)",
+    "link": "https://613tube.com",
+    "image": "/assets/media/icons/youtube.webp",
+    "categories": ["all", "ts"]
+  },
+    {
+    "name": "YouTube Alternative (613) v1.1",
+    "link": "https://613tu.be",
+    "image": "/assets/media/icons/youtube.webp",
+    "categories": ["all", "social", "stream", "media"]
   },
   {
     "name": "NoteGPT.io YouTube Transcript",
