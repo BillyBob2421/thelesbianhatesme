@@ -1,11 +1,10 @@
-/*
 // Ads
 document.addEventListener("DOMContentLoaded", function () {
   function adChange(selectedValue) {
     if (selectedValue === "default") {
       localStorage.setItem("ad", "on")
-    } else if (selectedValue === "banner") {
-      localStorage.setItem("ad", "banner")
+    } else if (selectedValue === "popups") {
+      localStorage.setItem("ad", "popups")
     }
   }
 
@@ -20,23 +19,23 @@ document.addEventListener("DOMContentLoaded", function () {
     var storedAd = localStorage.getItem("ad")
     if (storedAd === "on") {
       adTypeElement.value = "default"
-    } else if (storedAd === "banner") {
-      adTypeElement.value = "banner"
+    } else if (storedAd === "popups") {
+      adTypeElement.value = "popups"
     } else {
       adTypeElement.value = "default"
     }
-  } */
+  }
+  // Makes the custom icon and name persistent
+  const iconElement = document.getElementById("icon")
+  const nameElement = document.getElementById("name")
+  const customIcon = localStorage.getItem("CustomIcon")
+  const customName = localStorage.getItem("CustomName")
+  iconElement.value = customIcon
+  nameElement.value = customName
 
-// Makes the custom icon and name persistent
-const iconElement = document.getElementById("icon")
-const nameElement = document.getElementById("name")
-const customIcon = localStorage.getItem("CustomIcon")
-const customName = localStorage.getItem("CustomName")
-iconElement.value = customIcon
-nameElement.value = customName
-
-localStorage.setItem("ab", true)
-document.getElementById("ab-settings-switch").checked = true
+  localStorage.setItem("ab", true)
+  document.getElementById("ab-settings-switch").checked = true
+})
 
 // Dyn
 document.addEventListener("DOMContentLoaded", function () {
