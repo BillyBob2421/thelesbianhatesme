@@ -9,7 +9,14 @@ import cookieParser from "cookie-parser"
 import config from "./config.js"
 
 const LICENSE_SERVER_URL = "https://masqr.gointerstellar.app/validate?license="
-const Fail = fs.readFileSync("Failed.html", "utf8")
+const fs = require('fs');
+
+try {
+  const Fail = fs.readFileSync("./Failed.html", "utf8");
+  console.log(Fail);
+} catch (err) {
+  console.error("Error reading file: " + err.message);
+}
 
 const __dirname = process.cwd()
 const server = http.createServer()
