@@ -1,4 +1,17 @@
 /*
+LICENSE_SERVER_URL = "https://main.gointerstellar.app/validate?license="
+async function checkLicense(pass) {
+  if (localStorage["LICENSE_CHECK"]) {
+    return true
+  }
+  licenseCheck = (await (await fetch(LICENSE_SERVER_URL + pass + "&host=" + location.origin)).json())["status"]
+  if (licenseCheck == "License valid") {
+    localStorage["LICENSE_CHECK"] = true
+    return true
+  }
+  return false
+} */
+
 // Ads
 document.addEventListener("DOMContentLoaded", function () {
   if (localStorage.getItem("ad") === null || localStorage.getItem("ad") === "default") {
@@ -10,10 +23,10 @@ document.addEventListener("DOMContentLoaded", function () {
     var script = document.createElement("script")
     script.type = "text/javascript"
     advDiv.appendChild(script)
-  } else if (advDiv && localStorage.getItem("ad") === "banner") {
+  } else if (advDiv && localStorage.getItem("ad") === "no") {
     advDiv.remove()
   }
-}) */
+})
 
 // Dynamic & Ads
 document.addEventListener("DOMContentLoaded", function () {
