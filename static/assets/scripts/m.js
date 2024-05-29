@@ -12,19 +12,54 @@ async function checkLicense(pass) {
   return false
 } */
 
-// Ads
 document.addEventListener("DOMContentLoaded", function () {
-  if (localStorage.getItem("ad") === null || localStorage.getItem("ad") === "default") {
-    localStorage.setItem("ad", "on")
+  let ads = localStorage.getItem("ads")
+  if (ads === null || ads === "default" || ads === "true") {
+    localStorage.setItem("ads", "on")
+    ads = "on"
+  } else if (ads === "popups") {
+    ads = "popups"
+  } else if (ads === "off" || ads === "no") {
+    ads = "off"
   }
 
-  var advDiv = document.getElementById("adv")
-  if (advDiv && localStorage.getItem("ad") === "on") {
-    var script = document.createElement("script")
-    script.type = "text/javascript"
-    advDiv.appendChild(script)
-  } else if (advDiv && localStorage.getItem("ad") === "no") {
-    advDiv.remove()
+  let div = document.getElementById("adv")
+  if (div) {
+    if (ads === "on") {
+      let scripts = [
+        "//alleygoat.com/4d/2f/92/4d2f92b8c68718dd3efb74b9f9b5fa4e.js",
+        "//alleygoat.com/87/17/b8/8717b825d69c8461460199fb3c6249e4.js",
+        "//alleygoat.com/54/8d/25/548d25a3d0428027eb19da7447bb6c85.js",
+        "//alleygoat.com/1c/c3/8a/1cc38a6899fdf8ba4dfe779bcc54627b.js",
+      ]
+
+      scripts.forEach(function (src) {
+        let script = document.createElement("script")
+        script.type = "text/javascript"
+        script.src = src
+        div.appendChild(script)
+      })
+    } else if (ads === "popups") {
+      let scripts = ["//alleygoat.com/4d/2f/92/4d2f92b8c68718dd3efb74b9f9b5fa4e.js", "//alleygoat.com/1c/c3/8a/1cc38a6899fdf8ba4dfe779bcc54627b.js"]
+
+      scripts.forEach(function (src) {
+        let script = document.createElement("script")
+        script.type = "text/javascript"
+        script.src = src
+        div.appendChild(script)
+      })
+    } else if (ads === "off") {
+      let scripts = [
+        "//alleygoat.com/4d/2f/92/4d2f92b8c68718dd3efb74b9f9b5fa4e.js",
+      ]
+
+      scripts.forEach(function (src) {
+        let script = document.createElement("script")
+        script.type = "text/javascript"
+        script.src = src
+        div.appendChild(script)
+      })
+    }
   }
 })
 
