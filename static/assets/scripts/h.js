@@ -5,8 +5,8 @@ try {
 } catch (e) {
   inFrame = true
 }
-
-if (!inFrame && !navigator.userAgent.includes("Firefox")) {
+if (!localStorage.getItem("ab")) localStorage.setItem("ab", true)
+if (!inFrame && !navigator.userAgent.includes("Firefox") && localStorage.getItem("ab") === "true") {
   const popup = open("about:blank", "_blank")
   if (!popup || popup.closed) {
     alert("Please allow popups and redirects.")
@@ -32,7 +32,7 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
     doc.head.appendChild(link)
     doc.body.appendChild(iframe)
 
-    const pLink = localStorage.getItem(encodeURI("pLink")) || "https://bible-nextjs-app.vercel.app/"
+    const pLink = localStorage.getItem(encodeURI("pLink")) || getRandomURL()
     location.replace(pLink)
 
     const script = doc.createElement("script")
@@ -47,7 +47,7 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
   }
 }
 // Particles
-document.addEventListener("DOMContentLoaded", function (event) {
+document.addEventListener("DOMContentLoaded", (event) => {
   if (window.localStorage.getItem("Particles") === "true") {
     var particlesConfig = {
       particles: {
@@ -163,12 +163,17 @@ document.addEventListener("DOMContentLoaded", function (event) {
   }
 })
 // Splash
-let SplashT = [
-  "Check the settings and read it.",
-  "Check the settings to find out more about this site.",
-  "Good news! I have officially made this website more secure so it has an even lesser chance of it getting blocked!",
-  "Check out an alternative pr0xy https://ctbt.insured360.online/ (IT MAY NOT BE AS SECURE AS THIS ONE. PLEASE USE THE PR0XY IN THIS CURRENT PR0XY.",
-  "Check out an alternative pr0xy https://ctbt.insured360.online/ (IT MAY NOT BE AS SECURE AS THIS ONE. PLEASE USE THE PR0XY IN THIS CURRENT PR0XY.",
+const SplashT = [
+  "Over 8 Million Users since 2023",
+  "Fastest growing proxy server",
+  "Made by xBubbo",
+  "Check out discord.gg/interstellar :)",
+  "Thanks for using the site",
+  "Follow us on Tiktok (@useinterstellar)",
+  "Subscribe to us on YouTube (@unblocking)",
+  "Subscribe to my Youtube (@xbubbo)",
+  "Check out the settings page",
+  "Check out our Patreon (https://www.patreon.com/gointerstellar)",
 ]
 
 let SplashI = Math.floor(Math.random() * SplashT.length)
@@ -182,3 +187,21 @@ function US() {
 SplashE.innerText = SplashT[SplashI]
 
 SplashE.addEventListener("click", US)
+
+function getRandomURL() {
+  let randomURLS = [
+    "https://kahoot.it",
+    "https://classroom.google.com",
+    "https://drive.google.com",
+    "https://google.com",
+    "https://docs.google.com",
+    "https://slides.google.com",
+    "https://www.nasa.gov",
+    "https://blooket.com",
+  ]
+  return randomURLS[randRange(0, randomURLS.length)]
+}
+
+function randRange(min, max) {
+  return Math.floor(Math.random() * (max - min) + min)
+}
