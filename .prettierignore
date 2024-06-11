@@ -6,4 +6,4 @@ package.json
 /static/dy/
 **/*.min.*
 prettierrc
-Failed.html
+README.md
