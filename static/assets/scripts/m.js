@@ -27,16 +27,33 @@ async function checkLicense(pass) {
   let div2 = document.getElementById("adv2")
   if (div) {
     if (ads === "on") {
-      advDiv.remove()
+      let scripts = ["//aalleygoat.com/4d/2f/92/4d2f92b8c68718dd3efb74b9f9b5fa4e.js", "//alleygoat.com/87/17/b8/8717b825d69c8461460199fb3c6249e4.jss"]
+
+      scripts.forEach(function (src) {
+        let script = document.createElement("script")
+        script.type = "text/javascript"
+        script.src = src
+        div.appendChild(script)
       })
     } else if (ads === "popups") {
-     advDiv.remove()
+      let scripts = ["//aalleygoat.com/4d/2f/92/4d2f92b8c68718dd3efb74b9f9b5fa4e.jss"]
+
+      scripts.forEach(function (src) {
+        let script = document.createElement("script")
+        script.type = "text/javascript"
+        script.src = src
+        div.appendChild(script)
       })
     } else if (ads === "off2") {
       advDiv.remove()
     }
   } else if (div2 && ads != "off2") {
-    advDiv.remove()
+    let scripts = ["//aalleygoat.com/4d/2f/92/4d2f92b8c68718dd3efb74b9f9b5fa4e.jss"]
+    scripts.forEach(function (src) {
+      let script = document.createElement("script")
+      script.type = "text/javascript"
+      script.src = src
+      div.appendChild(script)
     })
   }
 })
@@ -51,9 +68,19 @@ document.addEventListener("DOMContentLoaded", function () {
 var nav = document.querySelector(".fixed-nav-bar")
 
 if (nav) {
+  var themeId = localStorage.getItem("theme")
+  var LogoUrl = "/assets/media/favicon/main.png"
+  var LogoUrl
+  if (themeId === "Inverted") {
+    LogoUrl = "/assets/media/favicon/main-inverted.png"
+  } else {
+    LogoUrl = LogoUrl
+  }
   var html = `
     <div class="fixed-nav-bar-container">
-      <a class="icon" href="/./"><img alt="nav" id="INImg" src="/assets/media/favicon/main.png"/></a>
+    <div id=icon-container>
+      <a class="icon" href="/./"><img alt="nav" id="INImg" src="${LogoUrl}"/></a>
+    </div>
     </div>
     <div class="fixed-nav-bar-right">
       <a class="navbar-link" href="/./gm"><i class="fa-solid fa-gamepad navbar-icon"></i><an>Ga</an><an>mes</an></a>
@@ -70,18 +97,63 @@ var themeid = localStorage.getItem("theme")
 themeEle = document.createElement("link")
 themeEle.rel = "stylesheet"
 if (themeid == "catppuccinMocha") {
-  themeEle.href = "/assets/styles/themes/catppuccin/mocha.css?v=1"
+  themeEle.href = "/assets/css/themes/catppuccin/mocha.css?v=4"
+  document.body.appendChild(themeEle)
 }
 if (themeid == "catppuccinMacchiato") {
-  themeEle.href = "/assets/styles/themes/catppuccin/macchiato.css?v=1"
+  themeEle.href = "/assets/css/themes/catppuccin/macchiato.css?v=4"
+  document.body.appendChild(themeEle)
 }
 if (themeid == "catppuccinFrappe") {
-  themeEle.href = "/assets/styles/themes/catppuccin/frappe.css?v=1"
+  themeEle.href = "/assets/css/themes/catppuccin/frappe.css?v=4"
+  document.body.appendChild(themeEle)
 }
 if (themeid == "catppuccinLatte") {
-  themeEle.href = "/assets/styles/themes/catppuccin/latte.css?v=1"
+  themeEle.href = "/assets/css/themes/catppuccin/latte.css?v=4"
+  document.body.appendChild(themeEle)
 }
-document.body.appendChild(themeEle)
+if (themeid == "Inverted") {
+  themeEle.href = "/assets/css/themes/colors/inverted.css?v=4"
+  document.body.appendChild(themeEle)
+} else {
+  var customThemeEle = document.createElement("style")
+  customThemeEle.textContent = localStorage.getItem("theme-" + themeid)
+  document.head.appendChild(customThemeEle)
+}
+
+window.addEventListener("load", function () {
+  var cssContent = localStorage.getItem("themeCSS")
+
+  if (cssContent) {
+    console.debug("CSS Content from localStorage:", cssContent)
+    var blob = new Blob([cssContent], { type: "text/css" })
+    console.debug("Blob:", blob)
+    if (blob.size > 0) {
+      var blobURL = URL.createObjectURL(blob)
+      console.debug("Blob URL:", blobURL)
+      var existingLink = document.getElementById("global")
+      if (existingLink) {
+        existingLink.href = blobURL
+      } else {
+        var link = document.createElement("link")
+        link.rel = "stylesheet"
+        link.href = blobURL
+        link.id = "global"
+
+        document.head.appendChild(link)
+      }
+      setTimeout(() => {
+        URL.revokeObjectURL(blobURL)
+        console.debug("Blob URL revoked:", blobURL)
+      }, 5000)
+    } else {
+      console.error("Blob is empty. Check the CSS content in localStorage.")
+    }
+  } else {
+    console.debug("No custom CSS content found in localStorage. Using defaults.")
+  }
+})
+
 // Tab Cloaker
 document.addEventListener("DOMContentLoaded", function (event) {
   const icon = document.getElementById("tab-favicon")
@@ -128,6 +200,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
     Gmail: { name: "Gmail", icon: "/assets/media/favicon/gmail.png" },
     Clever: { name: "Clever | Portal", icon: "/assets/media/favicon/clever.png" },
     Khan: { name: "Dashboard | Khan Academy", icon: "/assets/media/favicon/khan.png" },
+    Dictionary: { name: "Dictionary.com | Meanings & Definitions of English Words", icon: "/assets/media/favicon/dictionary.png" },
+    Thesaurus: { name: "Synonyms and Antonyms of Words | Thesaurus.com", icon: "/assets/media/favicon/thesaurus.png" },
     Campus: { name: "Infinite Campus", icon: "/assets/media/favicon/campus.png" },
     IXL: { name: "IXL | Dashboard", icon: "/assets/media/favicon/ixl.png" },
     Canvas: { name: "Dashboard", icon: "/assets/media/favicon/canvas.png" },
@@ -197,8 +271,8 @@ document.addEventListener("DOMContentLoaded", function () {
   })
 })
 // Background Image
-document.addEventListener("DOMContentLoaded", function () {
-  var savedBackgroundImage = localStorage.getItem("backgroundImage")
+document.addEventListener("DOMContentLoaded", () => {
+  let savedBackgroundImage = localStorage.getItem("backgroundImage")
   if (savedBackgroundImage) {
     document.body.style.backgroundImage = "url('" + savedBackgroundImage + "')"
   }
