@@ -1,9 +1,9 @@
 @import url("https://unpkg.com/@catppuccin/palette/css/catppuccin.css");
 :root {
   --background-image: var(--ctp-latte-base) /*base*/;
-  --background: #1e1e2e;
+  --background: #3e1e2e;
   --background-input: var(--ctp-latte-mantle) /*mantle*/;
-  --background-dark: #11111b /*crust*/;
+  --background-dark: #31111b /*crust*/;
 
   --text-primary: var(--ctp-latte-blue) /*blue*/;
   --background-settings: var(--ctp-latte-surface0) /*surface0*/;
